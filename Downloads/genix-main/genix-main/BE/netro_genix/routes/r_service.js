@@ -15,7 +15,7 @@ async function getConnection() {
     return await mysql.createConnection(dbConfig);
 }
 
-// /logs 엔드포인트 수정 (공기, 해양, 선박 데이터 처리)
+// /logs 엔드포인트(공기, 해양, 선박 데이터 처리)
 router.get('/logs', async (req, res) => {
     let connection;
 
