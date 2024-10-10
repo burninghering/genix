@@ -2,17 +2,16 @@ const WebSocket = require('ws');
 const axios = require('axios');
 const mysql = require('mysql2/promise'); 
 
-const wss = new WebSocket.Server({ port: 3000 });
+const wss = new WebSocket.Server({ port: 8081 });
 
 // MySQL 연결을 위한 설정
 async function getConnection() {
     const connection = await mysql.createConnection({
-    host: '192.168.0.225',
-    user: 'root',
-    password: 'netro9888!',
-    database: 'netro_data_platform'
+        host: '192.168.0.225',
+        user: 'root',
+        password: 'netro9888!',
+        database: 'netro_data_platform'
     });
-    console.log('Database connection established');
     return connection;
 }
 
@@ -33,6 +32,10 @@ wss.on('connection', (ws) => {
 
         if (request.data === 'logs') {
             try {
+                // 즉시 데이터를 한 번 보냄
+                const initialData = await fetchLogs();
+                ws.send(JSON.stringify({ data: initialData }));
+
                 // 데이터를 5초마다 보내기 위한 setInterval 설정
                 const interval = setInterval(async () => {
                     if (ws.readyState === WebSocket.OPEN) {
@@ -51,6 +54,10 @@ wss.on('connection', (ws) => {
         // '/air/:id' 엔드포인트 처리
         else if (request.data === 'air' && request.id) {
             try {
+                // 즉시 데이터를 한 번 보냄
+                const initialData = await fetchAirDataById(request.id);
+                ws.send(JSON.stringify({ data: initialData }));
+
                 // 데이터를 5초마다 보내기 위한 setInterval 설정
                 const interval = setInterval(async () => {
                     if (ws.readyState === WebSocket.OPEN) {
@@ -69,6 +76,10 @@ wss.on('connection', (ws) => {
         // '/ocean/:id' 엔드포인트 처리
         else if (request.data === 'ocean' && request.id) {
             try {
+                // 즉시 데이터를 한 번 보냄
+                const initialData = await fetchOceanDataById(request.id);
+                ws.send(JSON.stringify({ data: initialData }));
+
                 // 데이터를 5초마다 보내기 위한 setInterval 설정
                 const interval = setInterval(async () => {
                     if (ws.readyState === WebSocket.OPEN) {
@@ -87,6 +98,10 @@ wss.on('connection', (ws) => {
         // '/vessel/:id' 엔드포인트 처리
         else if (request.data === 'vessel' && request.id) {
             try {
+                // 즉시 데이터를 한 번 보냄
+                const initialData = await fetchVesselDataById(request.id);
+                ws.send(JSON.stringify({ data: initialData }));
+
                 // 데이터를 5초마다 보내기 위한 setInterval 설정
                 const interval = setInterval(async () => {
                     if (ws.readyState === WebSocket.OPEN) {
@@ -107,11 +122,6 @@ wss.on('connection', (ws) => {
         console.log('Client disconnected');
     });
 });
-
-
-
-
-
 
 
 // 공기, 해양, 선박 데이터 로그를 가져오는 함수 (/logs)
@@ -228,14 +238,12 @@ async function fetchLogs() {
             data[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
         });
 
-        // 최종 데이터 반환
-        return {
-            data: [
-                ...airDataWithId,
-                ...oceanDataWithId,
-                ...vesselDataWithId
-            ]
-        };
+        // 공기, 해양, 선박 데이터를 배열로 합쳐서 반환
+        return [
+            ...airDataWithId,
+            ...oceanDataWithId,
+            ...vesselDataWithId
+        ];
     } catch (error) {
         console.error('Error fetching logs:', error);
         throw error;
@@ -245,6 +253,7 @@ async function fetchLogs() {
         }
     }
 }
+
 
 
 

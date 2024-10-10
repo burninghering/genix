@@ -8376,3 +8376,2275 @@
 
 2024-10-10 14:41:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
 
+2024-10-10 14:42:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:42:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:42:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:42:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:42:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:42:19 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:19 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:20 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:42:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:42:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:43:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:43:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:43:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:43:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:43:19 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:19 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:43:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:43:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:44:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:44:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:44:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:44:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:44:19 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:19 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:44:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:44:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:45:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:45:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:45:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:45:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:45:19 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:19 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:45:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:45:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:46:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:46:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:46:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:46:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:46:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:46:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:46:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:47:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:47:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:47:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:47:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:47:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:47:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:47:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:48:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:48:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:48:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:48:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:48:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:48:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:48:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:49:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:49:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:49:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:49:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:49:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:38 pm | http | 192.168.0.224 - - "GET /service/logs HTTP/1.1" 200 2766
+
+2024-10-10 14:49:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:49:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:49:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:50:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:50:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:50:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:50:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:50:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:50:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:50:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:51:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:51:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:51:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:51:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:51:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:51:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:51:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:52:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:52:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:52:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:52:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:52:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:52:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:52:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:53:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:53:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:53:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:53:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:53:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:28 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:28 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:53:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:53:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:00 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:54:00 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:54:00 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:54:00 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:54:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:00 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:54:04 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:04 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:07 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:07 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:23 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:54:23 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:54:23 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:54:23 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:54:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:23 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:54:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:33 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:34 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:54:34 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:54:34 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:54:34 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:54:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:34 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:54:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:49 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:54:49 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:54:49 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:54:49 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:54:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:49 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:54:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:54:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:54:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:09 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:49 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:55:49 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:55:49 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:55:49 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:55:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:49 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:55:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:55:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:55:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:36 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:36 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:56:36 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:56:36 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:56:36 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:56:36 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:36 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:56:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:56:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:56:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:36 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:36 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:57:36 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:57:36 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:57:36 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:57:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:57:40 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 304 -
+
+2024-10-10 14:57:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:57:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:57:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:58:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:58:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:58:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:58:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:58:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:58:53 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:58:53 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 304 -
+
+2024-10-10 14:59:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 14:59:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 14:59:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 14:59:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 14:59:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 14:59:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 14:59:54 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 14:59:54 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:00:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:00:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:00:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:00:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:00:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:00:54 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:00:54 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:01:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:01:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:01:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:01:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:01:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:01:54 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:01:54 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:02:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:02:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:02:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:02:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:02:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:02:54 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:02:54 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:03:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:03:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:03:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:03:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:03:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:03:54 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:03:54 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:04:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:04:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:04:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:04:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:04:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:04:54 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:04:54 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:00 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:00 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:05 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:05 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:08 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:08 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:10 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:10 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:11 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:11 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:12 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:12 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:21 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:21 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:22 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:22 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:23 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:23 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:29 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:29 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:31 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:31 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:32 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:32 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:34 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:34 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:37 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:37 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:05:37 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:05:37 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:05:37 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:05:37 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:37 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:05:43 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:43 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:49 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:49 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:52 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:52 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:54 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:54 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:57 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:05:57 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:05:57 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:05:57 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:05:57 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:05:57 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:05:57 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:06:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:06:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:06:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:06:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:06:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:06:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:06:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:07:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:07:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:07:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:07:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:07:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:07:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:07:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:08:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:08:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:08:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:08:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:08:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:08:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:08:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:09:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:09:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:09:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:09:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:09:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:09:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:09:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:10:08 pm | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 304 -
+
+2024-10-10 15:10:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:10:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:10:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:10:13 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:10:13 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:10:13 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:10:13 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:10:16 pm | http | 192.168.0.232 - - "GET /service/logs HTTP/1.1" 304 -
+
+2024-10-10 15:10:19 pm | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 304 -
+
+2024-10-10 15:11:13 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:11:13 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:11:13 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:11:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:11:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:11:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:11:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:12:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:12:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:12:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:12:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:12:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:12:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:12:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:13:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:13:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:13:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:13:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:13:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:13:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:13:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:14:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:14:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:14:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:14:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:14:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:14:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:14:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:15:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:15:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:15:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:15:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:15:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:15:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:15:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:16:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:16:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:16:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:16:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:16:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:16:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:16:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:17:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:17:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:17:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:17:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:17:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:17:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:17:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:18:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:18:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:18:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:18:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:18:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:18:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:18:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:19:14 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:19:14 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:19:14 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:19:14 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:19:14 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:19:14 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:19:14 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:20:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:20:15 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:20:15 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:20:15 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:20:15 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:20:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:20:15 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:21:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:21:15 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:21:15 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:21:15 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:21:15 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:21:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:21:15 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:22:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:22:15 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:22:15 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:22:15 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:22:15 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:22:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:22:15 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:22:33 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 304 -
+
+2024-10-10 15:23:09 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 304 -
+
+2024-10-10 15:23:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:23:15 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:23:15 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:23:15 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:23:15 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:23:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:23:15 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:24:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:24:15 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:24:15 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:24:15 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:24:15 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:24:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:24:15 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
+2024-10-10 15:25:15 pm | http | 192.168.0.19 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-10 15:25:15 pm | http | 192.168.0.19 - - "GET /service/air/2 HTTP/1.1" 200 271
+
+2024-10-10 15:25:15 pm | http | 192.168.0.19 - - "GET /service/air/3 HTTP/1.1" 200 271
+
+2024-10-10 15:25:15 pm | http | 192.168.0.19 - - "GET /service/air/4 HTTP/1.1" 200 271
+
+2024-10-10 15:25:15 pm | http | 192.168.0.19 - - "GET /service/air/5 HTTP/1.1" 200 271
+
+2024-10-10 15:25:15 pm | http | 192.168.0.19 - - "GET /service/ocean/6 HTTP/1.1" 200 151
+
+2024-10-10 15:25:15 pm | http | 192.168.0.19 - - "GET /service/ocean/7 HTTP/1.1" 200 151
+
