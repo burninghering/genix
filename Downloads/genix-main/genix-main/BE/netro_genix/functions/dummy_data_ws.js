@@ -145,16 +145,24 @@ for (let devId = 8; devId <= 17; devId++) {
         const sensorName = vesselSensorNames[i];  // 센서 이름 ('latitude', 'longitude', etc.)
         const sensorValue = dummyVesselData[sensorName];  // 센서 값
 
-        // example_vessel_sys_sensor 테이블에 저장
-        await db_manager.SaveVesselSysSensor(devId, SEN_ID, sensorName);
-
-        // example_vessel_log_data 테이블에 저장
-        await db_manager.SaveVesselLogData(devId, SEN_ID, sensorValue);
+        try {
+            // example_vessel_sys_sensor 테이블에 저장
+            await db_manager.SaveVesselSysSensor(devId, SEN_ID, sensorName);
+            console.log(`Vessel sys sensor saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, sensor: ${sensorName}`);
+            
+            // example_vessel_log_data 테이블에 저장
+            await db_manager.SaveVesselLogData(devId, SEN_ID, sensorValue);
+            console.log(`Vessel log data saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, value: ${sensorValue}`);
+        } catch (error) {
+            console.error(`Error saving vessel data for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}`, error);
+        }
     }
 
     // 웹소켓을 통해 클라이언트로 선박 더미 데이터를 전송
     broadcast(dummyVesselData);
+    console.log(`Broadcasting vessel data for DEV_ID: ${devId}`);
 }
+
 
     } catch (error) {
         console.error('Error generating and saving dummy data:', error);
@@ -162,8 +170,8 @@ for (let devId = 8; devId <= 17; devId++) {
 }
 
 
-// 1분마다 더미데이터 저장
-setInterval(generateAndSaveDummyData, 2000);
+//더미데이터 저장 (10초)
+setInterval(generateAndSaveDummyData, 10000);
 
 // HTTP 서버 시작
 server.listen(5000, () => {

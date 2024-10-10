@@ -1,5 +1,4 @@
 const WebSocket = require('ws');
-const axios = require('axios');
 const mysql = require('mysql2/promise'); 
 
 const wss = new WebSocket.Server({ port: 8081 });
@@ -26,95 +25,46 @@ wss.on('connection', (ws) => {
             request = JSON.parse(message);
         } catch (error) {
             console.error('Invalid JSON format', error);
-            ws.send('Invalid JSON format');
+            ws.send(JSON.stringify({ error: 'Invalid JSON format' }));
             return;
         }
 
-        if (request.data === 'logs') {
+        // 공기 데이터 처리 (1~5 DEV_ID에 대한 데이터)
+        if (request.data === 'air') {
+            console.log("Fetching air data...");
             try {
-                // 즉시 데이터를 한 번 보냄
-                const initialData = await fetchLogs();
-                ws.send(JSON.stringify({ data: initialData }));
-
-                // 데이터를 5초마다 보내기 위한 setInterval 설정
-                const interval = setInterval(async () => {
-                    if (ws.readyState === WebSocket.OPEN) {
-                        const data = await fetchLogs();
-                        ws.send(JSON.stringify({ data }));
-                    } else {
-                        clearInterval(interval); // 클라이언트가 연결을 끊으면 interval 종료
-                    }
-                }, 5000); // 5초마다 응답 전송
-            } catch (error) {
-                console.error('Error fetching logs', error);
-                ws.send('Error fetching logs');
-            }
-        }
-
-        // '/air/:id' 엔드포인트 처리
-        else if (request.data === 'air' && request.id) {
-            try {
-                // 즉시 데이터를 한 번 보냄
-                const initialData = await fetchAirDataById(request.id);
-                ws.send(JSON.stringify({ data: initialData }));
-
-                // 데이터를 5초마다 보내기 위한 setInterval 설정
-                const interval = setInterval(async () => {
-                    if (ws.readyState === WebSocket.OPEN) {
-                        const data = await fetchAirDataById(request.id);
-                        ws.send(JSON.stringify({ data }));
-                    } else {
-                        clearInterval(interval); // 클라이언트가 연결을 끊으면 interval 종료
-                    }
-                }, 5000); // 5초마다 응답 전송
+                const airData = await fetchAirData();
+                ws.send(JSON.stringify({ data: airData }));  // 공기 데이터 응답
             } catch (error) {
                 console.error('Error fetching air data', error);
-                ws.send('Error fetching air data');
+                ws.send(JSON.stringify({ error: 'Error fetching air data' }));
             }
         }
 
-        // '/ocean/:id' 엔드포인트 처리
-        else if (request.data === 'ocean' && request.id) {
+        // 해양 데이터 처리 (6~7 DEV_ID에 대한 데이터)
+        else if (request.data === 'ocean') {
+            console.log("Fetching ocean data...");
             try {
-                // 즉시 데이터를 한 번 보냄
-                const initialData = await fetchOceanDataById(request.id);
-                ws.send(JSON.stringify({ data: initialData }));
-
-                // 데이터를 5초마다 보내기 위한 setInterval 설정
-                const interval = setInterval(async () => {
-                    if (ws.readyState === WebSocket.OPEN) {
-                        const data = await fetchOceanDataById(request.id);
-                        ws.send(JSON.stringify({ data }));
-                    } else {
-                        clearInterval(interval); // 클라이언트가 연결을 끊으면 interval 종료
-                    }
-                }, 5000); // 5초마다 응답 전송
+                const oceanData = await fetchOceanData();
+                ws.send(JSON.stringify({ data: oceanData }));  // 해양 데이터 응답
             } catch (error) {
                 console.error('Error fetching ocean data', error);
-                ws.send('Error fetching ocean data');
+                ws.send(JSON.stringify({ error: 'Error fetching ocean data' }));
             }
         }
 
-        // '/vessel/:id' 엔드포인트 처리
-        else if (request.data === 'vessel' && request.id) {
+        // 선박 데이터 처리 (8~17 DEV_ID에 대한 데이터)
+        else if (request.data === 'vessel') {
+            console.log("Fetching vessel data...");
             try {
-                // 즉시 데이터를 한 번 보냄
-                const initialData = await fetchVesselDataById(request.id);
-                ws.send(JSON.stringify({ data: initialData }));
-
-                // 데이터를 5초마다 보내기 위한 setInterval 설정
-                const interval = setInterval(async () => {
-                    if (ws.readyState === WebSocket.OPEN) {
-                        const data = await fetchVesselDataById(request.id);
-                        ws.send(JSON.stringify({ data }));
-                    } else {
-                        clearInterval(interval); // 클라이언트가 연결을 끊으면 interval 종료
-                    }
-                }, 5000); // 5초마다 응답 전송
+                const vesselData = await fetchVesselData();
+                ws.send(JSON.stringify({ data: vesselData }));  // 선박 데이터 응답
             } catch (error) {
                 console.error('Error fetching vessel data', error);
-                ws.send('Error fetching vessel data');
+                ws.send(JSON.stringify({ error: 'Error fetching vessel data' }));
             }
+        } else {
+            ws.send(JSON.stringify({ error: 'Unknown data type' }));
         }
     });
 
@@ -123,142 +73,8 @@ wss.on('connection', (ws) => {
     });
 });
 
-
-// 공기, 해양, 선박 데이터 로그를 가져오는 함수 (/logs)
-async function fetchLogs() {
-    let connection;
-    try {
-        connection = await getConnection();
-
-        // 공기 데이터 가져오기 (각 장치의 최신 데이터)
-        const [airData] = await connection.query(`
-            SELECT 
-                a.dev_id, DATE_FORMAT(a.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, 
-                s.sen_name, a.sen_value
-            FROM example_air_log_data a
-            LEFT JOIN example_air_sys_sensor s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
-            WHERE a.dev_id BETWEEN 1 AND 5
-            ORDER BY a.dev_id, a.log_datetime DESC
-        `);
-
-        // 해양 데이터 가져오기 (각 장치의 최신 데이터)
-        const [oceanData] = await connection.query(`
-            SELECT 
-                o.dev_id, DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime,
-                s.sen_name, o.sen_value
-            FROM example_air_log_data o
-            LEFT JOIN example_air_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
-            WHERE o.dev_id BETWEEN 6 AND 7
-            ORDER BY o.dev_id, o.log_datetime DESC
-        `);
-
-        // 선박 데이터 가져오기 (각 선박의 최신 데이터)
-        const [vesselData] = await connection.query(`
-            SELECT 
-                v.dev_id, DATE_FORMAT(v.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, 
-                s.sen_name, v.sen_value
-            FROM example_air_log_data v
-            LEFT JOIN example_air_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
-            WHERE v.dev_id BETWEEN 8 AND 17
-            ORDER BY v.dev_id, v.log_datetime DESC
-        `);
-
-        // 공기 데이터 처리
-        const airDataWithId = [];
-        airData.forEach(item => {
-            let data = airDataWithId.find(data => data.id === item.dev_id);
-            if (!data) {
-                data = {
-                    log_datetime: item.log_datetime,
-                    id: item.dev_id,
-                    send: 0,
-                    humi: null,
-                    winsp: null,
-                    windir: null,
-                    batt: null,
-                    pm10: null,
-                    pm25: null,
-                    so2: null,
-                    no2: null,
-                    o3: null,
-                    co: null,
-                    vocs: null,
-                    h2s: null,
-                    nh3: null,
-                    ou: null,
-                    hcho: null,
-                    temp: null,
-                    firm: null
-                };
-                airDataWithId.push(data);
-            }
-            data[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
-            if (item.sen_name === 'FIRM') {
-                data.firm = String(item.sen_value);  // FIRM은 문자열로 처리
-            }
-        });
-
-        // 해양 데이터 처리
-        const oceanDataWithId = [];
-        oceanData.forEach(item => {
-            let data = oceanDataWithId.find(data => data.id === item.dev_id);
-            if (!data) {
-                data = {
-                    log_datetime: item.log_datetime,
-                    id: item.dev_id,
-                    battery: null,
-                    temp: null,
-                    do: null,
-                    ec: null,
-                    salinity: null,
-                    tds: null,
-                    ph: null,
-                    orp: null
-                };
-                oceanDataWithId.push(data);
-            }
-            data[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
-        });
-
-        // 선박 데이터 처리
-        const vesselDataWithId = [];
-        vesselData.forEach(item => {
-            let data = vesselDataWithId.find(data => data.id === item.dev_id);
-            if (!data) {
-                data = {
-                    log_datetime: item.log_datetime,
-                    id: item.dev_id,
-                    latitude: null,
-                    longitude: null,
-                    speed: null,
-                    heading: null
-                };
-                vesselDataWithId.push(data);
-            }
-            data[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
-        });
-
-        // 공기, 해양, 선박 데이터를 배열로 합쳐서 반환
-        return [
-            ...airDataWithId,
-            ...oceanDataWithId,
-            ...vesselDataWithId
-        ];
-    } catch (error) {
-        console.error('Error fetching logs:', error);
-        throw error;
-    } finally {
-        if (connection) {
-            await connection.end();
-        }
-    }
-}
-
-
-
-
-// ID별 공기 데이터를 가져오는 함수 (/air/:id)
-async function fetchAirDataById(id) {
+// 공기 데이터를 가져오는 함수 (1~5 범위의 데이터)
+async function fetchAirData() {
     let connection;
     try {
         connection = await getConnection();
@@ -268,51 +84,58 @@ async function fetchAirDataById(id) {
                 a.dev_id, s.sen_name, a.sen_value
             FROM example_air_log_data a
             LEFT JOIN example_air_sys_sensor s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
-            WHERE a.dev_id = ?
-            ORDER BY a.log_datetime DESC
-        `, [id]);
+            WHERE a.dev_id BETWEEN 1 AND 5
+            ORDER BY a.dev_id, a.log_datetime DESC
+        `);
 
-        // 데이터를 하나의 객체로 합치기
-        let result = {
-            log_datetime: null,
-            id: id,
-            send: 0,
-            humi: null,
-            winsp: null,
-            windir: null,
-            batt: null,
-            pm10: null,
-            pm25: null,
-            so2: null,
-            no2: null,
-            o3: null,
-            co: null,
-            vocs: null,
-            h2s: null,
-            nh3: null,
-            ou: null,
-            hcho: null,
-            temp: null,
-            firm: null
-        };
+        const results = [];
 
-        // 공기 데이터 매핑
-        airData.forEach(item => {
-            result.log_datetime = item.log_datetime;
-            result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
-            if (item.sen_name === 'FIRM') {
-                result.firm = String(item.sen_value);  // FIRM 값을 문자열로 처리
-            }
-        });
+        // 각 장치에 대한 데이터를 정리해서 저장
+        for (let devId = 1; devId <= 5; devId++) {
+            let result = {
+                log_datetime: null,
+                id: devId,
+                send: 0,
+                humi: null,
+                winsp: null,
+                windir: null,
+                batt: null,
+                pm10: null,
+                pm25: null,
+                so2: null,
+                no2: null,
+                o3: null,
+                co: null,
+                vocs: null,
+                h2s: null,
+                nh3: null,
+                ou: null,
+                hcho: null,
+                temp: null,
+                firm: null
+            };
 
-        return result;
+            airData.forEach(item => {
+                if (item.dev_id === devId) {
+                    result.log_datetime = item.log_datetime;
+                    result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
+                    if (item.sen_name === 'FIRM') {
+                        result.firm = String(item.sen_value);
+                    }
+                }
+            });
+
+            results.push(result);
+        }
+
+        return results;
     } finally {
         if (connection) connection.end();
     }
 }
 
-// ID별 해양 데이터를 가져오는 함수 (/ocean/:id)
-async function fetchOceanDataById(id) {
+// 해양 데이터를 가져오는 함수 (6~7 범위의 데이터)
+async function fetchOceanData() {
     let connection;
     try {
         connection = await getConnection();
@@ -322,39 +145,45 @@ async function fetchOceanDataById(id) {
                 o.dev_id, s.sen_name, o.sen_value
             FROM example_air_log_data o
             LEFT JOIN example_air_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
-            WHERE o.dev_id = ?
-            ORDER BY o.log_datetime DESC
-        `, [id]);
+            WHERE o.dev_id BETWEEN 6 AND 7
+            ORDER BY o.dev_id, o.log_datetime DESC
+        `);
 
-        // 데이터를 하나의 객체로 합치기
-        let result = {
-            log_datetime: null,
-            id: id,
-            battery: null,
-            temp: null,
-            do: null,
-            ec: null,
-            salinity: null,
-            tds: null,
-            ph: null,
-            orp: null
-        };
+        const results = [];
 
-        // 해양 데이터 매핑
-        oceanData.forEach(item => {
-            result.log_datetime = item.log_datetime;
-            result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
-        });
+        // 각 장치에 대한 데이터를 정리해서 저장
+        for (let devId = 6; devId <= 7; devId++) {
+            let result = {
+                log_datetime: null,
+                id: devId,
+                battery: null,
+                temp: null,
+                do: null,
+                ec: null,
+                salinity: null,
+                tds: null,
+                ph: null,
+                orp: null
+            };
 
-        return result;
+            oceanData.forEach(item => {
+                if (item.dev_id === devId) {
+                    result.log_datetime = item.log_datetime;
+                    result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
+                }
+            });
+
+            results.push(result);
+        }
+
+        return results;
     } finally {
         if (connection) connection.end();
     }
 }
 
-
-// ID별 선박 데이터를 가져오는 함수 (/vessel/:id)
-async function fetchVesselDataById(id) {
+// 선박 데이터를 가져오는 함수 (8~17 범위의 데이터)
+async function fetchVesselData() {
     let connection;
     try {
         connection = await getConnection();
@@ -364,30 +193,35 @@ async function fetchVesselDataById(id) {
                 v.dev_id, s.sen_name, v.sen_value
             FROM example_air_log_data v
             LEFT JOIN example_air_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
-            WHERE v.dev_id = ?
-            ORDER BY v.log_datetime DESC
-        `, [id]);
+            WHERE v.dev_id BETWEEN 8 AND 17
+            ORDER BY v.dev_id, v.log_datetime DESC
+        `);
 
-        // 데이터를 하나의 객체로 합치기
-        let result = {
-            log_datetime: null,
-            id: id,
-            latitude: null,
-            longitude: null,
-            speed: null,
-            heading: null
-        };
+        const results = [];
 
-        // 선박 데이터 매핑
-        vesselData.forEach(item => {
-            result.log_datetime = item.log_datetime;
-            result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
-        });
+        // 각 장치에 대한 데이터를 정리해서 저장
+        for (let devId = 8; devId <= 17; devId++) {
+            let result = {
+                log_datetime: null,
+                id: devId,
+                latitude: null,
+                longitude: null,
+                speed: null,
+                heading: null
+            };
 
-        return result;
+            vesselData.forEach(item => {
+                if (item.dev_id === devId) {
+                    result.log_datetime = item.log_datetime;
+                    result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
+                }
+            });
+
+            results.push(result);
+        }
+
+        return results;
     } finally {
         if (connection) connection.end();
     }
 }
-
-

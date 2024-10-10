@@ -22,9 +22,6 @@ import r_service from './routes/r_service.js';  // r_service 파일을 불러옵
 // Express 앱 생성
 const app = express();
 
-// dummyDataHandler 불러오기
-import dummyDataHandler from './functions/dummy_data_handler.js';
-
 // 미들웨어 설정
 app.use(bodyParser.json());
 app.use(morganMiddleware);
@@ -54,9 +51,6 @@ app.use('/device', r_device);
 app.use('/user', r_user);
 app.use('/api', r_api);
 app.use('/service', r_service);
-
-// 추가된 라우터 등록 (dummyDataHandler)
-app.use('/api', dummyDataHandler); // '/api' 경로에 dummyDataHandler 라우터 추가
 
 // Socket.IO 설정
 const io = socketio(httpServer, {
@@ -102,8 +96,3 @@ db_manager.netroEvent.addListener('sensorState', function (result) {
 // 실제로는 sensorState를 발생시킬 조건이나 로직을 작성해야 함
 const sensorResult = { status: "active", DEV_ID: 1 };  // 예시 데이터
 db_manager.emitSensorState(sensorResult);  // 이벤트 발생
-
-
-
-
-

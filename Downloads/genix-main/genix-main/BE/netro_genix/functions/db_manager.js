@@ -52,7 +52,7 @@ async function SaveAirLogData(devId, senId, sensorValue) {
     }
 }
 
-// example_ocean_sys_sensor 테이블에 데이터 저장
+// sys_sensor 테이블 -> ocean 데이터 저장
 async function SaveOceanSysSensor(devId, senId, senName) {
     const connection = await mysql.createConnection(dbConfig);
     try {
@@ -69,7 +69,7 @@ async function SaveOceanSysSensor(devId, senId, senName) {
     }
 }
 
-// example_ocean_log_data 테이블에 데이터 저장
+// log_data 테이블 -> ocean 데이터 저장
 async function SaveOceanLogData(devId, senId, sensorValue) {
     const connection = await mysql.createConnection(dbConfig);
     try {
@@ -94,7 +94,7 @@ async function SaveOceanLogData(devId, senId, sensorValue) {
 
 
 
-// example_vessel_sys_sensor 테이블에 데이터 저장
+// sys_sensor 테이블 -> vessel 데이터 저장
 async function SaveVesselSysSensor(devId, senId, senName) {
     const connection = await mysql.createConnection(dbConfig);
     try {
@@ -111,18 +111,37 @@ async function SaveVesselSysSensor(devId, senId, senName) {
     }
 }
 
-// example_vessel_log_data 테이블에 데이터 저장
+// log_data 테이블 -> vessel 데이터 저장
 async function SaveVesselLogData(devId, senId, sensorValue) {
     const connection = await mysql.createConnection(dbConfig);
     try {
-        const currentDateTime = new Date();
-        const formattedDateTime = currentDateTime.toISOString().slice(0, 19).replace('T', ' ');
+        // 해당 devId와 senId에 대한 최신 log_datetime 가져오기
+        const [rows] = await connection.execute(`
+            SELECT log_datetime
+            FROM example_air_log_data
+            WHERE DEV_ID = ? AND SEN_ID = ?
+            ORDER BY log_datetime DESC
+            LIMIT 1
+        `, [devId, senId]);
 
+        let latestDateTime;
+
+        if (rows.length > 0) {
+            // 데이터베이스에서 가져온 최신 시간을 사용
+            latestDateTime = rows[0].log_datetime;
+        } else {
+            // 최신 데이터가 없을 경우에도 현재 시간으로 초기 데이터 삽입
+            const currentDateTime = new Date();
+            latestDateTime = currentDateTime.toISOString().slice(0, 19).replace('T', ' ');
+        }
+
+        // 새로운 데이터 삽입
         const sql = `
             INSERT INTO example_air_log_data (DEV_ID, SEN_ID, SEN_VALUE, log_datetime)
             VALUES (?, ?, ?, ?)
         `;
-        await connection.execute(sql, [devId, senId, sensorValue, formattedDateTime]);
+        await connection.execute(sql, [devId, senId, sensorValue, latestDateTime]);
+        console.log(`Vessel log data saved for DEV_ID: ${devId}, SEN_ID: ${senId}, log_datetime: ${latestDateTime}`);
     } catch (error) {
         console.error('Error inserting vessel log data:', error);
         throw error;
@@ -130,6 +149,8 @@ async function SaveVesselLogData(devId, senId, sensorValue) {
         await connection.end();
     }
 }
+
+
 
 
 
