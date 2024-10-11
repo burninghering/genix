@@ -148,11 +148,11 @@ for (let devId = 8; devId <= 17; devId++) {
         try {
             // example_vessel_sys_sensor 테이블에 저장
             await db_manager.SaveVesselSysSensor(devId, SEN_ID, sensorName);
-            console.log(`Vessel sys sensor saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, sensor: ${sensorName}`);
+            // console.log(`Vessel sys sensor saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, sensor: ${sensorName}`);
             
             // example_vessel_log_data 테이블에 저장
             await db_manager.SaveVesselLogData(devId, SEN_ID, sensorValue);
-            console.log(`Vessel log data saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, value: ${sensorValue}`);
+            // console.log(`Vessel log data saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, value: ${sensorValue}`);
         } catch (error) {
             console.error(`Error saving vessel data for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}`, error);
         }
@@ -160,7 +160,7 @@ for (let devId = 8; devId <= 17; devId++) {
 
     // 웹소켓을 통해 클라이언트로 선박 더미 데이터를 전송
     broadcast(dummyVesselData);
-    console.log(`Broadcasting vessel data for DEV_ID: ${devId}`);
+    // console.log(`Broadcasting vessel data for DEV_ID: ${devId}`);
 }
 
 

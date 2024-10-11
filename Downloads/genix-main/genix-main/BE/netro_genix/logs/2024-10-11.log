@@ -1,0 +1,10 @@
+2024-10-11 08:41:45 am | http | 192.168.0.232 - - "GET /service/vessel/8 HTTP/1.1" 304 -
+
+2024-10-11 08:41:46 am | http | 192.168.0.232 - - "GET /service/vessel/8 HTTP/1.1" 304 -
+
+2024-10-11 09:28:10 am | http | 192.168.0.232 - - "GET /service/logs HTTP/1.1" 200 2766
+
+2024-10-11 10:58:53 am | http | 192.168.0.224 - - "GET /service/logs HTTP/1.1" 200 2766
+
+2024-10-11 11:06:38 am | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 200 271
+
