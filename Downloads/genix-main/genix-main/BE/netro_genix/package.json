@@ -39,7 +39,9 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.24.7",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "description": ""
 }

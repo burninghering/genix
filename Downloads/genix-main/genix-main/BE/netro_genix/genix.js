@@ -26,6 +26,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(morganMiddleware);
 
+// Swagger
+import { swaggerUi, specs } from "./modules/swagger.js"
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs))
+
 // CORS 설정
 app.use(cors({
     credentials: true,
@@ -96,3 +100,4 @@ db_manager.netroEvent.addListener('sensorState', function (result) {
 // 실제로는 sensorState를 발생시킬 조건이나 로직을 작성해야 함
 const sensorResult = { status: "active", DEV_ID: 1 };  // 예시 데이터
 db_manager.emitSensorState(sensorResult);  // 이벤트 발생
+

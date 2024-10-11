@@ -15,7 +15,15 @@ async function getConnection() {
     return await mysql.createConnection(dbConfig);
 }
 
-// /logs 엔드포인트(공기, 해양, 선박 데이터 처리)
+/**
+ * @swagger
+ * /logs:
+ *   get:
+ *     summary: 전체 데이터
+ *     responses:
+ *       200:
+ *         description: 대기, 해양, 선박 데이터 가져오기
+ */
 router.get('/logs', async (req, res) => {
     let connection;
 
@@ -312,7 +320,7 @@ router.get('/vessel/:id', async (req, res) => {
             heading: null
         };
 
-        // 데이터를 센서 이름에 맞게 매핑 (sen_name에 따른 sen_value를 정확하게 할당)
+        // 데이터를 센서 이름에 맞게 매핑 (sen_name에 따른 sen_value를 할당)
         vesselData.forEach(item => {
             response[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
         });

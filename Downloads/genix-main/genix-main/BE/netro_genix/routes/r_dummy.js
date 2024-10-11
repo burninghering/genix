@@ -1,27 +1,26 @@
 const express = require("express");
 const { WebSocketServer } = require("ws");
-const http = require("http");
 const db_manager = require("../functions/db_manager.js");
 
-const app = express();
-const server = http.createServer(app);
-const wss = new WebSocketServer({ server });
-
-app.use(express.json());
+const router = express.Router();
 
 // 연결된 모든 클라이언트를 저장할 배열
 let clients = [];
 
-// 웹소켓 연결 처리
-wss.on('connection', (ws) => {
-    console.log('Client connected');
-    clients.push(ws);
+// 웹소켓 연결 처리 및 서버 설정
+function setupWebSocket(server) {
+    const wss = new WebSocketServer({ server });
 
-    ws.on('close', () => {
-        console.log('Client disconnected');
-        clients = clients.filter(client => client !== ws);
+    wss.on('connection', (ws) => {
+        console.log('Client connected');
+        clients.push(ws);
+
+        ws.on('close', () => {
+            console.log('Client disconnected');
+            clients = clients.filter(client => client !== ws);
+        });
     });
-});
+}
 
 // 데이터를 클라이언트로 전송하는 함수
 function broadcast(data) {
@@ -32,7 +31,7 @@ function broadcast(data) {
     });
 }
 
-// 더미 데이터를 생성하는 함수
+// 더미 데이터를 생성하는 함수들 (공기 데이터, 부표 데이터, 선박 데이터)
 function generateDummyData(devId) {
     return {
         DEV_ID: devId,
@@ -53,11 +52,10 @@ function generateDummyData(devId) {
         WINdir: parseFloat(28.2),
         BATT: parseFloat(12.5),
         FIRM: "1.0.0", 
-        SEND: parseInt(0) 
+        SEND: parseInt(0)
     };
 }
 
-// 더미 부표 데이터를 생성하는 함수
 function generateDummyBuoyData(devId) {
     return {
         bouy_info_bouy_code: devId.toString(),
@@ -76,14 +74,13 @@ function generateDummyBuoyData(devId) {
     };
 }
 
-// 더미 선박 데이터를 생성하는 함수
 function generateDummyVesselData(devId) {
     return {
         id: devId,
-        latitude: (35.98601 + (devId - 8) * 0.01).toFixed(3),  // latitude 값을 devId에 따라 변경
-        longitude: (129.564329 + (devId - 8) * 0.01).toFixed(3), // longitude 값을 devId에 따라 변경
-        speed: 4 + (devId % 5),  // devId에 따라 속도를 변경
-        heading: (350.5 + (devId * 10)) % 360  // devId에 따라 heading 값 변경
+        latitude: (35.98601 + (devId - 8) * 0.01).toFixed(3),
+        longitude: (129.564329 + (devId - 8) * 0.01).toFixed(3),
+        speed: 4 + (devId % 5),
+        heading: (350.5 + (devId * 10)) % 360
     };
 }
 
@@ -103,8 +100,6 @@ async function generateAndSaveDummyData() {
             for (let i = 0; i < sensorNames.length; i++) {
                 const sensorName = sensorNames[i];
                 const sensorValue = dummyData[sensorName];
-
-                // 데이터베이스에 저장
                 await db_manager.SaveDummyData(devId, i + 1, sensorName, sensorValue);
                 await db_manager.SaveAirLogData(devId, i + 1, sensorValue);
             }
@@ -113,7 +108,7 @@ async function generateAndSaveDummyData() {
             broadcast(dummyData);
         }
 
-        // 부표 데이터 추가 생성 및 저장
+        // 부표 데이터 생성 및 저장
         for (let devId = 6; devId <= 7; devId++) {
             let dummyBuoyData = generateDummyBuoyData(devId - 5);
 
@@ -124,56 +119,38 @@ async function generateAndSaveDummyData() {
                 const SEN_NAME = buoySensorNames[i];
                 const sensorValue = (SEN_ID === 1) ? dummyBuoyData.bouy_state.battery : dummyBuoyData.bouy_sensor_value[SEN_NAME];
 
-                // 데이터베이스에 저장
                 await db_manager.SaveOceanSysSensor(devId, SEN_ID, SEN_NAME);
                 await db_manager.SaveOceanLogData(devId, SEN_ID, sensorValue);
             }
 
-            // 웹소켓을 통해 클라이언트로 부표 더미 데이터를 전송
+            // 부표 데이터를 전송
             broadcast(dummyBuoyData);
         }
 
- 
-// 선박 데이터 추가 생성 및 저장
-for (let devId = 8; devId <= 17; devId++) {
-    let dummyVesselData = generateDummyVesselData(devId);
+        // 선박 데이터 생성 및 저장
+        for (let devId = 8; devId <= 17; devId++) {
+            let dummyVesselData = generateDummyVesselData(devId);
+            const vesselSensorNames = ['latitude', 'longitude', 'speed', 'heading'];
 
-    const vesselSensorNames = ['latitude', 'longitude', 'speed', 'heading'];
+            for (let i = 0; i < vesselSensorNames.length; i++) {
+                const SEN_ID = i + 1;
+                const sensorName = vesselSensorNames[i];
+                const sensorValue = dummyVesselData[sensorName];
 
-    for (let i = 0; i < vesselSensorNames.length; i++) {
-        const SEN_ID = i + 1;  // SEN_ID는 1부터 시작하는 정수
-        const sensorName = vesselSensorNames[i];  // 센서 이름 ('latitude', 'longitude', etc.)
-        const sensorValue = dummyVesselData[sensorName];  // 센서 값
+                await db_manager.SaveVesselSysSensor(devId, SEN_ID, sensorName);
+                await db_manager.SaveVesselLogData(devId, SEN_ID, sensorValue);
+            }
 
-        try {
-            // example_vessel_sys_sensor 테이블에 저장
-            await db_manager.SaveVesselSysSensor(devId, SEN_ID, sensorName);
-            // console.log(`Vessel sys sensor saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, sensor: ${sensorName}`);
-            
-            // example_vessel_log_data 테이블에 저장
-            await db_manager.SaveVesselLogData(devId, SEN_ID, sensorValue);
-            // console.log(`Vessel log data saved for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}, value: ${sensorValue}`);
-        } catch (error) {
-            console.error(`Error saving vessel data for DEV_ID: ${devId}, SEN_ID: ${SEN_ID}`, error);
+            // 선박 데이터를 전송
+            broadcast(dummyVesselData);
         }
-    }
-
-    // 웹소켓을 통해 클라이언트로 선박 더미 데이터를 전송
-    broadcast(dummyVesselData);
-    // console.log(`Broadcasting vessel data for DEV_ID: ${devId}`);
-}
-
 
     } catch (error) {
         console.error('Error generating and saving dummy data:', error);
     }
 }
 
-
-//더미데이터 저장 (10초)
+// 더미 데이터를 주기적으로 생성 (10초마다)
 setInterval(generateAndSaveDummyData, 10000);
 
-// HTTP 서버 시작
-server.listen(5000, () => {
-    console.log('Server is running on port 5000');
-});
+module.exports = { router, setupWebSocket };
