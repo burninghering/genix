@@ -1,6 +1,6 @@
 const express = require("express");
 const { WebSocketServer } = require("ws");
-const db_manager = require("../functions/db_manager.js");
+const db_manager = require("./db_manager.js");
 
 const router = express.Router();
 

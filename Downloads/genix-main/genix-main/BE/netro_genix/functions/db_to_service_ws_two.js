@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 const mysql = require('mysql2/promise'); 
 
-const wss = new WebSocket.Server({ port: 8082 });
+const wss = new WebSocket.Server({ port: 8081 });
 
 // MySQL 연결을 위한 설정
 async function getConnection() {
@@ -41,11 +41,7 @@ wss.on('connection', (ws) => {
                 const oceanData = await fetchOceanData();
                 const vesselData = await fetchVesselData();
                 
-                const combinedData = {
-                    airData,
-                    oceanData,
-                    vesselData
-                };
+                const combinedData = [...airData, ...oceanData, ...vesselData];
                 ws.send(JSON.stringify({ data: combinedData }));  // 즉시 응답 전송
 
                 // 이후 5초마다 데이터를 보내는 setInterval 설정

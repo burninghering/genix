@@ -57,7 +57,7 @@ async function SaveOceanSysSensor(devId, senId, senName) {
     const connection = await mysql.createConnection(dbConfig);
     try {
         const sql = `
-            INSERT INTO example_air_sys_sensor (DEV_ID, SEN_ID, SEN_NAME, ID_VLU_TYPE, DFT_VALUE, MAX_VALUE, MIN_VALUE, UNIT)
+            INSERT INTO example_ocean_sys_sensor (DEV_ID, SEN_ID, SEN_NAME, ID_VLU_TYPE, DFT_VALUE, MAX_VALUE, MIN_VALUE, UNIT)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         `;
         await connection.execute(sql, [devId, senId, senName, null, null, null, null, null]);
@@ -80,7 +80,7 @@ async function SaveOceanLogData(devId, senId, sensorValue) {
         }).replace(' ', 'T').slice(0, 19).replace('T', ' '); // 'yyyy-MM-dd HH:mm:ss' 형식으로 변환
 
         const sql = `
-            INSERT INTO example_air_log_data (DEV_ID, SEN_ID, SEN_VALUE, log_datetime, ALT_ID)
+            INSERT INTO example_ocean_log_data (DEV_ID, SEN_ID, SEN_VALUE, log_datetime, ALT_ID)
             VALUES (?, ?, ?, ?, ?)
         `;
         await connection.execute(sql, [devId, senId, sensorValue, formattedDateTime, null]);
@@ -99,7 +99,7 @@ async function SaveVesselSysSensor(devId, senId, senName) {
     const connection = await mysql.createConnection(dbConfig);
     try {
         const sql = `
-            INSERT INTO example_air_sys_sensor (DEV_ID, SEN_ID, SEN_NAME, ID_VLU_TYPE, DFT_VALUE, MAX_VALUE, MIN_VALUE, UNIT)
+            INSERT INTO example_vessel_sys_sensor (DEV_ID, SEN_ID, SEN_NAME, ID_VLU_TYPE, DFT_VALUE, MAX_VALUE, MIN_VALUE, UNIT)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         `;
         await connection.execute(sql, [devId, senId, senName, null, null, null, null, null]);
@@ -118,7 +118,7 @@ async function SaveVesselLogData(devId, senId, sensorValue) {
         // 해당 devId와 senId에 대한 최신 log_datetime 가져오기
         const [rows] = await connection.execute(`
             SELECT log_datetime
-            FROM example_air_log_data
+            FROM example_vessel_log_data
             WHERE DEV_ID = ? AND SEN_ID = ?
             ORDER BY log_datetime DESC
             LIMIT 1
@@ -137,7 +137,7 @@ async function SaveVesselLogData(devId, senId, sensorValue) {
 
         // 새로운 데이터 삽입
         const sql = `
-            INSERT INTO example_air_log_data (DEV_ID, SEN_ID, SEN_VALUE, log_datetime)
+            INSERT INTO example_vessel_log_data (DEV_ID, SEN_ID, SEN_VALUE, log_datetime)
             VALUES (?, ?, ?, ?)
         `;
         await connection.execute(sql, [devId, senId, sensorValue, latestDateTime]);

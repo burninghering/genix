@@ -46,9 +46,9 @@ router.get('/logs', async (req, res) => {
             SELECT 
                 DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, o.dev_id,
                 s.sen_name, o.sen_value
-            FROM example_air_log_data o
-            LEFT JOIN example_air_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
-            WHERE o.dev_id BETWEEN 6 AND 7
+            FROM example_ocean_log_data o
+            LEFT JOIN example_ocean_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
+            WHERE o.dev_id BETWEEN 1 AND 2
             ORDER BY o.dev_id, o.log_datetime DESC
         `);
 
@@ -57,13 +57,13 @@ router.get('/logs', async (req, res) => {
             SELECT 
                 DATE_FORMAT(v.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, v.dev_id,
                 s.sen_name, v.sen_value
-            FROM example_air_log_data v
-            LEFT JOIN example_air_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
-            WHERE v.dev_id BETWEEN 8 AND 17
+            FROM example_vessel_log_data v
+            LEFT JOIN example_vessel_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
+            WHERE v.dev_id BETWEEN 1 AND 10
             ORDER BY v.dev_id, v.log_datetime DESC
         `);
 
-        // 공기 데이터에 ID 1~5 할당
+        // 공기 데이터에 ID 할당
         const airDataWithId = [];
         airData.forEach(item => {
             const existing = airDataWithId.find(data => data.id === item.dev_id);
@@ -100,7 +100,7 @@ router.get('/logs', async (req, res) => {
             }
         });
 
-        // 해양 데이터에 ID 6, 7 할당
+        // 해양 데이터에 ID 할당
         const oceanDataWithId = [];
         oceanData.forEach(item => {
             const existing = oceanDataWithId.find(data => data.id === item.dev_id);
@@ -124,7 +124,7 @@ router.get('/logs', async (req, res) => {
             }
         });
 
-        // 선박 데이터에 ID 8~17 할당
+        // 선박 데이터에 ID 할당
         const vesselDataWithId = [];
         vesselData.forEach(item => {
             const existing = vesselDataWithId.find(data => data.id === item.dev_id);
@@ -239,8 +239,8 @@ router.get('/ocean/:id', async (req, res) => {
             SELECT 
                 DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, 
                 o.dev_id, s.sen_name, o.sen_value
-            FROM example_air_log_data o
-            LEFT JOIN example_air_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
+            FROM example_ocean_log_data o
+            LEFT JOIN example_ocean_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
             WHERE o.dev_id = ?
             ORDER BY o.log_datetime DESC
         `, [id]); // id 값을 바인딩하여 dev_id 필터링
@@ -286,21 +286,21 @@ router.get('/vessel/:id', async (req, res) => {
     try {
         connection = await getConnection();
 
-        // 각 센서의 최신 데이터를 가져오는 쿼리 (dev_id가 8~17 사이일 때만)
+        // 각 센서의 최신 데이터를 가져오는 쿼리 
         const [vesselData] = await connection.query(`
             SELECT 
                 v.dev_id,
                 s.sen_name, 
                 v.sen_value,
                 DATE_FORMAT(v.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime
-            FROM example_air_log_data v
-            LEFT JOIN example_air_sys_sensor s 
+            FROM example_vessel_log_data v
+            LEFT JOIN example_vessel_sys_sensor s 
                 ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
             WHERE v.dev_id = ? 
-            AND v.dev_id BETWEEN 8 AND 17
+            AND v.dev_id BETWEEN 1 AND 10
             AND v.log_datetime = (
                 SELECT MAX(sub_v.log_datetime)
-                FROM example_air_log_data sub_v
+                FROM example_vessel_log_data sub_v
                 WHERE sub_v.dev_id = v.dev_id AND sub_v.sen_id = v.sen_id
             )
             ORDER BY v.log_datetime DESC

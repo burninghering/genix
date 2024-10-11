@@ -36,24 +36,24 @@ function broadcast(data) {
 function generateDummyData(devId) {
     return {
         DEV_ID: devId,
-        PM10: parseFloat(21.1),
-        PM25: parseFloat(1.7),
-        SO2: parseFloat(0.003),
-        NO2: parseFloat(0.011),
-        O3: parseFloat(0.042),
-        CO: parseFloat(0.301),
-        VOCs: parseFloat(0.001),
-        H2S: parseFloat(0.201),
-        NH3: parseFloat(11.031),
-        OU: parseFloat(0.001),
-        HCHO: parseFloat(0.1),
-        TEMP: parseFloat(24.2),
-        HUMI: parseFloat(80.5),
-        WINsp: parseFloat(3.381),
-        WINdir: parseFloat(28.2),
-        BATT: parseFloat(12.5),
+        PM10: parseFloat((21.1+ (devId - 5) * 0.01).toFixed(1)),
+        PM25: parseFloat((1.7+ (devId - 5) * 0.01).toFixed(1)),
+        SO2: parseFloat((0.03+ (devId - 5) * 0.01).toFixed(2)),
+        NO2: parseFloat((0.011+ (devId - 5) * 0.01).toFixed(3)),
+        O3: parseFloat((0.042+ (devId - 5) * 0.01).toFixed(3)),
+        CO: parseFloat((0.301+ (devId - 5) * 0.01).toFixed(3)),
+        VOCs: parseFloat((0.001+ (devId - 5) * 0.01).toFixed(3)),
+        H2S: parseFloat((0.201+ (devId - 5) * 0.01).toFixed(3)),
+        NH3: parseFloat((11.031+ (devId - 5) * 0.01).toFixed(3)),
+        OU: parseFloat((0.001+ (devId - 5) * 0.01).toFixed(3)),
+        HCHO: parseFloat((0.1+ (devId - 5) * 0.01).toFixed(3)),
+        TEMP: parseFloat((24.2+ (devId - 5) * 0.01).toFixed(2)),
+        HUMI: parseFloat((80.5+ (devId - 5) * 0.01).toFixed(1)),
+        WINsp: parseFloat((3.381+ (devId - 5) * 0.01).toFixed(3)),
+        WINdir: parseFloat((28.2+ (devId - 5) * 0.01).toFixed(1)),
+        BATT: parseFloat((12.5+ (devId - 5) * 0.01).toFixed(1)),
         FIRM: "1.0.0", 
-        SEND: parseInt(0) 
+        SEND: parseInt(1)
     };
 }
 
@@ -62,16 +62,16 @@ function generateDummyBuoyData(devId) {
     return {
         bouy_info_bouy_code: devId.toString(),
         bouy_state: {
-            battery: 74.4
+            battery: (74.4+ (devId - 2) * 0.1).toFixed(3)
         },
         bouy_sensor_value: {
-            temp: 25.6,
-            DO: 7.34,
-            EC: 32500,
-            salinity: 32.53,
-            TDS: 29930,
-            pH: 8.15,
-            ORP: 320
+            temp: (25.6+(devId-2)*0.01).toFixed(3),
+            DO: (7.34+ (devId - 2) * 0.01).toFixed(3),
+            EC: (32500+ (devId - 2) * 0.01).toFixed(),
+            salinity: (32.53+ (devId - 2) * 0.01).toFixed(2),
+            TDS: (29930+ (devId - 2) * 0.01).toFixed(),
+            pH: (8.15+ (devId - 2) * 0.01).toFixed(2),
+            ORP: (320+ (devId - 2) * 0.01).toFixed()
         }
     };
 }
@@ -114,7 +114,7 @@ async function generateAndSaveDummyData() {
         }
 
         // 부표 데이터 추가 생성 및 저장
-        for (let devId = 6; devId <= 7; devId++) {
+        for (let devId = 1; devId <= 2; devId++) {
             let dummyBuoyData = generateDummyBuoyData(devId - 5);
 
             const buoySensorNames = ['battery', 'temp', 'DO', 'EC', 'salinity', 'TDS', 'pH', 'ORP'];
@@ -135,7 +135,7 @@ async function generateAndSaveDummyData() {
 
  
 // 선박 데이터 추가 생성 및 저장
-for (let devId = 8; devId <= 17; devId++) {
+for (let devId = 1; devId <= 10; devId++) {
     let dummyVesselData = generateDummyVesselData(devId);
 
     const vesselSensorNames = ['latitude', 'longitude', 'speed', 'heading'];

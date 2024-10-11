@@ -203,7 +203,7 @@ async function fetchAirData() {
     }
 }
 
-// 해양 데이터를 가져오는 함수 (6~7 범위의 데이터)
+// 해양 데이터를 가져오는 함수 
 async function fetchOceanData() {
     let connection;
     try {
@@ -212,16 +212,16 @@ async function fetchOceanData() {
             SELECT 
                 DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, 
                 o.dev_id, s.sen_name, o.sen_value
-            FROM example_air_log_data o
-            LEFT JOIN example_air_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
-            WHERE o.dev_id BETWEEN 6 AND 7
+            FROM example_ocean_log_data o
+            LEFT JOIN example_ocean_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
+            WHERE o.dev_id BETWEEN 1 AND 2
             ORDER BY o.dev_id, o.log_datetime DESC
         `);
 
         const results = [];
 
         // 각 장치에 대한 데이터를 정리해서 저장
-        for (let devId = 6; devId <= 7; devId++) {
+        for (let devId = 1; devId <= 2; devId++) {
             let result = {
                 log_datetime: null,
                 id: devId,
@@ -251,7 +251,7 @@ async function fetchOceanData() {
     }
 }
 
-// 선박 데이터를 가져오는 함수 (8~17 범위의 데이터)
+// 선박 데이터를 가져오는 함수 
 async function fetchVesselData() {
     let connection;
     try {
@@ -260,16 +260,16 @@ async function fetchVesselData() {
             SELECT 
                 DATE_FORMAT(v.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, 
                 v.dev_id, s.sen_name, v.sen_value
-            FROM example_air_log_data v
-            LEFT JOIN example_air_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
-            WHERE v.dev_id BETWEEN 8 AND 17
+            FROM example_vessel_log_data v
+            LEFT JOIN example_vessel_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
+            WHERE v.dev_id BETWEEN 1 AND 10
             ORDER BY v.dev_id, v.log_datetime DESC
         `);
 
         const results = [];
 
         // 각 장치에 대한 데이터를 정리해서 저장
-        for (let devId = 8; devId <= 17; devId++) {
+        for (let devId = 1; devId <= 10; devId++) {
             let result = {
                 log_datetime: null,
                 id: devId,
