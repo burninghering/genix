@@ -17,7 +17,9 @@ import fs from "fs";
 import { morganMiddleware } from "./utils/morganMiddleware.js";
 import { logger } from "./utils/winston.js";
 
-import r_service from './routes/r_service.js';  // r_service 파일을 불러옵니다.
+import r_service from './routes/r_service.js'; 
+import r_dummy from './routes/r_dummy.js';  
+import r_ws from './routes/r_ws.js';  
 
 // Express 앱 생성
 const app = express();
@@ -55,6 +57,8 @@ app.use('/device', r_device);
 app.use('/user', r_user);
 app.use('/api', r_api);
 app.use('/service', r_service);
+app.use('/dummy', r_dummy); 
+app.use('/ws', r_ws); 
 
 // Socket.IO 설정
 const io = socketio(httpServer, {
@@ -86,15 +90,15 @@ process.on('exit', code => {
     }
 });
 
-// // 서버 설정: 특정 IP와 포트에서 서버를 실행
-// app.listen(3000, '192.168.0.232', () => {
-//     console.log(`Server is running on https://192.168.0.232:3000`);
-// });
-
-// 서버 설정: 로컬에서 서버를 실행
-app.listen(3000, () => {
-    console.log(`Server is running on 3000`);
+// 서버 설정: 특정 IP와 포트에서 서버를 실행
+app.listen(3000, '192.168.0.232', () => {
+    console.log(`Server is running on https://192.168.0.232:3000`);
 });
+
+// // 서버 설정: 로컬에서 서버를 실행
+// app.listen(3000, () => {
+//     console.log(`Server is running on 3000`);
+// });
 
 // netroEvent에서 이벤트 리스너 설정
 db_manager.netroEvent.addListener('sensorState', function (result) {
@@ -106,3 +110,9 @@ db_manager.netroEvent.addListener('sensorState', function (result) {
 const sensorResult = { status: "active", DEV_ID: 1 };  // 예시 데이터
 db_manager.emitSensorState(sensorResult);  // 이벤트 발생
 
+// HTTPS 서버 생성
+const server = https.createServer(options, app);
+
+// WebSocket 서버 연결
+const wss = new WebSocketServer({ server });
+wss.on('connection', r_ws.webSocketHandler);  // WebSocket 핸들러 연결
