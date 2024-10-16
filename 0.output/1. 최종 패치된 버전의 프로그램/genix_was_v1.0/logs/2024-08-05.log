@@ -1,0 +1,1549 @@
+2024-08-05 09:00:04 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:00:04 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:00:04 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:00:04 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:00:04 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:00:04 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:00:04 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:00:25 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:00:25 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:00:25 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:00:25 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:00:25 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:00:25 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:01:52 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:01:52 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:01:52 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:01:52 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:01:52 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:01:52 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:25:01 am | http | ::ffff:192.168.0.200 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:25:01 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:33:19 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:33:19 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:33:19 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:33:19 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:33:19 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:33:19 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:33:44 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:33:44 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:33:44 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:33:44 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:33:44 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:33:44 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:34:51 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:34:51 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:34:51 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:34:51 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:34:51 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:34:51 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:35:00 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:35:00 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:35:00 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:35:00 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:35:00 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:35:00 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:36:37 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:36:37 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:36:37 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:36:37 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:36:37 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:36:37 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:39:02 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:39:02 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:39:03 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:39:03 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:39:03 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:39:03 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:39:03 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:39:28 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:39:28 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:40:25 am | http | ::ffff:192.168.0.204 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:40:25 am | http | ::ffff:192.168.0.204 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:40:25 am | http | ::ffff:192.168.0.204 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:40:25 am | http | ::ffff:192.168.0.204 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:40:25 am | http | ::ffff:192.168.0.204 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:40:25 am | http | ::ffff:192.168.0.204 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:44:16 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/getpublicKey HTTP/1.1" 204 0
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/getpublicKey HTTP/1.1" 204 0
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login HTTP/1.1" 204 0
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /login/getpublicKey HTTP/1.1" 200 451
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /login/getpublicKey HTTP/1.1" 200 451
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/getpublicKey HTTP/1.1" 204 0
+
+2024-08-05 09:44:17 am | info | db_manager : login Success : asdfzxcv
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /login HTTP/1.1" 200 13
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /login/getpublicKey HTTP/1.1" 200 451
+
+2024-08-05 09:44:17 am | info | db_manager : login Success : asdfzxcv
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /login HTTP/1.1" 200 13
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 09:44:17 am | info | db_manager : login Success : asdfzxcv
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /login HTTP/1.1" 200 13
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:44:17 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:44:19 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:44:20 am | http | ::ffff:192.168.0.200 - - "POST /login HTTP/1.1" - -
+
+2024-08-05 09:44:20 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 09:44:20 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 09:44:20 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 09:44:23 am | http | ::ffff:192.168.0.200 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 09:44:23 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 11:08:15 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:08:24 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:08:26 am | http | ::ffff:192.168.0.200 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 11:08:26 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 11:08:26 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 11:08:26 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 401 44
+
+2024-08-05 11:08:26 am | http | ::ffff:192.168.0.200 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 11:08:26 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 11:08:26 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 401 44
+
+2024-08-05 11:08:29 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/getpublicKey HTTP/1.1" 204 0
+
+2024-08-05 11:08:29 am | http | ::ffff:192.168.0.200 - - "POST /login/getpublicKey HTTP/1.1" 200 451
+
+2024-08-05 11:08:29 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login HTTP/1.1" 204 0
+
+2024-08-05 11:08:29 am | info | db_manager : login Success : asdfzxcv
+2024-08-05 11:08:29 am | http | ::ffff:192.168.0.200 - - "POST /login HTTP/1.1" 200 13
+
+2024-08-05 11:08:29 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 11:08:29 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 11:08:29 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 11:08:45 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:08:45 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 11:08:45 am | http | ::ffff:192.168.0.200 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 11:08:45 am | http | ::ffff:192.168.0.200 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 11:08:45 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 11:08:45 am | http | ::ffff:192.168.0.200 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 11:08:45 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 11:08:45 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 11:08:56 am | http | ::ffff:192.168.0.200 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 11:08:56 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 11:08:56 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 11:08:56 am | http | ::ffff:192.168.0.200 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 11:08:56 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 11:08:56 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 11:09:18 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:09:18 am | http | ::ffff:192.168.0.200 - - "OPTIONS /user HTTP/1.1" 204 0
+
+2024-08-05 11:09:18 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 11:09:18 am | http | ::ffff:192.168.0.200 - - "OPTIONS /login/refresh HTTP/1.1" 204 0
+
+2024-08-05 11:09:18 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 11:09:18 am | http | ::ffff:192.168.0.200 - - "OPTIONS /device HTTP/1.1" 204 0
+
+2024-08-05 11:09:18 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 11:09:21 am | http | ::ffff:192.168.0.200 - - "POST /user HTTP/1.1" 200 1821
+
+2024-08-05 11:09:21 am | http | ::ffff:192.168.0.200 - - "POST /device HTTP/1.1" 200 12019
+
+2024-08-05 11:09:21 am | http | ::ffff:192.168.0.200 - - "POST /login/refresh HTTP/1.1" 200 -
+
+2024-08-05 11:10:54 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:10:54 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:11:25 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:11:38 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:12:37 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:15:30 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:30 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:15:31 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:05 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:06 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:28 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:29 am | error | db_manager : InitializingState : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-08-05 11:16:49 am | info | genix : Socket IO server listening on port 3000
+2024-08-05 11:17:22 am | info | genix : Socket IO server listening on port 3000

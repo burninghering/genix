@@ -1,0 +1,14 @@
+2024-08-06 15:35:10 pm | info | genix : Socket IO server listening on port 3000
+2024-08-06 15:39:43 pm | info | genix : Socket IO server listening on port 3000
+2024-08-06 15:39:47 pm | http | ::ffff:192.168.0.221 - - "POST /device/getSensor HTTP/1.1" 200 128
+
+2024-08-06 15:39:49 pm | http | ::ffff:192.168.0.221 - - "POST /device/getSensor HTTP/1.1" 200 128
+
+2024-08-06 15:40:00 pm | info | genix : Socket IO server listening on port 3000
+2024-08-06 15:40:03 pm | error | db_manager : GetSensor : 1 
+  ReferenceError: result is not defined
+2024-08-06 15:40:03 pm | http | ::ffff:192.168.0.221 - - "POST /device/getSensor HTTP/1.1" 500 4
+
+2024-08-06 15:40:14 pm | info | genix : Socket IO server listening on port 3000
+2024-08-06 15:40:47 pm | http | ::ffff:192.168.0.221 - - "POST /device/insertSensor HTTP/1.1" 200 7
+
