@@ -1,22 +1,30 @@
 const WebSocket = require('ws');
-const mysql = require('mysql2/promise'); 
+const mysql = require('mysql2/promise');
 
-const wss = new WebSocket.Server({ port: 8081 });
-
-// MySQL 연결을 위한 설정
-async function getConnection() {
-    const connection = await mysql.createConnection({
+// MySQL 커넥션 풀 생성
+const pool = mysql.createPool({
     host: '127.0.0.1',
     user: 'root',
     password: '1234',
-    database: 'netro_data_platform'
-    });
-    return connection;
+    database: 'netro_data_platform',
+    waitForConnections: true,
+    connectionLimit: 1000,
+    queueLimit: 0
+});
+
+// MySQL 커넥션 풀에서 연결 가져오기
+async function getConnection() {
+    return pool.getConnection();
 }
+
+wss = new WebSocket.Server({ port: 8081 });
 
 wss.on('connection', (ws) => {
     console.log('Client connected');
 
+    let interval;
+
+    // 메시지 수신 처리
     ws.on('message', async (message) => {
         console.log('Received message: %s', message);
 
@@ -29,48 +37,52 @@ wss.on('connection', (ws) => {
             return;
         }
 
-        let interval;
+        // 이전 인터벌이 있으면 해제
+        if (interval) {
+            clearInterval(interval);
+        }
 
-        // 'logs' 요청 처리 (공기, 해양, 선박 데이터를 모두 가져옴)
+        // 'logs' 요청 처리
         if (request.data === 'logs') {
             console.log("Fetching air, ocean, and vessel data...");
-
             try {
-                // 즉시 데이터를 한 번 보내기
-                const airData = await fetchAirData();
-                const oceanData = await fetchOceanData();
-                const vesselData = await fetchVesselData();
-                
-                const combinedData = [...airData, ...oceanData, ...vesselData];
-                ws.send(JSON.stringify({ data: combinedData }));  // 즉시 응답 전송
+                const [airData, oceanData, vesselData] = await Promise.all([
+                    fetchAirData(),
+                    fetchOceanData(),
+                    fetchVesselData()
+                ]);
 
-                // 이후 10초마다 데이터를 보내는 setInterval 설정
+                const combinedData = [...airData, ...oceanData, ...vesselData];
+                ws.send(JSON.stringify({ data: combinedData }));
+
+                // 10초마다 데이터 전송
                 interval = setInterval(async () => {
                     try {
-                        const airData = await fetchAirData();
-                        const oceanData = await fetchOceanData();
-                        const vesselData = await fetchVesselData();
+                        const [airData, oceanData, vesselData] = await Promise.all([
+                            fetchAirData(),
+                            fetchOceanData(),
+                            fetchVesselData()
+                        ]);
                         const combinedData = [...airData, ...oceanData, ...vesselData];
                         ws.send(JSON.stringify({ data: combinedData }));
                     } catch (error) {
                         console.error('Error fetching logs data', error);
                         ws.send(JSON.stringify({ error: 'Error fetching logs data' }));
                     }
-                }, 10000); // 10초마다 응답 전송
+                }, 10000);
             } catch (error) {
                 console.error('Error fetching logs data', error);
                 ws.send(JSON.stringify({ error: 'Error fetching logs data' }));
             }
         }
 
-        // 공기 데이터 처리 
+        // 공기 데이터 처리
         else if (request.data === 'air') {
-            console.log("Fetching air data...");
             try {
                 const airData = await fetchAirData();
-                ws.send(JSON.stringify({ data: airData }));  // 즉시 응답 전송
+                ws.send(JSON.stringify({ data: airData }));
 
-                // 이후 10초마다 데이터를 보내는 setInterval 설정
+                // 10초마다 데이터 전송
                 interval = setInterval(async () => {
                     try {
                         const airData = await fetchAirData();
@@ -86,14 +98,13 @@ wss.on('connection', (ws) => {
             }
         }
 
-        // 해양 데이터 처리 
+        // 해양 데이터 처리
         else if (request.data === 'ocean') {
-            console.log("Fetching ocean data...");
             try {
                 const oceanData = await fetchOceanData();
-                ws.send(JSON.stringify({ data: oceanData }));  // 즉시 응답 전송
+                ws.send(JSON.stringify({ data: oceanData }));
 
-                // 이후 10초마다 데이터를 보내는 setInterval 설정
+                // 10초마다 데이터 전송
                 interval = setInterval(async () => {
                     try {
                         const oceanData = await fetchOceanData();
@@ -109,53 +120,90 @@ wss.on('connection', (ws) => {
             }
         }
 
-        // 선박 데이터 처리 
+        // 선박 데이터 처리
         else if (request.data === 'vessel') {
-            console.log("Fetching vessel data...");
             try {
                 const vesselData = await fetchVesselData();
-                ws.send(JSON.stringify({ data: vesselData }));  // 즉시 응답 전송
+                if (vesselData.length === 0) {
+                    ws.send(JSON.stringify({ error: 'No vessel data found' }));
+                } else {
+                    ws.send(JSON.stringify({ data: vesselData }));
+                }
 
-                // 이후 10초마다 데이터를 보내는 setInterval 설정
+                // 5초마다 데이터 전송
                 interval = setInterval(async () => {
                     try {
                         const vesselData = await fetchVesselData();
-                        ws.send(JSON.stringify({ data: vesselData }));
+                        if (vesselData.length === 0) {
+                            ws.send(JSON.stringify({ error: 'No vessel data found' }));
+                        } else {
+                            ws.send(JSON.stringify({ data: vesselData }));
+                        }
                     } catch (error) {
-                        console.error('Error fetching vessel data', error);
-                        ws.send(JSON.stringify({ error: 'Error fetching vessel data' }));
+                        console.error('Error during interval vessel data fetch:', error.message);
+                        ws.send(JSON.stringify({ error: 'Error fetching vessel data during interval' }));
                     }
-                }, 10000);
+                }, 5000);
             } catch (error) {
-                console.error('Error fetching vessel data', error);
+                console.error('Error fetching vessel data:', error.message);
                 ws.send(JSON.stringify({ error: 'Error fetching vessel data' }));
             }
-        } else {
-            ws.send(JSON.stringify({ error: 'Unknown data type' }));
         }
 
-        // 클라이언트 연결이 끊기면 setInterval 해제
-        ws.on('close', () => {
-            console.log('Client disconnected');
-            clearInterval(interval);
-        });
+        // 시나리오 데이터 처리
+        else if (request.data === 'scenario_air') {
+            const { devId, senId, scenario } = request;
+
+            if (!devId || !senId || !scenario) {
+                ws.send(JSON.stringify({ error: 'Missing parameters: devId, senId, or scenario' }));
+                return;
+            }
+
+            try {
+                // 시나리오 데이터를 저장
+                await fetchScenarioAirData(devId, senId, scenario);
+                ws.send(JSON.stringify({ success: 'Scenario air data saved successfully' }));
+
+                // 10초마다 시나리오 데이터를 저장
+                interval = setInterval(async () => {
+                    try {
+                        await fetchScenarioAirData(devId, senId, scenario);
+                        ws.send(JSON.stringify({ success: `Scenario air data saved for devId: ${devId}, senId: ${senId}` }));
+                    } catch (error) {
+                        console.error('Error saving scenario air data:', error);
+                        ws.send(JSON.stringify({ error: 'Error saving scenario air data' }));
+                    }
+                }, 10000); // 10초마다 실행
+            } catch (error) {
+                console.error('Error saving scenario air data:', error);
+                ws.send(JSON.stringify({ error: 'Error saving scenario air data' }));
+            }
+        }
+
+        // 알 수 없는 데이터 타입 처리
+        else {
+            console.log('Unknown request type:', request.data);
+            ws.send(JSON.stringify({ error: 'Unknown request type' }));
+        }
+    });
+
+    // WebSocket 연결 종료 처리
+    ws.on('close', () => {
+        console.log('Client disconnected');
+        clearInterval(interval);
     });
 });
 
 
 
 
-//대기 데이터를 가져오는 함수
+
+// 대기 데이터를 가져오는 함수
 async function fetchAirData() {
-    let connection;
+    const connection = await getConnection();
     try {
-        connection = await getConnection();
         const [airData] = await connection.query(`
-            SELECT 
-                a.dev_id, 
-                DATE_FORMAT(a.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, 
-                s.sen_name, 
-                a.sen_value
+            SELECT a.dev_id, DATE_FORMAT(a.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, s.sen_name, a.sen_value
             FROM example_air_log_data a
             LEFT JOIN example_air_sys_sensor s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
             WHERE (a.dev_id, a.log_datetime) IN (
@@ -168,12 +216,10 @@ async function fetchAirData() {
         `);
 
         const results = [];
-
         for (let devId = 1; devId <= 5; devId++) {
             let result = {
                 log_datetime: null,
                 id: devId,
-                send: 0,
                 humi: null,
                 winsp: null,
                 windir: null,
@@ -197,9 +243,6 @@ async function fetchAirData() {
                 if (item.dev_id === devId) {
                     result.log_datetime = item.log_datetime;
                     result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
-                    if (item.sen_name === 'FIRM') {
-                        result.firm = String(item.sen_value);
-                    }
                 }
             });
 
@@ -208,22 +251,16 @@ async function fetchAirData() {
 
         return results;
     } finally {
-        if (connection) connection.end();
+        connection.release();
     }
 }
 
-
-// 해양 데이터를 가져오는 함수 
+// 해양 데이터를 가져오는 함수
 async function fetchOceanData() {
-    let connection;
+    const connection = await getConnection();
     try {
-        connection = await getConnection();
         const [oceanData] = await connection.query(`
-            SELECT 
-                o.dev_id, 
-                DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, 
-                s.sen_name, 
-                o.sen_value
+            SELECT o.dev_id, DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, s.sen_name, o.sen_value
             FROM example_ocean_log_data o
             LEFT JOIN example_ocean_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
             WHERE (o.dev_id, o.log_datetime) IN (
@@ -236,7 +273,6 @@ async function fetchOceanData() {
         `);
 
         const results = [];
-
         for (let devId = 1; devId <= 2; devId++) {
             let result = {
                 log_datetime: null,
@@ -263,57 +299,41 @@ async function fetchOceanData() {
 
         return results;
     } finally {
-        if (connection) connection.end();
+        connection.release();
     }
 }
 
-
-function addSecondsToDate(datetimeString, secondsToAdd) {
-    // log_datetime을 Date 객체로 변환
-    const date = new Date(datetimeString);
-
-    // Date 객체에 초 빼기
-    date.setSeconds(date.getSeconds() - secondsToAdd);
-
-    // YYYY-MM-DD HH:mm:ss 형식으로 변환
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    const hours = String(date.getHours()).padStart(2, '0');
-    const minutes = String(date.getMinutes()).padStart(2, '0');
-    const seconds = String(date.getSeconds()).padStart(2, '0');
-
-    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-}
-
-
-//선박 데이터를 가져오는 함수
+// 선박 데이터를 가져오는 함수
 async function fetchVesselData() {
-    let connection;
+    const connection = await getConnection();
     try {
-        connection = await getConnection();
+        // Vessel 데이터 쿼리 실행
         const [vesselData] = await connection.query(`
-            SELECT 
-                v.dev_id, 
-                s.sen_name, 
-                v.sen_value
+            SELECT v.dev_id, s.sen_name, v.sen_value
             FROM example_vessel_log_data v
             LEFT JOIN example_vessel_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
             WHERE (v.dev_id, v.log_datetime) IN (
                 SELECT dev_id, MAX(log_datetime) AS latest_log_datetime
                 FROM example_vessel_log_data
-                WHERE dev_id BETWEEN 1 AND 10
+                WHERE dev_id BETWEEN 1 AND 50
                 GROUP BY dev_id
             )
             ORDER BY v.dev_id DESC
         `);
 
+        // vesselData가 제대로 반환되지 않으면 에러를 로그로 출력
+        if (!vesselData || vesselData.length === 0) {
+            console.error('No vessel data returned');
+            return [];
+        }
+
         const results = [];
         const currentDate = new Date();
 
-        for (let devId = 1; devId <= 10; devId++) {
+        // 데이터 처리
+        for (let devId = 1; devId <= 50; devId++) {
             let result = {
-                log_datetime: formatDateToYYYYMMDDHHMMSS(currentDate), // 현재 시간으로 log_datetime 설정
+                log_datetime: formatDateToYYYYMMDDHHMMSS(currentDate),
                 rcv_datetime: null,
                 id: devId,
                 lati: null,
@@ -325,10 +345,8 @@ async function fetchVesselData() {
 
             vesselData.forEach(item => {
                 if (item.dev_id === devId) {
-                    // log_datetime보다 1~3초 앞선 rcv_datetime 생성 (1~3초 랜덤)
                     const randomSeconds = Math.floor(Math.random() * 3) + 1;
                     result.rcv_datetime = addSecondsToDate(result.log_datetime, randomSeconds);
-
                     result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
                 }
             });
@@ -337,11 +355,95 @@ async function fetchVesselData() {
         }
 
         return results;
+    } catch (error) {
+        // 에러 발생 시 에러 메시지를 콘솔에 출력
+        console.error('Error fetching vessel data:', error.message);
+        return []; // 에러가 발생해도 빈 배열 반환
     } finally {
-        if (connection) connection.end();
+        connection.release();
     }
 }
 
+// <-- 시나리오 -->
+
+
+// fetchScenarioAirData 함수: 시나리오 데이터를 가져오고 처리하는 함수
+async function fetchScenarioAirData() {
+    const connection = await getConnection();
+    try {
+        // Air 시나리오 데이터 쿼리 실행
+        const [airData] = await connection.query(`
+            SELECT a.dev_id, s.sen_name, a.sen_value, a.log_datetime
+            FROM example_air_log_data_scenario a
+            LEFT JOIN example_air_sys_sensor s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
+            WHERE a.dev_id BETWEEN 1 AND 5
+            AND a.log_datetime = (
+                SELECT MAX(log_datetime) 
+                FROM example_air_log_data_scenario 
+                WHERE dev_id = a.dev_id
+            )
+            ORDER BY a.dev_id DESC
+        `);
+
+        // airData가 제대로 반환되지 않으면 에러를 로그로 출력
+        if (!airData || airData.length === 0) {
+            console.error('No air data returned');
+            return [];
+        }
+
+        const results = [];
+        
+        // 데이터 처리
+        airData.forEach(item => {
+            // 현재 devId에 대한 결과를 찾음
+            let result = results.find(res => res.id === item.dev_id);
+            
+            if (!result) {
+                // 해당 devId에 대한 새로운 결과 생성
+                result = {
+                    log_datetime: item.log_datetime, // 시나리오 데이터에서 가져온 로그 시간
+                    id: item.dev_id,
+                    pm10: null,
+                    pm25: null,
+                    so2: null,
+                    no2: null,
+                    o3: null,
+                    co: null,
+                    vocs: null,
+                    h2s: null,
+                    nh3: null,
+                    ou: null,
+                    hcho: null,
+                    temp: null,
+                    humi: null,
+                    winsp: null,
+                    windir: null,
+                    batt: null
+                };
+                results.push(result);
+            }
+
+            // 센서 데이터 매핑
+            result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value);
+        });
+
+        return results;
+    } catch (error) {
+        // 에러 발생 시 에러 메시지를 콘솔에 출력
+        console.error('Error fetching air scenario data:', error.message);
+        return []; // 에러가 발생해도 빈 배열 반환
+    } finally {
+        connection.release(); // 커넥션 반환
+    }
+}
+
+
+
+
+// <----->
+
+
+// 날짜 포맷 변경 함수
 function formatDateToYYYYMMDDHHMMSS(date) {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, '0');
@@ -352,9 +454,11 @@ function formatDateToYYYYMMDDHHMMSS(date) {
     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
 
+// 초 더하기 함수
 function addSecondsToDate(datetimeString, secondsToAdd) {
     const date = new Date(datetimeString);
     date.setSeconds(date.getSeconds() - secondsToAdd);
     return formatDateToYYYYMMDDHHMMSS(date);
 }
+
 

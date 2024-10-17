@@ -92,8 +92,8 @@ process.on('exit', code => {
 // });
 
 // 서버 설정: 로컬에서 서버를 실행
-app.listen(3000, () => {
-    console.log(`Server is running on 3000`);
+app.listen(4000, () => {
+    console.log(`Server is running on 4000`);
 });
 
 // netroEvent에서 이벤트 리스너 설정
