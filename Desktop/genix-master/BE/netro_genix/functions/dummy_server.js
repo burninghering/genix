@@ -15,7 +15,7 @@ wss.on('connection', (ws) => {
     ws.on('message', async (message) => {
         try {
             const data = JSON.parse(message);
-            console.log("Received data:", data);
+            // console.log("Received data:", data);
 
             // 데이터 타입에 따라 DB 저장 처리
             if (data.type === 'air') {
@@ -24,13 +24,21 @@ wss.on('connection', (ws) => {
                 await handleBuoyData(data);
             } else if (data.type === 'vessel') {
                 await handleVesselData(data);
+            } else if (data.type === 'scenario_air') {
+                const { scenario } = data;
+                await handleScenarioAirData(data, scenario);
+            } else {
+                console.log('Unknown data type received:', data.type);
+                ws.send(JSON.stringify({ message: 'Unknown data type received.' }));
+                return;
             }
 
-            // 클라이언트에 응답 메시지 전송
+            // 클라이언트에 성공 응답 메시지 전송
             ws.send(JSON.stringify({ message: 'Data saved successfully.' }));
+
         } catch (error) {
             console.error('Error processing message:', error);
-            ws.send(JSON.stringify({ message: 'Error saving data.' }));
+            ws.send(JSON.stringify({ message: 'Error saving data.', error: error.message }));
         }
     });
 
@@ -40,7 +48,8 @@ wss.on('connection', (ws) => {
     });
 });
 
-// 공기 데이터 처리 함수
+
+// 대기 데이터 처리 함수
 async function handleAirData(data) {
     const { DEV_ID, PM10, PM25, SO2, NO2, O3, CO, VOCs, H2S, NH3, OU, HCHO, TEMP, HUMI, WINsp, WINdir, BATT, FIRM, SEND } = data;
     const sensorNames = ['PM10', 'PM25', 'SO2', 'NO2', 'O3', 'CO', 'VOCs', 'H2S', 'NH3', 'OU', 'HCHO', 'TEMP', 'HUMI', 'WINsp', 'WINdir', 'BATT', 'FIRM', 'SEND'];
@@ -52,7 +61,7 @@ async function handleAirData(data) {
     }
 }
 
-// 부표 데이터 처리 함수
+// 해양 데이터 처리 함수
 async function handleBuoyData(data) {
     const { bouy_info_bouy_code, bouy_state, bouy_sensor_value } = data;
     const sensorNames = ['battery', 'temp', 'DO', 'EC', 'salinity', 'TDS', 'pH', 'ORP'];
@@ -76,6 +85,24 @@ async function handleVesselData(data) {
         await db_manager.SaveVesselLogData(id, i + 1, sensorValue);
     }
 }
+
+
+// <!-- 시나리오 -->
+// 시나리오 처리 함수
+async function handleScenarioAirData(data, scenario) {
+    const { DEV_ID, PM10, PM25, SO2, NO2, O3, CO, VOCs, H2S, NH3, OU, HCHO, TEMP, HUMI, WINsp, WINdir, BATT, FIRM, SEND } = data;
+    const sensorNames = ['PM10', 'PM25', 'SO2', 'NO2', 'O3', 'CO', 'VOCs', 'H2S', 'NH3', 'OU', 'HCHO', 'TEMP', 'HUMI', 'WINsp', 'WINdir', 'BATT', 'FIRM', 'SEND'];
+    const sensorValues = [PM10, PM25, SO2, NO2, O3, CO, VOCs, H2S, NH3, OU, HCHO, TEMP, HUMI, WINsp, WINdir, BATT, FIRM, SEND];
+
+    for (let i = 0; i < sensorNames.length; i++) {
+        // 기존 데이터 저장
+        await db_manager.SaveDummyData(DEV_ID, i + 1, sensorNames[i]);
+        
+        // 시나리오 데이터를 처리 및 저장
+        await db_manager.SaveScenarioAirData(DEV_ID, i + 1, scenario);
+    }
+}
+
 
 
 // HTTP 서버 시작

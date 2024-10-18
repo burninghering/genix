@@ -1,0 +1,16 @@
+2024-10-17 22:17:09 pm | http | ::1 - - "GET /add-vessels HTTP/1.1" 404 150
+
+2024-10-17 22:17:16 pm | http | ::1 - - "POST /add-vessels HTTP/1.1" 404 151
+
+2024-10-17 22:18:59 pm | http | ::1 - - "POST /add-vessels HTTP/1.1" 404 151
+
+2024-10-17 22:19:27 pm | http | ::1 - - "POST /add-vessels HTTP/1.1" 404 151
+
+2024-10-17 22:19:49 pm | http | ::1 - - "POST /add-vessels HTTP/1.1" 404 151
+
+2024-10-17 22:20:02 pm | http | ::1 - - "POST /add-vessels HTTP/1.1" 404 151
+
+2024-10-17 22:20:28 pm | http | ::1 - - "POST /api/add-vessels HTTP/1.1" 200 33
+
+2024-10-17 22:21:38 pm | http | ::1 - - "POST /api/add-vessels HTTP/1.1" 200 33
+

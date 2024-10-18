@@ -15,15 +15,6 @@ async function getConnection() {
     return await mysql.createConnection(dbConfig);
 }
 
-/**
- * @swagger
- * /logs:
- *   get:
- *     summary: 전체 데이터
- *     responses:
- *       200:
- *         description: 대기, 해양, 선박 데이터 가져오기
- */
 router.get('/logs', async (req, res) => {
     let connection;
 

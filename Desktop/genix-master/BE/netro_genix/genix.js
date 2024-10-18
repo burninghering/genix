@@ -6,6 +6,7 @@ import r_login from './routes/r_login.js';
 import r_device from './routes/r_device.js';
 import r_user from './routes/r_user.js';
 import r_api from './routes/r_api.js';
+import r_scenario from './routes/r_scenario.js';
 import http from "http";
 import https from 'https';
 import cron from 'node-cron';
@@ -55,6 +56,7 @@ app.use('/device', r_device);
 app.use('/user', r_user);
 app.use('/api', r_api);
 app.use('/service', r_service);
+app.use('/scenario', r_scenario);
 
 // Socket.IO 설정
 const io = socketio(httpServer, {
@@ -86,15 +88,15 @@ process.on('exit', code => {
     }
 });
 
-// // 서버 설정: 특정 IP와 포트에서 서버를 실행
-// app.listen(3000, '192.168.0.232', () => {
-//     console.log(`Server is running on https://192.168.0.232:3000`);
-// });
-
-// 서버 설정: 로컬에서 서버를 실행
-app.listen(3000, () => {
-    console.log(`Server is running on 3000`);
+// 서버 설정: 특정 IP와 포트에서 서버를 실행
+app.listen(3000, '192.168.0.232', () => {
+    console.log(`Server is running on https://192.168.0.232:3000`);
 });
+
+// // 서버 설정: 로컬에서 서버를 실행
+// app.listen(4000, () => {
+//     console.log(`Server is running on 4000`);
+// });
 
 // netroEvent에서 이벤트 리스너 설정
 db_manager.netroEvent.addListener('sensorState', function (result) {
