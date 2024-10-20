@@ -1,0 +1,24 @@
+2024-10-18 09:10:26 am | http | 192.168.0.232 - - "POST /api/add-vessels HTTP/1.1" 200 33
+
+2024-10-18 10:17:12 am | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 200 269
+
+2024-10-18 10:17:15 am | http | 192.168.0.232 - - "GET /service/air HTTP/1.1" 404 150
+
+2024-10-18 10:17:25 am | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 200 269
+
+2024-10-18 10:17:33 am | http | 192.168.0.232 - - "GET /service/air/logs HTTP/1.1" 404 58
+
+2024-10-18 10:22:12 am | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 200 269
+
+2024-10-18 10:22:16 am | http | 192.168.0.232 - - "GET /service/log HTTP/1.1" 404 150
+
+2024-10-18 11:07:00 am | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 200 143
+
+2024-10-18 11:08:06 am | http | 192.168.0.232 - - "GET /service/logs HTTP/1.1" - -
+
+2024-10-18 13:48:39 pm | http | 192.168.0.232 - - "GET /scenario/air/1 HTTP/1.1" 200 269
+
+2024-10-18 13:50:57 pm | http | 192.168.0.232 - - "GET /scenario/air/1 HTTP/1.1" 200 269
+
+2024-10-18 14:36:28 pm | http | 192.168.0.232 - - "GET /scenario/air/1 HTTP/1.1" 200 266
+

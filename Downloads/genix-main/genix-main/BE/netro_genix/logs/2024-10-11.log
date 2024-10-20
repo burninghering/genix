@@ -1,0 +1,258 @@
+2024-10-11 08:41:45 am | http | 192.168.0.232 - - "GET /service/vessel/8 HTTP/1.1" 304 -
+
+2024-10-11 08:41:46 am | http | 192.168.0.232 - - "GET /service/vessel/8 HTTP/1.1" 304 -
+
+2024-10-11 09:28:10 am | http | 192.168.0.232 - - "GET /service/logs HTTP/1.1" 200 2766
+
+2024-10-11 10:58:53 am | http | 192.168.0.224 - - "GET /service/logs HTTP/1.1" 200 2766
+
+2024-10-11 11:06:38 am | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 200 271
+
+2024-10-11 15:51:04 pm | http | 192.168.0.232 - - "GET /api-docs HTTP/1.1" 301 158
+
+2024-10-11 15:51:04 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 200 3106
+
+2024-10-11 15:51:04 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 1710
+
+2024-10-11 15:51:04 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 200 152071
+
+2024-10-11 15:51:04 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293
+
+2024-10-11 15:51:04 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753
+
+2024-10-11 15:51:04 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628
+
+2024-10-11 16:01:47 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:01:47 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:01:47 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:01:47 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:01:47 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:01:47 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:07 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:07 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:07 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:07 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:07 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:07 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:07 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:08 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:12 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:12 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:12 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:12 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:12 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:12 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:49 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:49 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:49 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:49 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:49 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:49 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:50 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:51 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:02:51 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:02:51 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:02:51 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:51 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:51 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:02:51 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:05:34 pm | http | 192.168.0.232 - - "GET /api-docs/ HTTP/1.1" 304 -
+
+2024-10-11 16:05:34 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 -
+
+2024-10-11 16:05:34 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 -
+
+2024-10-11 16:05:34 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 1957
+
+2024-10-11 16:05:34 pm | http | 192.168.0.232 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+
+2024-10-11 16:05:34 pm | http | 192.168.0.232 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 -
+
+2024-10-11 16:50:13 pm | http | 192.168.0.232 - - "GET /service/vessel/8 HTTP/1.1" 200 122
+
+2024-10-11 17:02:34 pm | http | 192.168.0.232 - - "GET /service/vessel/8 HTTP/1.1" 304 -
+
+2024-10-11 17:02:38 pm | http | 192.168.0.232 - - "GET /service/logs HTTP/1.1" 200 2766
+
+2024-10-11 17:46:01 pm | http | 192.168.0.232 - - "GET /service/logs HTTP/1.1" 200 3363
+
+2024-10-11 17:49:22 pm | http | 192.168.0.232 - - "GET /service/logs HTTP/1.1" 200 3137
+
+2024-10-11 17:49:43 pm | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 200 422
+
+2024-10-11 17:49:47 pm | http | 192.168.0.232 - - "GET /service/air/2 HTTP/1.1" 200 422
+
+2024-10-11 17:49:52 pm | http | 192.168.0.232 - - "GET /service/ocean/1 HTTP/1.1" 200 125
+
+2024-10-11 17:49:56 pm | http | 192.168.0.232 - - "GET /service/ocean/2 HTTP/1.1" 200 125
+
+2024-10-11 17:49:58 pm | http | 192.168.0.232 - - "GET /service/ocean/3 HTTP/1.1" 404 55
+
+2024-10-11 17:50:04 pm | http | 192.168.0.232 - - "GET /service/vessel/8 HTTP/1.1" 200 117
+
+2024-10-11 17:50:05 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 200 116
+
+2024-10-11 17:50:07 pm | http | 192.168.0.232 - - "GET /service/vessel/0 HTTP/1.1" 404 55
+
+2024-10-11 17:50:09 pm | http | 192.168.0.232 - - "GET /service/vessel/11 HTTP/1.1" 404 56
+
+2024-10-11 17:50:11 pm | http | 192.168.0.232 - - "GET /service/vessel/10 HTTP/1.1" 200 118
+
+2024-10-11 17:58:35 pm | http | 192.168.0.232 - - "GET /service/vessel/10 HTTP/1.1" 304 -
+
+2024-10-11 17:59:36 pm | http | 192.168.0.232 - - "GET /service/vessel/10 HTTP/1.1" 304 -
+
+2024-10-11 18:01:05 pm | http | 192.168.0.232 - - "GET /service/vessel/10 HTTP/1.1" 304 -
+
+2024-10-11 18:01:39 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-11 18:01:54 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-11 18:01:55 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-11 18:01:58 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-11 18:02:01 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-11 18:02:07 pm | http | 192.168.0.232 - - "GET /service/ocean/1 HTTP/1.1" 200 152
+
+2024-10-11 18:02:17 pm | http | 192.168.0.232 - - "GET /service/air/1 HTTP/1.1" 200 422
+
+2024-10-11 18:02:23 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-11 18:03:23 pm | http | 192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+

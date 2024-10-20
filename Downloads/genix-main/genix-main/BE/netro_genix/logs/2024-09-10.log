@@ -1,0 +1,756 @@
+2024-09-10 10:27:01 am | info | genix : Socket IO server listening on port 3000
+2024-09-10 10:27:01 am | error | db_manager : AggregateError
+2024-09-10 10:27:01 am | error | db_manager : InsertState : undefined 
+  AggregateError
+2024-09-10 10:27:01 am | error | db_manager : AggregateError
+2024-09-10 10:27:01 am | error | db_manager : InsertState : undefined 
+  AggregateError
+2024-09-10 10:27:02 am | error | db_manager : AggregateError
+2024-09-10 10:27:02 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:03 am | error | db_manager : AggregateError
+2024-09-10 10:27:03 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:04 am | error | db_manager : AggregateError
+2024-09-10 10:27:04 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:05 am | error | db_manager : AggregateError
+2024-09-10 10:27:05 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:06 am | error | db_manager : AggregateError
+2024-09-10 10:27:06 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:07 am | error | db_manager : AggregateError
+2024-09-10 10:27:07 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:08 am | error | db_manager : AggregateError
+2024-09-10 10:27:08 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:09 am | error | db_manager : AggregateError
+2024-09-10 10:27:09 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:10 am | error | db_manager : AggregateError
+2024-09-10 10:27:10 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:11 am | error | db_manager : AggregateError
+2024-09-10 10:27:11 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:12 am | error | db_manager : AggregateError
+2024-09-10 10:27:12 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:13 am | error | db_manager : AggregateError
+2024-09-10 10:27:13 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:14 am | error | db_manager : AggregateError
+2024-09-10 10:27:14 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:15 am | error | db_manager : AggregateError
+2024-09-10 10:27:15 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:16 am | error | db_manager : AggregateError
+2024-09-10 10:27:16 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:17 am | error | db_manager : AggregateError
+2024-09-10 10:27:17 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:18 am | error | db_manager : AggregateError
+2024-09-10 10:27:18 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:19 am | error | db_manager : AggregateError
+2024-09-10 10:27:19 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:20 am | error | db_manager : AggregateError
+2024-09-10 10:27:20 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:21 am | error | db_manager : AggregateError
+2024-09-10 10:27:21 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:23 am | error | db_manager : AggregateError
+2024-09-10 10:27:23 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:24 am | error | db_manager : AggregateError
+2024-09-10 10:27:24 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:25 am | error | db_manager : AggregateError
+2024-09-10 10:27:25 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:26 am | error | db_manager : AggregateError
+2024-09-10 10:27:26 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:27 am | error | db_manager : AggregateError
+2024-09-10 10:27:27 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:28 am | error | db_manager : AggregateError
+2024-09-10 10:27:28 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:29 am | error | db_manager : AggregateError
+2024-09-10 10:27:29 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:30 am | error | db_manager : AggregateError
+2024-09-10 10:27:30 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:31 am | error | db_manager : AggregateError
+2024-09-10 10:27:31 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:32 am | error | db_manager : AggregateError
+2024-09-10 10:27:32 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:33 am | error | db_manager : AggregateError
+2024-09-10 10:27:33 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:34 am | error | db_manager : AggregateError
+2024-09-10 10:27:34 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:35 am | error | db_manager : AggregateError
+2024-09-10 10:27:35 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:36 am | error | db_manager : AggregateError
+2024-09-10 10:27:36 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:37 am | error | db_manager : AggregateError
+2024-09-10 10:27:37 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:38 am | error | db_manager : AggregateError
+2024-09-10 10:27:38 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:39 am | error | db_manager : AggregateError
+2024-09-10 10:27:39 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:40 am | error | db_manager : AggregateError
+2024-09-10 10:27:40 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:41 am | error | db_manager : AggregateError
+2024-09-10 10:27:41 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:42 am | error | db_manager : AggregateError
+2024-09-10 10:27:42 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:43 am | error | db_manager : AggregateError
+2024-09-10 10:27:43 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:44 am | error | db_manager : AggregateError
+2024-09-10 10:27:44 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:45 am | error | db_manager : AggregateError
+2024-09-10 10:27:45 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:46 am | error | db_manager : AggregateError
+2024-09-10 10:27:46 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:47 am | error | db_manager : AggregateError
+2024-09-10 10:27:47 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:48 am | error | db_manager : AggregateError
+2024-09-10 10:27:48 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:49 am | error | db_manager : AggregateError
+2024-09-10 10:27:49 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:50 am | error | db_manager : AggregateError
+2024-09-10 10:27:50 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:51 am | error | db_manager : AggregateError
+2024-09-10 10:27:51 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:52 am | error | db_manager : AggregateError
+2024-09-10 10:27:52 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:53 am | error | db_manager : AggregateError
+2024-09-10 10:27:53 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:54 am | error | db_manager : AggregateError
+2024-09-10 10:27:54 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:55 am | error | db_manager : AggregateError
+2024-09-10 10:27:55 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:56 am | error | db_manager : AggregateError
+2024-09-10 10:27:56 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:57 am | error | db_manager : AggregateError
+2024-09-10 10:27:57 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:58 am | error | db_manager : AggregateError
+2024-09-10 10:27:58 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:27:59 am | error | db_manager : AggregateError
+2024-09-10 10:27:59 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:00 am | error | db_manager : AggregateError
+2024-09-10 10:28:00 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:01 am | error | db_manager : AggregateError
+2024-09-10 10:28:01 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:02 am | error | db_manager : AggregateError
+2024-09-10 10:28:02 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:03 am | error | db_manager : AggregateError
+2024-09-10 10:28:03 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:04 am | error | db_manager : AggregateError
+2024-09-10 10:28:04 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:05 am | error | db_manager : AggregateError
+2024-09-10 10:28:05 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:06 am | error | db_manager : AggregateError
+2024-09-10 10:28:06 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:07 am | error | db_manager : AggregateError
+2024-09-10 10:28:07 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:08 am | error | db_manager : AggregateError
+2024-09-10 10:28:08 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:09 am | error | db_manager : AggregateError
+2024-09-10 10:28:09 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:10 am | error | db_manager : AggregateError
+2024-09-10 10:28:10 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:11 am | error | db_manager : AggregateError
+2024-09-10 10:28:11 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:12 am | error | db_manager : AggregateError
+2024-09-10 10:28:12 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:13 am | error | db_manager : AggregateError
+2024-09-10 10:28:13 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:14 am | error | db_manager : AggregateError
+2024-09-10 10:28:14 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:15 am | error | db_manager : AggregateError
+2024-09-10 10:28:15 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:16 am | error | db_manager : AggregateError
+2024-09-10 10:28:16 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:17 am | error | db_manager : AggregateError
+2024-09-10 10:28:17 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:18 am | error | db_manager : AggregateError
+2024-09-10 10:28:18 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:19 am | error | db_manager : AggregateError
+2024-09-10 10:28:19 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:20 am | error | db_manager : AggregateError
+2024-09-10 10:28:20 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:21 am | error | db_manager : AggregateError
+2024-09-10 10:28:21 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:22 am | error | db_manager : AggregateError
+2024-09-10 10:28:22 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:23 am | error | db_manager : AggregateError
+2024-09-10 10:28:23 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:24 am | error | db_manager : AggregateError
+2024-09-10 10:28:24 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:25 am | error | db_manager : AggregateError
+2024-09-10 10:28:25 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:26 am | error | db_manager : AggregateError
+2024-09-10 10:28:26 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:27 am | error | db_manager : AggregateError
+2024-09-10 10:28:27 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:28 am | error | db_manager : AggregateError
+2024-09-10 10:28:28 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:29 am | error | db_manager : AggregateError
+2024-09-10 10:28:29 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:30 am | error | db_manager : AggregateError
+2024-09-10 10:28:30 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:31 am | error | db_manager : AggregateError
+2024-09-10 10:28:31 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:32 am | error | db_manager : AggregateError
+2024-09-10 10:28:32 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:33 am | error | db_manager : AggregateError
+2024-09-10 10:28:33 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:34 am | error | db_manager : AggregateError
+2024-09-10 10:28:34 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:35 am | error | db_manager : AggregateError
+2024-09-10 10:28:35 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:36 am | error | db_manager : AggregateError
+2024-09-10 10:28:36 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:37 am | error | db_manager : AggregateError
+2024-09-10 10:28:37 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:38 am | error | db_manager : AggregateError
+2024-09-10 10:28:38 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:39 am | error | db_manager : AggregateError
+2024-09-10 10:28:39 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:40 am | error | db_manager : AggregateError
+2024-09-10 10:28:40 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:41 am | error | db_manager : AggregateError
+2024-09-10 10:28:41 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:42 am | error | db_manager : AggregateError
+2024-09-10 10:28:42 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:43 am | error | db_manager : AggregateError
+2024-09-10 10:28:43 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:44 am | error | db_manager : AggregateError
+2024-09-10 10:28:44 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:45 am | error | db_manager : AggregateError
+2024-09-10 10:28:45 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:46 am | error | db_manager : AggregateError
+2024-09-10 10:28:46 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:47 am | error | db_manager : AggregateError
+2024-09-10 10:28:47 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:48 am | error | db_manager : AggregateError
+2024-09-10 10:28:48 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:49 am | error | db_manager : AggregateError
+2024-09-10 10:28:49 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:50 am | error | db_manager : AggregateError
+2024-09-10 10:28:50 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:51 am | error | db_manager : AggregateError
+2024-09-10 10:28:51 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:52 am | error | db_manager : AggregateError
+2024-09-10 10:28:52 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:53 am | error | db_manager : AggregateError
+2024-09-10 10:28:53 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:54 am | error | db_manager : AggregateError
+2024-09-10 10:28:54 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:55 am | error | db_manager : AggregateError
+2024-09-10 10:28:55 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:56 am | error | db_manager : AggregateError
+2024-09-10 10:28:56 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:57 am | error | db_manager : AggregateError
+2024-09-10 10:28:57 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:58 am | error | db_manager : AggregateError
+2024-09-10 10:28:58 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:28:59 am | error | db_manager : AggregateError
+2024-09-10 10:28:59 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:00 am | error | db_manager : AggregateError
+2024-09-10 10:29:00 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:01 am | error | db_manager : AggregateError
+2024-09-10 10:29:01 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:02 am | error | db_manager : AggregateError
+2024-09-10 10:29:02 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:03 am | error | db_manager : AggregateError
+2024-09-10 10:29:03 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:04 am | error | db_manager : AggregateError
+2024-09-10 10:29:04 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:05 am | error | db_manager : AggregateError
+2024-09-10 10:29:05 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:06 am | error | db_manager : AggregateError
+2024-09-10 10:29:06 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:07 am | error | db_manager : AggregateError
+2024-09-10 10:29:07 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:08 am | error | db_manager : AggregateError
+2024-09-10 10:29:08 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:09 am | error | db_manager : AggregateError
+2024-09-10 10:29:09 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:10 am | error | db_manager : AggregateError
+2024-09-10 10:29:10 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:11 am | error | db_manager : AggregateError
+2024-09-10 10:29:11 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:12 am | error | db_manager : AggregateError
+2024-09-10 10:29:12 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:13 am | error | db_manager : AggregateError
+2024-09-10 10:29:13 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:14 am | error | db_manager : AggregateError
+2024-09-10 10:29:14 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:15 am | error | db_manager : AggregateError
+2024-09-10 10:29:15 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:16 am | error | db_manager : AggregateError
+2024-09-10 10:29:16 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:17 am | error | db_manager : AggregateError
+2024-09-10 10:29:17 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:18 am | error | db_manager : AggregateError
+2024-09-10 10:29:18 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:19 am | error | db_manager : AggregateError
+2024-09-10 10:29:19 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:20 am | error | db_manager : AggregateError
+2024-09-10 10:29:20 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:26 am | info | genix : Socket IO server listening on port 3000
+2024-09-10 10:29:26 am | error | db_manager : AggregateError
+2024-09-10 10:29:26 am | error | db_manager : InsertState : undefined 
+  AggregateError
+2024-09-10 10:29:26 am | error | db_manager : AggregateError
+2024-09-10 10:29:26 am | error | db_manager : InsertState : undefined 
+  AggregateError
+2024-09-10 10:29:27 am | error | db_manager : AggregateError
+2024-09-10 10:29:27 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:28 am | error | db_manager : AggregateError
+2024-09-10 10:29:28 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:29 am | error | db_manager : AggregateError
+2024-09-10 10:29:29 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:30 am | error | db_manager : AggregateError
+2024-09-10 10:29:30 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:31 am | error | db_manager : AggregateError
+2024-09-10 10:29:31 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:32 am | error | db_manager : AggregateError
+2024-09-10 10:29:32 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:33 am | error | db_manager : AggregateError
+2024-09-10 10:29:33 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:34 am | error | db_manager : AggregateError
+2024-09-10 10:29:34 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:35 am | error | db_manager : AggregateError
+2024-09-10 10:29:35 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:36 am | error | db_manager : AggregateError
+2024-09-10 10:29:36 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:37 am | error | db_manager : AggregateError
+2024-09-10 10:29:37 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:38 am | error | db_manager : AggregateError
+2024-09-10 10:29:38 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:39 am | error | db_manager : AggregateError
+2024-09-10 10:29:39 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:40 am | error | db_manager : AggregateError
+2024-09-10 10:29:40 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:41 am | error | db_manager : AggregateError
+2024-09-10 10:29:41 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:42 am | error | db_manager : AggregateError
+2024-09-10 10:29:42 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:43 am | error | db_manager : AggregateError
+2024-09-10 10:29:43 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:44 am | error | db_manager : AggregateError
+2024-09-10 10:29:44 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:45 am | error | db_manager : AggregateError
+2024-09-10 10:29:45 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:46 am | error | db_manager : AggregateError
+2024-09-10 10:29:46 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:47 am | error | db_manager : AggregateError
+2024-09-10 10:29:47 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:48 am | error | db_manager : AggregateError
+2024-09-10 10:29:48 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:49 am | error | db_manager : AggregateError
+2024-09-10 10:29:49 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:50 am | error | db_manager : AggregateError
+2024-09-10 10:29:50 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:51 am | error | db_manager : AggregateError
+2024-09-10 10:29:51 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:52 am | error | db_manager : AggregateError
+2024-09-10 10:29:52 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:53 am | error | db_manager : AggregateError
+2024-09-10 10:29:53 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:54 am | error | db_manager : AggregateError
+2024-09-10 10:29:54 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:55 am | error | db_manager : AggregateError
+2024-09-10 10:29:55 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:56 am | error | db_manager : AggregateError
+2024-09-10 10:29:56 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:57 am | error | db_manager : AggregateError
+2024-09-10 10:29:57 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:58 am | error | db_manager : AggregateError
+2024-09-10 10:29:58 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:29:59 am | error | db_manager : AggregateError
+2024-09-10 10:29:59 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:00 am | error | db_manager : AggregateError
+2024-09-10 10:30:00 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:01 am | error | db_manager : AggregateError
+2024-09-10 10:30:01 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:02 am | error | db_manager : AggregateError
+2024-09-10 10:30:02 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:03 am | error | db_manager : AggregateError
+2024-09-10 10:30:03 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:04 am | error | db_manager : AggregateError
+2024-09-10 10:30:04 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:05 am | error | db_manager : AggregateError
+2024-09-10 10:30:05 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:06 am | error | db_manager : AggregateError
+2024-09-10 10:30:06 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:07 am | error | db_manager : AggregateError
+2024-09-10 10:30:07 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:08 am | error | db_manager : AggregateError
+2024-09-10 10:30:08 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:09 am | error | db_manager : AggregateError
+2024-09-10 10:30:09 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:10 am | error | db_manager : AggregateError
+2024-09-10 10:30:10 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:11 am | error | db_manager : AggregateError
+2024-09-10 10:30:11 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:12 am | error | db_manager : AggregateError
+2024-09-10 10:30:12 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:13 am | error | db_manager : AggregateError
+2024-09-10 10:30:13 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:14 am | error | db_manager : AggregateError
+2024-09-10 10:30:14 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:15 am | error | db_manager : AggregateError
+2024-09-10 10:30:15 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:16 am | error | db_manager : AggregateError
+2024-09-10 10:30:16 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:17 am | error | db_manager : AggregateError
+2024-09-10 10:30:17 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:18 am | error | db_manager : AggregateError
+2024-09-10 10:30:18 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:19 am | error | db_manager : AggregateError
+2024-09-10 10:30:19 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:20 am | error | db_manager : AggregateError
+2024-09-10 10:30:20 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:21 am | error | db_manager : AggregateError
+2024-09-10 10:30:21 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:22 am | error | db_manager : AggregateError
+2024-09-10 10:30:22 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:23 am | error | db_manager : AggregateError
+2024-09-10 10:30:23 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:24 am | error | db_manager : AggregateError
+2024-09-10 10:30:24 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:25 am | error | db_manager : AggregateError
+2024-09-10 10:30:25 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:26 am | error | db_manager : AggregateError
+2024-09-10 10:30:26 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:27 am | error | db_manager : AggregateError
+2024-09-10 10:30:27 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:28 am | error | db_manager : AggregateError
+2024-09-10 10:30:28 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:29 am | error | db_manager : AggregateError
+2024-09-10 10:30:29 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:30 am | error | db_manager : AggregateError
+2024-09-10 10:30:30 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:31 am | error | db_manager : AggregateError
+2024-09-10 10:30:31 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:32 am | error | db_manager : AggregateError
+2024-09-10 10:30:32 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:33 am | error | db_manager : AggregateError
+2024-09-10 10:30:33 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:34 am | error | db_manager : AggregateError
+2024-09-10 10:30:34 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:35 am | error | db_manager : AggregateError
+2024-09-10 10:30:35 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:36 am | error | db_manager : AggregateError
+2024-09-10 10:30:36 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:37 am | error | db_manager : AggregateError
+2024-09-10 10:30:37 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:38 am | error | db_manager : AggregateError
+2024-09-10 10:30:38 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:39 am | error | db_manager : AggregateError
+2024-09-10 10:30:39 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:40 am | error | db_manager : AggregateError
+2024-09-10 10:30:40 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:41 am | error | db_manager : AggregateError
+2024-09-10 10:30:41 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:42 am | error | db_manager : AggregateError
+2024-09-10 10:30:42 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:43 am | error | db_manager : AggregateError
+2024-09-10 10:30:43 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:44 am | error | db_manager : AggregateError
+2024-09-10 10:30:44 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:45 am | error | db_manager : AggregateError
+2024-09-10 10:30:45 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:46 am | error | db_manager : AggregateError
+2024-09-10 10:30:46 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:48 am | error | db_manager : AggregateError
+2024-09-10 10:30:48 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:49 am | error | db_manager : AggregateError
+2024-09-10 10:30:49 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:50 am | error | db_manager : AggregateError
+2024-09-10 10:30:50 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:51 am | error | db_manager : AggregateError
+2024-09-10 10:30:51 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:52 am | error | db_manager : AggregateError
+2024-09-10 10:30:52 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:53 am | error | db_manager : AggregateError
+2024-09-10 10:30:53 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:54 am | error | db_manager : AggregateError
+2024-09-10 10:30:54 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:55 am | error | db_manager : AggregateError
+2024-09-10 10:30:55 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:56 am | error | db_manager : AggregateError
+2024-09-10 10:30:56 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:57 am | error | db_manager : AggregateError
+2024-09-10 10:30:57 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:58 am | error | db_manager : AggregateError
+2024-09-10 10:30:58 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:30:59 am | error | db_manager : AggregateError
+2024-09-10 10:30:59 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:00 am | error | db_manager : AggregateError
+2024-09-10 10:31:00 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:01 am | error | db_manager : AggregateError
+2024-09-10 10:31:01 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:02 am | error | db_manager : AggregateError
+2024-09-10 10:31:02 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:03 am | error | db_manager : AggregateError
+2024-09-10 10:31:03 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:04 am | error | db_manager : AggregateError
+2024-09-10 10:31:04 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:05 am | error | db_manager : AggregateError
+2024-09-10 10:31:05 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:06 am | error | db_manager : AggregateError
+2024-09-10 10:31:06 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:07 am | error | db_manager : AggregateError
+2024-09-10 10:31:07 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:08 am | error | db_manager : AggregateError
+2024-09-10 10:31:08 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:09 am | error | db_manager : AggregateError
+2024-09-10 10:31:09 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:10 am | error | db_manager : AggregateError
+2024-09-10 10:31:10 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:11 am | error | db_manager : AggregateError
+2024-09-10 10:31:11 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:12 am | error | db_manager : AggregateError
+2024-09-10 10:31:12 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:13 am | error | db_manager : AggregateError
+2024-09-10 10:31:13 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:14 am | error | db_manager : AggregateError
+2024-09-10 10:31:14 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:15 am | error | db_manager : AggregateError
+2024-09-10 10:31:15 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:16 am | error | db_manager : AggregateError
+2024-09-10 10:31:16 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:17 am | error | db_manager : AggregateError
+2024-09-10 10:31:17 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:18 am | error | db_manager : AggregateError
+2024-09-10 10:31:18 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:19 am | error | db_manager : AggregateError
+2024-09-10 10:31:19 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:20 am | error | db_manager : AggregateError
+2024-09-10 10:31:20 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:21 am | error | db_manager : AggregateError
+2024-09-10 10:31:21 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:22 am | error | db_manager : AggregateError
+2024-09-10 10:31:22 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:23 am | error | db_manager : AggregateError
+2024-09-10 10:31:23 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:24 am | error | db_manager : AggregateError
+2024-09-10 10:31:24 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:25 am | error | db_manager : AggregateError
+2024-09-10 10:31:25 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:26 am | error | db_manager : AggregateError
+2024-09-10 10:31:26 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:27 am | error | db_manager : AggregateError
+2024-09-10 10:31:27 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:28 am | error | db_manager : AggregateError
+2024-09-10 10:31:28 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:29 am | error | db_manager : AggregateError
+2024-09-10 10:31:29 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:30 am | error | db_manager : AggregateError
+2024-09-10 10:31:30 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:31 am | error | db_manager : AggregateError
+2024-09-10 10:31:31 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:32 am | error | db_manager : AggregateError
+2024-09-10 10:31:32 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:33 am | error | db_manager : AggregateError
+2024-09-10 10:31:33 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:34 am | error | db_manager : AggregateError
+2024-09-10 10:31:34 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:35 am | error | db_manager : AggregateError
+2024-09-10 10:31:35 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:36 am | error | db_manager : AggregateError
+2024-09-10 10:31:36 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:37 am | error | db_manager : AggregateError
+2024-09-10 10:31:37 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:38 am | error | db_manager : AggregateError
+2024-09-10 10:31:38 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:39 am | error | db_manager : AggregateError
+2024-09-10 10:31:39 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:40 am | error | db_manager : AggregateError
+2024-09-10 10:31:40 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:41 am | error | db_manager : AggregateError
+2024-09-10 10:31:41 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:42 am | error | db_manager : AggregateError
+2024-09-10 10:31:42 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:43 am | error | db_manager : AggregateError
+2024-09-10 10:31:43 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:44 am | error | db_manager : AggregateError
+2024-09-10 10:31:44 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:45 am | error | db_manager : AggregateError
+2024-09-10 10:31:45 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:46 am | error | db_manager : AggregateError
+2024-09-10 10:31:46 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:47 am | error | db_manager : AggregateError
+2024-09-10 10:31:47 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:48 am | error | db_manager : AggregateError
+2024-09-10 10:31:48 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:49 am | error | db_manager : AggregateError
+2024-09-10 10:31:49 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:50 am | error | db_manager : AggregateError
+2024-09-10 10:31:50 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:51 am | error | db_manager : AggregateError
+2024-09-10 10:31:51 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:52 am | error | db_manager : AggregateError
+2024-09-10 10:31:52 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:53 am | error | db_manager : AggregateError
+2024-09-10 10:31:53 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:54 am | error | db_manager : AggregateError
+2024-09-10 10:31:54 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:55 am | error | db_manager : AggregateError
+2024-09-10 10:31:55 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:56 am | error | db_manager : AggregateError
+2024-09-10 10:31:56 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:57 am | error | db_manager : AggregateError
+2024-09-10 10:31:57 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:58 am | error | db_manager : AggregateError
+2024-09-10 10:31:58 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:31:59 am | error | db_manager : AggregateError
+2024-09-10 10:31:59 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:00 am | error | db_manager : AggregateError
+2024-09-10 10:32:00 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:01 am | error | db_manager : AggregateError
+2024-09-10 10:32:01 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:02 am | error | db_manager : AggregateError
+2024-09-10 10:32:02 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:03 am | error | db_manager : AggregateError
+2024-09-10 10:32:03 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:04 am | error | db_manager : AggregateError
+2024-09-10 10:32:04 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:05 am | error | db_manager : AggregateError
+2024-09-10 10:32:05 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:06 am | error | db_manager : AggregateError
+2024-09-10 10:32:06 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:07 am | error | db_manager : AggregateError
+2024-09-10 10:32:07 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:08 am | error | db_manager : AggregateError
+2024-09-10 10:32:08 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:09 am | error | db_manager : AggregateError
+2024-09-10 10:32:09 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:10 am | error | db_manager : AggregateError
+2024-09-10 10:32:10 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:11 am | error | db_manager : AggregateError
+2024-09-10 10:32:11 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:12 am | error | db_manager : AggregateError
+2024-09-10 10:32:12 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:13 am | error | db_manager : AggregateError
+2024-09-10 10:32:13 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:14 am | error | db_manager : AggregateError
+2024-09-10 10:32:14 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:15 am | error | db_manager : AggregateError
+2024-09-10 10:32:15 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:16 am | error | db_manager : AggregateError
+2024-09-10 10:32:16 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:17 am | error | db_manager : AggregateError
+2024-09-10 10:32:17 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:18 am | error | db_manager : AggregateError
+2024-09-10 10:32:18 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:19 am | error | db_manager : AggregateError
+2024-09-10 10:32:19 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:20 am | error | db_manager : AggregateError
+2024-09-10 10:32:20 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:21 am | error | db_manager : AggregateError
+2024-09-10 10:32:21 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:22 am | error | db_manager : AggregateError
+2024-09-10 10:32:22 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:23 am | error | db_manager : AggregateError
+2024-09-10 10:32:23 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:24 am | error | db_manager : AggregateError
+2024-09-10 10:32:24 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:25 am | error | db_manager : AggregateError
+2024-09-10 10:32:25 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:26 am | error | db_manager : AggregateError
+2024-09-10 10:32:26 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:27 am | error | db_manager : AggregateError
+2024-09-10 10:32:27 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:28 am | error | db_manager : AggregateError
+2024-09-10 10:32:28 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:29 am | error | db_manager : AggregateError
+2024-09-10 10:32:29 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:30 am | error | db_manager : AggregateError
+2024-09-10 10:32:30 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:31 am | error | db_manager : AggregateError
+2024-09-10 10:32:31 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:32 am | error | db_manager : AggregateError
+2024-09-10 10:32:32 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:33 am | error | db_manager : AggregateError
+2024-09-10 10:32:33 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:34 am | error | db_manager : AggregateError
+2024-09-10 10:32:34 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:35 am | error | db_manager : AggregateError
+2024-09-10 10:32:35 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:36 am | error | db_manager : AggregateError
+2024-09-10 10:32:36 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:37 am | error | db_manager : AggregateError
+2024-09-10 10:32:37 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:38 am | error | db_manager : AggregateError
+2024-09-10 10:32:38 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:39 am | error | db_manager : AggregateError
+2024-09-10 10:32:39 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:40 am | error | db_manager : AggregateError
+2024-09-10 10:32:40 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:41 am | error | db_manager : AggregateError
+2024-09-10 10:32:41 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:42 am | error | db_manager : AggregateError
+2024-09-10 10:32:42 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:43 am | error | db_manager : AggregateError
+2024-09-10 10:32:43 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:44 am | error | db_manager : AggregateError
+2024-09-10 10:32:44 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:45 am | error | db_manager : AggregateError
+2024-09-10 10:32:45 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:47 am | error | db_manager : AggregateError
+2024-09-10 10:32:47 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:48 am | error | db_manager : AggregateError
+2024-09-10 10:32:48 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:49 am | error | db_manager : AggregateError
+2024-09-10 10:32:49 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:50 am | error | db_manager : AggregateError
+2024-09-10 10:32:50 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:51 am | error | db_manager : AggregateError
+2024-09-10 10:32:51 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:52 am | error | db_manager : AggregateError
+2024-09-10 10:32:52 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:53 am | error | db_manager : AggregateError
+2024-09-10 10:32:53 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:54 am | error | db_manager : AggregateError
+2024-09-10 10:32:54 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:55 am | error | db_manager : AggregateError
+2024-09-10 10:32:55 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:56 am | error | db_manager : AggregateError
+2024-09-10 10:32:56 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:57 am | error | db_manager : AggregateError
+2024-09-10 10:32:57 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:58 am | error | db_manager : AggregateError
+2024-09-10 10:32:58 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:32:59 am | error | db_manager : AggregateError
+2024-09-10 10:32:59 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:00 am | error | db_manager : AggregateError
+2024-09-10 10:33:00 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:01 am | error | db_manager : AggregateError
+2024-09-10 10:33:01 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:02 am | error | db_manager : AggregateError
+2024-09-10 10:33:02 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:03 am | error | db_manager : AggregateError
+2024-09-10 10:33:03 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:04 am | error | db_manager : AggregateError
+2024-09-10 10:33:04 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:05 am | error | db_manager : AggregateError
+2024-09-10 10:33:05 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:06 am | error | db_manager : AggregateError
+2024-09-10 10:33:06 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:07 am | error | db_manager : AggregateError
+2024-09-10 10:33:07 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:08 am | error | db_manager : AggregateError
+2024-09-10 10:33:08 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:09 am | error | db_manager : AggregateError
+2024-09-10 10:33:09 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:10 am | error | db_manager : AggregateError
+2024-09-10 10:33:10 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:11 am | error | db_manager : AggregateError
+2024-09-10 10:33:11 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:12 am | error | db_manager : AggregateError
+2024-09-10 10:33:12 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:13 am | error | db_manager : AggregateError
+2024-09-10 10:33:13 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:14 am | error | db_manager : AggregateError
+2024-09-10 10:33:14 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:15 am | error | db_manager : AggregateError
+2024-09-10 10:33:15 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:16 am | error | db_manager : AggregateError
+2024-09-10 10:33:16 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:17 am | error | db_manager : AggregateError
+2024-09-10 10:33:17 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:18 am | error | db_manager : AggregateError
+2024-09-10 10:33:18 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:33:19 am | error | db_manager : AggregateError
+2024-09-10 10:33:19 am | error | db_manager : GetDeviceState : AggregateError
+2024-09-10 10:50:12 am | info | genix : Socket IO server listening on port 3000
+2024-09-10 14:28:44 pm | info | genix : Socket IO server listening on port 3000
+2024-09-10 17:28:07 pm | info | genix : Socket IO server listening on port 3000
+2024-09-10 17:38:26 pm | info | genix : Socket IO server listening on port 3000

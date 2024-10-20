@@ -1,0 +1,21 @@
+2024-07-23 16:20:21 pm | http | ::ffff:192.168.0.221 - - "POST /device HTTP/1.1" 200 14127
+
+2024-07-23 16:20:26 pm | http | ::ffff:192.168.0.221 - - "POST /api HTTP/1.1" 200 4
+
+2024-07-23 16:24:41 pm | info | Socket IO server listening on port 3000
+2024-07-23 16:26:06 pm | info | Socket IO server listening on port 3000
+2024-07-23 16:28:01 pm | info | Socket IO server listening on port 3000
+2024-07-23 16:28:54 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:29:07 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:31:26 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:32:41 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:33:31 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:33:40 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:38:28 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:41:06 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:41:11 pm | http | ::ffff:192.168.0.221 - - "POST /api HTTP/1.1" 200 4
+
+2024-07-23 16:41:12 pm | http | ::ffff:192.168.0.221 - - "POST /api HTTP/1.1" 200 4
+
+2024-07-23 16:45:13 pm | info | genix : Socket IO server listening on port 3000
+2024-07-23 16:51:47 pm | info | genix : Socket IO server listening on port 3000

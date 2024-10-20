@@ -1,0 +1,48 @@
+{
+  "name": "netro_genix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node  genix.js --delay 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "arraylist": "^0.1.0",
+    "axios": "^1.7.7",
+    "chalk": "^4.1.2",
+    "core-js": "^3.37.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-ws": "^5.0.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mqtt": "^5.7.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
+    "node-cron": "^3.0.3",
+    "node-opcua": "^2.125.0",
+    "openssl": "^2.0.0",
+    "point-in-polygon": "^1.1.0",
+    "socket.io": "^4.7.5",
+    "websocket": "^1.0.35",
+    "winston": "^3.13.1",
+    "winston-daily-rotate-file": "^5.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "nodemon": "^3.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "description": ""
+}

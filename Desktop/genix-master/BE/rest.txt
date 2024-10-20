@@ -1,0 +1,19 @@
+1. LOGIN : http://192.168.0.231:3000/login -> POST (ID, PW)
+2. DEVICE_LIST : http://192.168.0.231:3000/device -> POST
+3. DATA GATHERING RUN : http://192.168.0.231:3000/device/run -> POST
+4. DATA GATHERING STOP : http://192.168.0.231:3000/device/stop -> POST
+5. DATA GATHERING ADD : http://192.168.0.231:3000/device/addDevice -> POST (DEV_TYPE_ID, DEV_NAME, DEV_DETAIL, SEN_CNT, LOC_LATI, LOC_LONG, LOC_ADDR)
+6. DATA GATHERING DELETE : http://192.168.0.231:3000/device/deleteDevice -> POST (DEV_ID)
+7. DATA GATHERING MODIFY : http://192.168.0.231:3000/device/modifyDevice -> POST (DEV_TYPE_ID, DEV_NAME, DEV_DETAIL, SEN_CNT, LOC_LATI, LOC_LONG, LOC_ADDR, DEV_ID)
+8. GET DATA REALTIME : http://192.168.0.231:3000/device/getRealData -> POST (DEV_ID)
+
+8. USER ADD : http://192.168.0.231:3000/user/ ->
+9. USER ADD : http://192.168.0.231:3000/user/regist_user ->
+10. USER MODIFY : http://192.168.0.231:3000/user/regist_user ->
+
+/* Socket.io */
+URL : http://192.168.0.231:3000
+Event 
+1. sensorState : 1,2로 표현되며 1은 ON 2는 OFF (example: 1,1,1,2,1,1,1,1,1) (초당 1번)
+2. realtimeData : ID 1부터 실시간 데이터 초당 1번 출력 (example: 35.37,28.36,186,9.3,9.3,2.37,3.46,4.0,59.82)
+3. runState : 현재 장비 시작상태인지 체크 (example: true, false)

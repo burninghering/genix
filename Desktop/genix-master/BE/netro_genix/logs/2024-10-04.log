@@ -1,0 +1,539 @@
+2024-10-04 09:55:47 am | info | genix : Socket IO server listening on port 3000
+2024-10-04 13:38:59 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 13:48:33 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 13:48:42 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 14:05:03 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 14:22:23 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 14:22:40 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 14:22:52 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:09:46 pm | error | db_manager : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:46 pm | error | db_manager : GetDeviceState : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:47 pm | error | db_manager : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:47 pm | error | db_manager : GetDeviceState : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:48 pm | error | db_manager : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:48 pm | error | db_manager : GetDeviceState : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:49 pm | error | db_manager : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:49 pm | error | db_manager : GetDeviceState : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:50 pm | error | db_manager : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:50 pm | error | db_manager : GetDeviceState : Error: connect ECONNREFUSED 192.168.0.225:3306
+2024-10-04 15:09:59 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:09:59 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:00 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:00 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:01 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:01 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:02 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:02 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:03 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:03 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:04 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:04 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:05 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:05 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:06 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:06 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:07 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:07 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:08 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:08 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:09 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:09 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:11 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:11 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:12 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:12 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:13 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:13 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:14 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:14 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:15 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:15 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:16 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:16 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:17 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:17 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:18 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:18 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:19 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:19 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:20 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:20 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:21 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:21 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:22 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:22 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:10:23 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-10-04 15:10:23 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-10-04 15:15:45 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:17:02 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:17:05 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:22:45 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:22:57 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:25:09 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:29:24 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:30:02 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:32:36 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:40:28 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:46:20 pm | info | genix : Socket IO server listening on port 7000
+2024-10-04 15:51:17 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 15:51:29 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:02:58 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:03:26 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:03:32 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:05:46 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:05:58 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:07:53 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:15:54 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:27:49 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:27:54 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:28:13 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:28:16 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:33:09 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:48:48 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:49:10 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:51:42 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:53:11 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 29
+
+2024-10-04 16:53:49 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 29
+
+2024-10-04 16:56:06 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 16:56:12 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 29
+
+2024-10-04 17:00:44 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:01:01 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:03:51 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:16:14 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:19:53 pm | error | I'm gone
+2024-10-04 17:24:40 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:26:20 pm | error | I'm gone
+2024-10-04 17:29:17 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:29:46 pm | error | I'm gone
+2024-10-04 17:34:00 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:34:15 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:34:22 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:35:17 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:35:59 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:36:29 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:36:36 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:37:37 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:38:12 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:40:23 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:40:51 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:41:05 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:41:19 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:41:42 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:41:47 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:46:29 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 500 45
+
+2024-10-04 17:48:45 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:48:49 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:50:05 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 17:52:59 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:53:24 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 17:54:21 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:54:23 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 17:55:08 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:55:22 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:55:23 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 17:56:16 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:56:21 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | error | db_manager : SaveDummyData : undefined 
+  TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2024-10-04 17:58:39 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 18:07:38 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 18:08:37 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 18:10:43 pm | info | genix : Socket IO server listening on port 3000
+2024-10-04 18:10:47 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+
+2024-10-04 18:11:56 pm | http | ::1 - - "POST /api/saveDummyData HTTP/1.1" 200 38
+

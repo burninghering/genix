@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Client</title>
+</head>
+<body>
+    <h1>WebSocket Client</h1>
+    <div id="log"></div>
+    
+    <script>
+        function connectWebSocket() {
+            // 서버 코드에서 사용된 포트와 동일한 포트 번호로 설정합니다.
+            const socket = new WebSocket('ws://192.168.0.232:5000');
+
+            // 연결 성공 시 호출
+            socket.onopen = () => {
+                console.log('WebSocket 연결 성공');
+                document.getElementById('log').innerHTML += '<p>WebSocket 연결 성공</p>';
+            };
+
+            // 서버로부터 메시지를 받을 때 호출
+            socket.onmessage = (event) => {
+                console.log('서버로부터 받은 메시지:', event.data);
+                document.getElementById('log').innerHTML += `<p>서버로부터 받은 메시지: ${event.data}</p>`;
+            };
+
+            // 연결이 닫혔을 때 호출 - 재연결 시도
+            socket.onclose = () => {
+                console.log('WebSocket 연결이 닫힘. 재연결 시도 중...');
+                document.getElementById('log').innerHTML += '<p>WebSocket 연결이 닫힘. 재연결 시도 중...</p>';
+                setTimeout(connectWebSocket, 3000); // 3초 후 재연결 시도
+            };
+
+            // 에러 발생 시 호출
+            socket.onerror = (error) => {
+                console.error('WebSocket 에러 발생:', error);
+                document.getElementById('log').innerHTML += '<p>WebSocket 에러 발생</p>';
+            };
+        }
+
+        // 웹소켓 연결 시작
+        connectWebSocket();
+    </script>
+</body>
+</html>

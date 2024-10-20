@@ -1,0 +1,38 @@
+2024-08-07 14:40:37 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:40:38 pm | http | ::ffff:192.168.0.221 - - "POST /device/insertSensor HTTP/1.1" 500 17
+
+2024-08-07 14:41:34 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:41:48 pm | http | ::ffff:192.168.0.221 - - "POST /device/insertSensor HTTP/1.1" 500 17
+
+2024-08-07 14:42:17 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:42:23 pm | http | ::ffff:192.168.0.221 - - "POST /device/insertSensor HTTP/1.1" 200 7
+
+2024-08-07 14:42:23 pm | error | I'm gone
+2024-08-07 14:42:38 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:44:00 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:44:04 pm | error | I'm gone
+2024-08-07 14:44:22 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:44:24 pm | http | ::ffff:192.168.0.221 - - "POST /device/insertSensor HTTP/1.1" 200 7
+
+2024-08-07 14:44:24 pm | error | I'm gone
+2024-08-07 14:44:39 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:44:47 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 14:44:56 pm | http | ::ffff:192.168.0.221 - - "POST /device/insertSensor HTTP/1.1" 200 7
+
+2024-08-07 14:45:33 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 16:39:18 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 16:44:43 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 16:45:07 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 16:46:11 pm | http | ::ffff:192.168.0.221 - - "POST /device/updateSensor HTTP/1.1" 200 7
+
+2024-08-07 18:17:20 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 18:49:28 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 18:49:55 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 18:55:44 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 18:55:51 pm | http | ::ffff:192.168.0.221 - - "POST /device/updateSensor HTTP/1.1" 500 17
+
+2024-08-07 18:56:05 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 18:56:08 pm | info | genix : Socket IO server listening on port 3000
+2024-08-07 18:56:09 pm | http | ::ffff:192.168.0.221 - - "POST /device/updateSensor HTTP/1.1" 500 17
+
+2024-08-07 18:56:46 pm | info | genix : Socket IO server listening on port 3000

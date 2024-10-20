@@ -1,0 +1,42 @@
+2024-10-14 15:07:21 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean/6 HTTP/1.1" 404 55
+
+2024-10-14 15:07:24 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean/1 HTTP/1.1" 200 155
+
+2024-10-14 15:07:24 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean HTTP/1.1" 404 152
+
+2024-10-14 15:07:27 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean/1 HTTP/1.1" 304 -
+
+2024-10-14 15:07:33 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean/2 HTTP/1.1" 200 156
+
+2024-10-14 15:08:36 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 200 157
+
+2024-10-14 15:08:36 pm | http | ::ffff:192.168.0.232 - - "GET /favicon.ico HTTP/1.1" 404 150
+
+2024-10-14 15:09:07 pm | http | ::ffff:192.168.0.227 - - "GET /service/ocean/1 HTTP/1.1" 200 155
+
+2024-10-14 15:09:47 pm | http | ::ffff:192.168.0.227 - - "GET /service/vessel/1 HTTP/1.1" 200 157
+
+2024-10-14 15:12:05 pm | http | ::ffff:192.168.0.232 - - "GET /favicon.ico HTTP/1.1" 404 150
+
+2024-10-14 16:09:19 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean/2 HTTP/1.1" 200 156
+
+2024-10-14 16:19:15 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean/2 HTTP/1.1" 200 156
+
+2024-10-14 17:57:55 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 200 174
+
+2024-10-14 17:57:57 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-14 17:57:57 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-14 17:58:00 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/1 HTTP/1.1" 304 -
+
+2024-10-14 17:58:05 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/2 HTTP/1.1" 200 174
+
+2024-10-14 17:58:59 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/2 HTTP/1.1" 200 159
+
+2024-10-14 17:59:01 pm | http | ::ffff:192.168.0.232 - - "GET /service/vessel/2 HTTP/1.1" 304 -
+
+2024-10-14 17:59:07 pm | http | ::ffff:192.168.0.232 - - "GET /service/ocean/2 HTTP/1.1" 200 156
+
+2024-10-14 17:59:19 pm | http | ::ffff:192.168.0.232 - - "GET /service/air/2 HTTP/1.1" 200 270
+
