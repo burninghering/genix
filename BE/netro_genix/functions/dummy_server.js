@@ -162,7 +162,6 @@ async function handleBuoyData(data) {
   }
 }
 
-// 선박 데이터 처리 함수
 async function handleVesselData(data) {
   const { id, rcv_datetime, lati, longi, speed, course, azimuth } = data
   const sensorNames = [
@@ -175,11 +174,21 @@ async function handleVesselData(data) {
   ]
   const sensorValues = [rcv_datetime, lati, longi, speed, course, azimuth]
 
-  for (let i = 0; i < sensorNames.length; i++) {
-    const sensorValue = sensorValues[i] === undefined ? null : sensorValues[i] // undefined를 null로 변환
-    await db_manager.SaveVesselSysSensor(id, i + 1, sensorNames[i])
-    await db_manager.SaveVesselLogData(id, i + 1, sensorValue)
-  }
+  // 센서 데이터 처리를 병렬로 수행
+  const savePromises = sensorNames.map(async (sensorName, index) => {
+    const sensorValue =
+      sensorValues[index] === undefined ? null : sensorValues[index]
+    try {
+      // 병렬로 SaveVesselSysSensor 및 SaveVesselLogData 저장 처리
+      await db_manager.SaveVesselSysSensor(id, index + 1, sensorName)
+      await db_manager.SaveVesselLogData(id, index + 1, sensorValue)
+    } catch (error) {
+      console.error(`Error processing sensor data for ${sensorName}:`, error)
+    }
+  })
+
+  // 모든 병렬 작업이 완료될 때까지 대기
+  await Promise.all(savePromises)
 }
 
 // <!-- 시나리오 -->

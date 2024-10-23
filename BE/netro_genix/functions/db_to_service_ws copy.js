@@ -7,7 +7,6 @@ const pool = mysql.createPool({
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
-  //   port: 7306,
   waitForConnections: true,
   connectionLimit: 1000,
   queueLimit: 0,
@@ -131,7 +130,7 @@ wss.on("connection", (ws) => {
           ws.send(JSON.stringify({ data: vesselData }))
         }
 
-        // 5초마다 데이터 전송
+        // 1초마다 데이터 전송
         interval = setInterval(async () => {
           try {
             const vesselData = await fetchVesselData()
@@ -140,6 +139,7 @@ wss.on("connection", (ws) => {
             } else {
               ws.send(JSON.stringify({ data: vesselData }))
             }
+            console.log("a")
           } catch (error) {
             console.error(
               "Error during interval vessel data fetch:",
@@ -324,14 +324,14 @@ async function fetchVesselData() {
     const [vesselData] = await connection.query(`
       SELECT v.dev_id, s.sen_name, v.sen_value, v.log_datetime
       FROM example_vessel_log_data_latest v
-      LEFT JOIN example_vessel_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
+      LEFT JOIN example_vessel_sys_sensor_latest s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
       ORDER BY v.dev_id DESC
     `)
 
     // vesselData가 제대로 반환되지 않으면 에러를 로그로 출력
     if (!vesselData || vesselData.length === 0) {
       console.error("No vessel data returned")
-      return [] // 빈 배열 반환
+      return []
     }
 
     const results = []
@@ -349,28 +349,26 @@ async function fetchVesselData() {
         azimuth: null,
       }
 
-      vesselData.forEach((item) => {
-        if (item.dev_id === devId) {
-          result.log_datetime = item.log_datetime // 최신 데이터의 로그 시간
-          const randomSeconds = Math.floor(Math.random() * 3) + 1
-          result.rcv_datetime = addSecondsToDate(
-            result.log_datetime,
-            randomSeconds
-          ) // 수신 시간 계산
+      //   vesselData.forEach((item) => {
+      //     if (item.dev_id === devId) {
+      //       result.log_datetime = item.log_datetime // 최신 데이터의 로그 시간
+      //       const randomSeconds = Math.floor(Math.random() * 3) + 1
+      //       result.rcv_datetime = addSecondsToDate(
+      //         result.log_datetime,
+      //         randomSeconds
+      //       ) // 수신 시간 계산
 
-          // 센서 이름이 'lati' 또는 'latitude'인 경우 처리
-          if (item.sen_name) {
-            const senName = item.sen_name.toLowerCase()
-            const senValue = parseFloat(item.sen_value)
-
-            if (senName === "lati" || senName === "latitude") {
-              result.lati = senValue
-            } else {
-              result[senName] = senValue
-            }
-          }
-        }
-      })
+      //       // 센서 이름이 'lati' 또는 'latitude'인 경우 처리
+      //       if (
+      //         item.sen_name.toLowerCase() === "lati" ||
+      //         item.sen_name.toLowerCase() === "latitude"
+      //       ) {
+      //         result.lati = parseFloat(item.sen_value)
+      //       } else {
+      //         result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value)
+      //       }
+      //     }
+      //   })
 
       results.push(result)
     }

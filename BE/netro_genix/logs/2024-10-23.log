@@ -1,0 +1,114 @@
+2024-10-23 17:23:30 pm | http | 192.168.0.224 - - "GET /service/air/1 HTTP/1.1" 200 269
+
+2024-10-23 17:23:30 pm | http | 192.168.0.224 - - "GET /favicon.ico HTTP/1.1" 404 150
+
+2024-10-23 17:24:53 pm | http | 192.168.0.224 - - "GET /service/ocean/1 HTTP/1.1" 200 155
+
+2024-10-23 17:30:05 pm | http | 192.168.0.224 - - "GET /service/vessel/100 HTTP/1.1" 404 57
+
+2024-10-23 17:30:18 pm | http | 192.168.0.224 - - "GET /service/vessel/10 HTTP/1.1" - -
+
+2024-10-23 17:30:18 pm | http | 192.168.0.224 - - "GET /service/vessel/11 HTTP/1.1" 404 56
+
+2024-10-23 18:32:19 pm | http | 192.168.0.224 - - "GET /vessel/100 HTTP/1.1" 404 149
+
+2024-10-23 18:32:24 pm | http | 192.168.0.224 - - "GET /vessel/19 HTTP/1.1" 404 148
+
+2024-10-23 18:32:26 pm | http | 192.168.0.224 - - "GET /vessel/1 HTTP/1.1" 404 147
+
+2024-10-23 18:32:50 pm | http | 192.168.0.224 - - "GET /service/vessel/1 HTTP/1.1" - -
+
+2024-10-23 18:32:52 pm | http | 192.168.0.224 - - "GET /service/vessel/100 HTTP/1.1" - -
+
+2024-10-23 18:32:56 pm | http | 192.168.0.224 - - "GET /service/vessel/100 HTTP/1.1" 200 151
+
+2024-10-23 18:32:57 pm | http | 192.168.0.224 - - "GET /service/vessel/101 HTTP/1.1" 404 57
+
+2024-10-23 18:33:02 pm | http | 192.168.0.224 - - "GET /service/vessel/100 HTTP/1.1" 200 151
+
+2024-10-23 18:38:04 pm | http | 192.168.0.23 - - "GET /service/vessel/1 HTTP/1.1" 200 150
+
+2024-10-23 19:15:43 pm | http | 192.168.0.232 - - "GET /scenario/air/1 HTTP/1.1" 200 269
+
+2024-10-23 19:15:49 pm | http | 192.168.0.232 - - "GET /service/air HTTP/1.1" 404 150
+
+2024-10-23 19:16:12 pm | http | 192.168.0.232 - - "GET /service/air HTTP/1.1" 200 7834
+
+2024-10-23 19:17:35 pm | http | 192.168.0.232 - - "GET /service/ocean HTTP/1.1" 200 1414
+
+2024-10-23 19:19:22 pm | http | 192.168.0.232 - - "GET /service/ocean HTTP/1.1" 200 1414
+
+2024-10-23 19:19:47 pm | http | 192.168.0.232 - - "GET /service/air HTTP/1.1" - -
+
+2024-10-23 19:19:50 pm | http | 192.168.0.232 - - "GET /service/air HTTP/1.1" 200 1281
+
+2024-10-23 19:22:39 pm | http | 192.168.0.232 - - "GET /service/air HTTP/1.1" 200 1283
+
+2024-10-23 19:22:41 pm | http | 192.168.0.232 - - "GET /service/ocean HTTP/1.1" 200 304
+
+2024-10-23 19:24:04 pm | http | 192.168.0.232 - - "GET /service/vessel/ HTTP/1.1" 200 15975
+
+2024-10-23 19:24:48 pm | http | 192.168.0.232 - - "GET /service/vessel HTTP/1.1" 200 15975
+
+2024-10-23 19:24:49 pm | http | 192.168.0.232 - - "GET /favicon.ico HTTP/1.1" 404 150
+
+2024-10-23 19:25:18 pm | http | 192.168.0.224 - - "GET /service/vessel HTTP/1.1" 200 15975
+
+2024-10-23 19:25:24 pm | http | 192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:25:33 pm | http | 192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:25:47 pm | http | 192.168.0.224 - - "GET /service/vessel HTTP/1.1" 200 15975
+
+2024-10-23 19:25:49 pm | http | 192.168.0.224 - - "GET /service/ocean HTTP/1.1" 304 -
+
+2024-10-23 19:27:04 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:27:04 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:27:04 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:27:04 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:27:17 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:27:17 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:27:17 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:27:17 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:27:31 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:27:31 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:27:32 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:27:32 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:27:38 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:27:38 pm | http | 192.168.0.23 - - "GET /favicon.ico HTTP/1.1" 404 150
+
+2024-10-23 19:27:48 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:27:51 pm | http | 192.168.0.23 - - "GET /service/vessel HTTP/1.1" 200 15975
+
+2024-10-23 19:28:28 pm | http | 192.168.0.23 - - "GET /service/vessel HTTP/1.1" 200 15975
+
+2024-10-23 19:28:32 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:28:32 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:29:32 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
+2024-10-23 19:29:32 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:29:59 pm | http | 192.168.0.232 - - "GET /service/vessel HTTP/1.1" 200 15975
+
+2024-10-23 19:29:59 pm | http | 192.168.0.232 - - "GET /favicon.ico HTTP/1.1" 404 150
+
+2024-10-23 19:30:35 pm | http | 192.168.0.23 - - "GET /service/ocean HTTP/1.1" 200 306
+
+2024-10-23 19:30:35 pm | http | 192.168.0.23 - - "GET /service/air HTTP/1.1" 200 1279
+
