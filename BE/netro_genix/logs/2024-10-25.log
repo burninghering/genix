@@ -1,0 +1,28 @@
+2024-10-25 09:08:32 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1273
+
+2024-10-25 09:08:32 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 305
+
+2024-10-25 09:08:34 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 305
+
+2024-10-25 09:08:34 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1273
+
+2024-10-25 09:09:34 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 305
+
+2024-10-25 09:09:34 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1273
+
+2024-10-25 09:10:19 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1273
+
+2024-10-25 09:10:19 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 305
+
+2024-10-25 09:10:21 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 305
+
+2024-10-25 09:10:21 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1273
+
+2024-10-25 09:12:41 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1273
+
+2024-10-25 09:12:41 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 305
+
+2024-10-25 09:12:43 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 305
+
+2024-10-25 09:12:43 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 1273
+

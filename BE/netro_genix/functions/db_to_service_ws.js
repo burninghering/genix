@@ -7,7 +7,6 @@ const pool = mysql.createPool({
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
-  //   port: 7306,
   waitForConnections: true,
   connectionLimit: 1000,
   queueLimit: 0,
@@ -119,39 +118,101 @@ wss.on("connection", (ws) => {
         console.error("Error fetching ocean data", error)
         ws.send(JSON.stringify({ error: "Error fetching ocean data" }))
       }
-    }
-
-    // 선박 데이터 처리
-    else if (request.data === "vessel") {
+    } else if (request.data === "vessel") {
       try {
-        const vesselData = await fetchVesselData()
+        let vesselData = await fetchVesselData()
         if (vesselData.length === 0) {
           ws.send(JSON.stringify({ error: "No vessel data found" }))
         } else {
-          ws.send(JSON.stringify({ data: vesselData }))
-        }
+          // 첫 번째 50개 데이터를 전송
+          const firstHalf = vesselData.slice(0, 50)
+          const secondHalf = vesselData.slice(50, 100)
 
-        // 5초마다 데이터 전송
-        interval = setInterval(async () => {
-          try {
-            const vesselData = await fetchVesselData()
-            if (vesselData.length === 0) {
-              ws.send(JSON.stringify({ error: "No vessel data found" }))
-            } else {
-              ws.send(JSON.stringify({ data: vesselData }))
+          // 50번과 51번 devId의 rcv_datetime 값 강제 수정
+          firstHalf.forEach((data) => {
+            if (data.id === 50) {
+              console.log(
+                `Before fixing, devId ${data.id} has rcv_datetime:`,
+                data.rcv_datetime
+              )
+              data.rcv_datetime = data.log_datetime // log_datetime을 강제로 넣음
+              console.log(
+                `After fixing, devId ${data.id} has rcv_datetime:`,
+                data.rcv_datetime
+              )
             }
-          } catch (error) {
-            console.error(
-              "Error during interval vessel data fetch:",
-              error.message
-            )
-            ws.send(
-              JSON.stringify({
-                error: "Error fetching vessel data during interval",
-              })
-            )
-          }
-        }, 1000)
+          })
+
+          secondHalf.forEach((data) => {
+            if (data.id === 51) {
+              console.log(
+                `Before fixing, devId ${data.id} has rcv_datetime:`,
+                data.rcv_datetime
+              )
+              data.rcv_datetime = data.log_datetime // log_datetime을 강제로 넣음
+              console.log(
+                `After fixing, devId ${data.id} has rcv_datetime:`,
+                data.rcv_datetime
+              )
+            }
+          })
+
+          // 첫 번째 50개의 데이터를 바로 전송
+          ws.send(JSON.stringify({ data: firstHalf }))
+          console.log("Sent first 50 vessel data")
+
+          // 0.5초 후에 나머지 50개의 데이터를 전송
+          setTimeout(() => {
+            ws.send(JSON.stringify({ data: secondHalf }))
+            console.log("Sent second 50 vessel data")
+          }, 500) // 0.5초 딜레이
+
+          // 이후 반복적으로 5초마다 데이터 전송
+          interval = setInterval(async () => {
+            try {
+              let vesselData = await fetchVesselData()
+              if (vesselData.length === 0) {
+                ws.send(JSON.stringify({ error: "No vessel data found" }))
+              } else {
+                const firstHalf = vesselData.slice(0, 50)
+                const secondHalf = vesselData.slice(50, 100)
+
+                // 50번과 51번 devId의 rcv_datetime 값 강제 수정
+                firstHalf.forEach((data) => {
+                  if (data.id === 50) {
+                    data.rcv_datetime = data.log_datetime
+                  }
+                })
+
+                secondHalf.forEach((data) => {
+                  if (data.id === 51) {
+                    data.rcv_datetime = data.log_datetime
+                  }
+                })
+
+                // 첫 번째 50개의 데이터를 전송
+                ws.send(JSON.stringify({ data: firstHalf }))
+                console.log("Sent first 50 vessel data")
+
+                // 0.5초 후에 나머지 50개의 데이터를 전송
+                setTimeout(() => {
+                  ws.send(JSON.stringify({ data: secondHalf }))
+                  console.log("Sent second 50 vessel data")
+                }, 5000) // 0.5초 딜레이
+              }
+            } catch (error) {
+              console.error(
+                "Error during interval vessel data fetch:",
+                error.message
+              )
+              ws.send(
+                JSON.stringify({
+                  error: "Error fetching vessel data during interval",
+                })
+              )
+            }
+          }, 1000) // 1초마다 반복
+        }
       } catch (error) {
         console.error("Error fetching vessel data:", error.message)
         ws.send(JSON.stringify({ error: "Error fetching vessel data" }))
@@ -219,10 +280,10 @@ async function fetchAirData() {
     const [airData] = await connection.query(`
             SELECT a.dev_id, DATE_FORMAT(a.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, s.sen_name, a.sen_value
             FROM example_air_log_data a
-            LEFT JOIN example_air_sys_sensor s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
+            LEFT JOIN example_air_sys_sensor_latest s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
             WHERE (a.dev_id, a.log_datetime) IN (
                 SELECT dev_id, MAX(log_datetime) AS latest_log_datetime
-                FROM example_air_log_data
+                FROM example_air_log_data_latest
                 WHERE dev_id BETWEEN 1 AND 5
                 GROUP BY dev_id
             )
@@ -275,8 +336,8 @@ async function fetchOceanData() {
   try {
     const [oceanData] = await connection.query(`
             SELECT o.dev_id, DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, s.sen_name, o.sen_value
-            FROM example_ocean_log_data o
-            LEFT JOIN example_ocean_sys_sensor s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
+            FROM example_ocean_log_data_latest o
+            LEFT JOIN example_ocean_sys_sensor_latest s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
             WHERE (o.dev_id, o.log_datetime) IN (
                 SELECT dev_id, MAX(log_datetime) AS latest_log_datetime
                 FROM example_ocean_log_data
@@ -320,18 +381,17 @@ async function fetchOceanData() {
 async function fetchVesselData() {
   const connection = await getConnection()
   try {
-    // 각 선박에 대해 최신 데이터를 가져오는 쿼리
+    // 선박 데이터를 가져오는 쿼리
     const [vesselData] = await connection.query(`
       SELECT v.dev_id, s.sen_name, v.sen_value, v.log_datetime
       FROM example_vessel_log_data_latest v
-      LEFT JOIN example_vessel_sys_sensor s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
+      LEFT JOIN example_vessel_sys_sensor_latest s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
       ORDER BY v.dev_id DESC
     `)
 
-    // vesselData가 제대로 반환되지 않으면 에러를 로그로 출력
     if (!vesselData || vesselData.length === 0) {
       console.error("No vessel data returned")
-      return [] // 빈 배열 반환
+      return []
     }
 
     const results = []
@@ -351,18 +411,28 @@ async function fetchVesselData() {
 
       vesselData.forEach((item) => {
         if (item.dev_id === devId) {
-          result.log_datetime = item.log_datetime // 최신 데이터의 로그 시간
+          result.log_datetime = item.log_datetime
           const randomSeconds = Math.floor(Math.random() * 3) + 1
           result.rcv_datetime = addSecondsToDate(
             result.log_datetime,
             randomSeconds
-          ) // 수신 시간 계산
+          )
 
-          // 센서 이름이 'lati' 또는 'latitude'인 경우 처리
-          if (item.sen_name) {
-            const senName = item.sen_name.toLowerCase()
+          // 50번과 51번 devId의 rcv_datetime 값 확인
+          if (devId === 50 || devId === 51) {
+            console.log(
+              `Before fixing, devId ${devId} has rcv_datetime:`,
+              result.rcv_datetime
+            )
+            result.rcv_datetime = result.log_datetime // 강제로 log_datetime 값을 넣음
+            console.log(
+              `After fixing, devId ${devId} has rcv_datetime:`,
+              result.rcv_datetime
+            )
+          }
+          const senName = item.sen_name?.toLowerCase()
+          if (senName) {
             const senValue = parseFloat(item.sen_value)
-
             if (senName === "lati" || senName === "latitude") {
               result.lati = senValue
             } else {
@@ -377,12 +447,23 @@ async function fetchVesselData() {
 
     return results
   } catch (error) {
-    // 에러 발생 시 에러 메시지를 콘솔에 출력
     console.error("Error fetching vessel data:", error.message)
-    return [] // 에러가 발생해도 빈 배열 반환
+    return []
   } finally {
     connection.release()
   }
+}
+
+function splitAndSendData(ws, vesselData) {
+  // 1~50 데이터를 먼저 보냄
+  const firstChunk = vesselData.slice(0, 50)
+  ws.send(JSON.stringify({ data: firstChunk }))
+
+  // 0.5초 후에 51~100 데이터를 보냄
+  setTimeout(() => {
+    const secondChunk = vesselData.slice(50, 100)
+    ws.send(JSON.stringify({ data: secondChunk }))
+  }, 500) // 0.5초 딜레이
 }
 
 // <-- 시나리오 -->
