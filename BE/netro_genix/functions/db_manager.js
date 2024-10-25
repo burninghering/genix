@@ -22,37 +22,38 @@ const pool = mysql.createPool({
 const netroEvent = new EventEmitter()
 
 // example_air_sys_sensor 테이블에 데이터 저장
-async function SaveDummyData(devId, senId, senName) {
+async function SaveDummyData(
+  devId,
+  senId,
+  senName,
+  idVluType,
+  dftValue,
+  maxValue,
+  minValue,
+  unit
+) {
   let connection
   try {
     connection = await pool.getConnection()
 
-    // 최신 데이터가 존재하는지 확인
-    const [rows] = await connection.execute(
-      `SELECT 1 FROM example_air_sys_sensor_latest WHERE DEV_ID = ? AND SEN_ID = ?`,
-      [devId, senId]
-    )
+    // 프로시저 호출을 통해 데이터 저장 또는 업데이트
+    const sql = `
+      CALL SaveOrUpdateAirSysSensor(?, ?, ?, ?, ?, ?, ?, ?)
+    `
 
-    if (rows.length > 0) {
-      // 존재하면 업데이트
-      const updateSql = `
-        UPDATE example_air_sys_sensor_latest
-        SET SEN_NAME = ?
-        WHERE DEV_ID = ? AND SEN_ID = ?`
-      await connection.execute(updateSql, [senName, devId, senId])
-    } else {
-      // 존재하지 않으면 새 데이터를 삽입
-      const insertSql = `
-        INSERT INTO example_air_sys_sensor_latest (DEV_ID, SEN_ID, SEN_NAME)
-        VALUES (?, ?, ?)`
-      await connection.execute(insertSql, [devId, senId, senName])
-    }
+    // 프로시저에 필요한 매개변수 전달
+    await connection.execute(sql, [
+      devId,
+      senId,
+      senName,
+      idVluType,
+      dftValue,
+      maxValue,
+      minValue,
+      unit,
+    ])
 
-    // 로그 테이블에 새 데이터를 삽입
-    const logSql = `
-      INSERT INTO example_air_sys_sensor (DEV_ID, SEN_ID, SEN_NAME)
-      VALUES (?, ?, ?)`
-    await connection.execute(logSql, [devId, senId, senName])
+    // 로그 테이블에 새 데이터를 삽입 (프로시저 안에서 처리되므로 생략 가능)
   } catch (error) {
     console.error("Error saving or updating data:", error)
     throw error
@@ -133,7 +134,6 @@ async function SaveOceanLogData(devId, senId, sensorValue) {
   }
 }
 
-// example_vessel_sys_sensor_latest 및 example_vessel_sys_sensor 테이블에 데이터 저장 또는 업데이트
 async function SaveVesselSysSensor(
   devId,
   senId,
@@ -156,50 +156,9 @@ async function SaveVesselSysSensor(
     minValue = minValue || null
     unit = unit || null
 
-    // 최신 데이터가 존재하는지 확인
-    const [rows] = await connection.execute(
-      `SELECT 1 FROM example_vessel_sys_sensor_latest WHERE DEV_ID = ? AND SEN_ID = ?`,
-      [devId, senId]
-    )
-
-    if (rows.length > 0) {
-      // 존재하면 업데이트
-      const updateSql = `
-        UPDATE example_vessel_sys_sensor_latest
-        SET SEN_NAME = ?, ID_VLU_TYPE = ?, DFT_VALUE = ?, MAX_VALUE = ?, MIN_VALUE = ?, UNIT = ?
-        WHERE DEV_ID = ? AND SEN_ID = ?`
-      await connection.execute(updateSql, [
-        senName,
-        idVluType,
-        dftValue,
-        maxValue,
-        minValue,
-        unit,
-        devId,
-        senId,
-      ])
-    } else {
-      // 존재하지 않으면 새 데이터를 삽입
-      const insertSql = `
-        INSERT INTO example_vessel_sys_sensor_latest (DEV_ID, SEN_ID, SEN_NAME, ID_VLU_TYPE, DFT_VALUE, MAX_VALUE, MIN_VALUE, UNIT)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
-      await connection.execute(insertSql, [
-        devId,
-        senId,
-        senName,
-        idVluType,
-        dftValue,
-        maxValue,
-        minValue,
-        unit,
-      ])
-    }
-
-    // 로그 테이블에 새 데이터를 삽입
-    const logInsertSql = `
-      INSERT INTO example_vessel_sys_sensor (DEV_ID, SEN_ID, SEN_NAME, ID_VLU_TYPE, DFT_VALUE, MAX_VALUE, MIN_VALUE, UNIT)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
-    await connection.execute(logInsertSql, [
+    // 저장 프로시저 호출
+    const sql = `CALL SaveOrUpdateVesselSysSensor(?, ?, ?, ?, ?, ?, ?, ?)`
+    await connection.execute(sql, [
       devId,
       senId,
       senName,
