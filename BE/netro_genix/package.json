@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.24.7",
-    "@babel/node": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
     "arraylist": "^0.1.0",
     "axios": "^1.7.7",
@@ -40,6 +39,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.24.7",
+    "@babel/node": "^7.26.0",
     "nodemon": "^3.1.7",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"

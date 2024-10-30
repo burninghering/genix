@@ -8,7 +8,7 @@ const pool = mysql.createPool({
   password: "netro9888!",
   database: "netro_data_platform",
   waitForConnections: true,
-  connectionLimit: 1000,
+  connectionLimit: 10,
   queueLimit: 0,
 })
 
@@ -17,7 +17,7 @@ async function getConnection() {
   return pool.getConnection()
 }
 
-wss = new WebSocket.Server({ port: 8081 })
+wss = new WebSocket.Server({ port: 8082 })
 
 wss.on("connection", (ws) => {
   console.log("Client connected")
@@ -82,7 +82,7 @@ wss.on("connection", (ws) => {
         const airData = await fetchAirData()
         ws.send(JSON.stringify({ data: airData }))
 
-        // 10초마다 데이터 전송
+        // 5초마다 데이터 전송
         interval = setInterval(async () => {
           try {
             const airData = await fetchAirData()
@@ -91,7 +91,7 @@ wss.on("connection", (ws) => {
             console.error("Error fetching air data", error)
             ws.send(JSON.stringify({ error: "Error fetching air data" }))
           }
-        }, 10000)
+        }, 5000)
       } catch (error) {
         console.error("Error fetching air data", error)
         ws.send(JSON.stringify({ error: "Error fetching air data" }))
@@ -104,7 +104,7 @@ wss.on("connection", (ws) => {
         const oceanData = await fetchOceanData()
         ws.send(JSON.stringify({ data: oceanData }))
 
-        // 10초마다 데이터 전송
+        // 5초마다 데이터 전송
         interval = setInterval(async () => {
           try {
             const oceanData = await fetchOceanData()
@@ -113,7 +113,7 @@ wss.on("connection", (ws) => {
             console.error("Error fetching ocean data", error)
             ws.send(JSON.stringify({ error: "Error fetching ocean data" }))
           }
-        }, 10000)
+        }, 5000)
       } catch (error) {
         console.error("Error fetching ocean data", error)
         ws.send(JSON.stringify({ error: "Error fetching ocean data" }))
@@ -200,7 +200,7 @@ wss.on("connection", (ws) => {
 
                 // 100개의 데이터를 전송 (반복 전송)
                 splitAndSendData(ws, vesselData)
-                console.log("Sent 100 vessel data")
+                // console.log("Sent 100 vessel data")
               }
             } catch (error) {
               console.error(
@@ -423,15 +423,15 @@ async function fetchVesselData() {
 
           // 50번과 51번 devId의 rcv_datetime 값 확인
           if (devId === 50 || devId === 51) {
-            console.log(
-              `Before fixing, devId ${devId} has rcv_datetime:`,
-              result.rcv_datetime
-            )
+            // console.log(
+            //   `Before fixing, devId ${devId} has rcv_datetime:`,
+            //   result.rcv_datetime
+            // )
             result.rcv_datetime = result.log_datetime // 강제로 log_datetime 값을 넣음
-            console.log(
-              `After fixing, devId ${devId} has rcv_datetime:`,
-              result.rcv_datetime
-            )
+            // console.log(
+            //   `After fixing, devId ${devId} has rcv_datetime:`,
+            //   result.rcv_datetime
+            // )
           }
           const senName = item.sen_name?.toLowerCase()
           if (senName) {
@@ -482,11 +482,11 @@ function splitAndSendData(ws, vesselData) {
       for (let i = 0; i < totalChunks - 1; i++) {
         const chunk = vesselData.slice(i * chunkSize, (i + 1) * chunkSize)
         if (chunk.length > 0) {
-          console.log(
-            "보내는 문자열 사이즈는 :::::::" +
-              Buffer.byteLength(JSON.stringify({ topic: i + 1, data: chunk })),
-            "uft-8"
-          )
+          // console.log(
+          //   "보내는 문자열 사이즈는 :::::::" +
+          //     Buffer.byteLength(JSON.stringify({ topic: i + 1, data: chunk })),
+          //   "uft-8"
+          // )
           ws.send(JSON.stringify({ topic: i + 1, data: chunk }))
         }
       }

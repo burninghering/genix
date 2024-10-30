@@ -7,14 +7,13 @@ const dbConfig = {
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
-  //   port: 7306,
 }
 
 // 커넥션 풀 생성
 const pool = mysql.createPool({
   ...dbConfig,
   waitForConnections: true,
-  connectionLimit: 100, // 동시에 사용할 수 있는 최대 연결 수
+  connectionLimit: 10, // 동시에 사용할 수 있는 최대 연결 수
   queueLimit: 0, // 대기 중인 연결 요청 제한 없음
 })
 

@@ -8,7 +8,7 @@ const pool = mysql.createPool({
   password: "netro9888!",
   database: "netro_data_platform",
   waitForConnections: true,
-  connectionLimit: 1000,
+  connectionLimit: 10,
   queueLimit: 0,
 })
 
