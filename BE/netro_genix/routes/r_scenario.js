@@ -59,7 +59,7 @@ router.get("/air/:id", async (req, res) => {
       no2: null,
       o3: null,
       co: null,
-      vocs: null,
+      voc: null,
       h2s: null,
       nh3: null,
       ou: null,

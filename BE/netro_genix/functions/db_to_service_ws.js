@@ -17,7 +17,7 @@ async function getConnection() {
   return pool.getConnection()
 }
 
-wss = new WebSocket.Server({ port: 8082 })
+const wss = new WebSocket.Server({ port: 8082 })
 
 wss.on("connection", (ws) => {
   console.log("Client connected")
@@ -595,3 +595,9 @@ function addSecondsToDate(datetimeString, secondsToAdd) {
   date.setSeconds(date.getSeconds() - secondsToAdd)
   return formatDateToYYYYMMDDHHMMSS(date)
 }
+
+function startWebSocketServer() {
+  console.log("WebSocket server is running on port 8082")
+}
+
+module.exports = startWebSocketServer

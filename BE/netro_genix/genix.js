@@ -7,6 +7,7 @@ import r_device from "./routes/r_device.js"
 import r_user from "./routes/r_user.js"
 import r_api from "./routes/r_api.js"
 import r_scenario from "./routes/r_scenario.js"
+import r_service from "./routes/r_service.js"
 import http from "http"
 import https from "https"
 import cron from "node-cron"
@@ -18,7 +19,7 @@ import fs from "fs"
 import { morganMiddleware } from "./utils/morganMiddleware.js"
 import { logger } from "./utils/winston.js"
 
-import r_service from "./routes/r_service.js" // r_service 파일을 불러옵니다.
+const startWebSocketServer = require("./functions/db_to_service_ws.js")
 
 // Express 앱 생성
 const app = express()
@@ -93,6 +94,9 @@ process.on("exit", (code) => {
     logger.error({ exitCode: code, message: "I'm gone", timestamp: new Date() })
   }
 })
+
+// WebSocket 서버 실행 (db_to_service_ws)
+startWebSocketServer()
 
 // 서버 설정: 특정 IP와 포트에서 서버를 실행
 app.listen(3000, () => {
