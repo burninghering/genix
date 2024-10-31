@@ -281,19 +281,19 @@ async function fetchAirData() {
   try {
     const [airData] = await connection.query(`
             SELECT a.dev_id, DATE_FORMAT(a.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, s.sen_name, a.sen_value
-            FROM example_air_log_data a
+            FROM example_air_log_data_latest a
             LEFT JOIN example_air_sys_sensor_latest s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
             WHERE (a.dev_id, a.log_datetime) IN (
                 SELECT dev_id, MAX(log_datetime) AS latest_log_datetime
                 FROM example_air_log_data_latest
-                WHERE dev_id BETWEEN 1 AND 5
+                WHERE dev_id BETWEEN 1 AND 10
                 GROUP BY dev_id
             )
             ORDER BY a.dev_id, a.log_datetime DESC
         `)
 
     const results = []
-    for (let devId = 1; devId <= 5; devId++) {
+    for (let devId = 1; devId <= 10; devId++) {
       let result = {
         log_datetime: null,
         id: devId,
@@ -307,7 +307,7 @@ async function fetchAirData() {
         no2: null,
         o3: null,
         co: null,
-        vocs: null,
+        voc: null,
         h2s: null,
         nh3: null,
         ou: null,
@@ -342,7 +342,7 @@ async function fetchOceanData() {
             LEFT JOIN example_ocean_sys_sensor_latest s ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
             WHERE (o.dev_id, o.log_datetime) IN (
                 SELECT dev_id, MAX(log_datetime) AS latest_log_datetime
-                FROM example_ocean_log_data
+                FROM example_ocean_log_data_latest,
                 WHERE dev_id BETWEEN 1 AND 2
                 GROUP BY dev_id
             )
@@ -550,7 +550,7 @@ async function fetchScenarioAirData() {
           no2: null,
           o3: null,
           co: null,
-          vocs: null,
+          voc: null,
           h2s: null,
           nh3: null,
           ou: null,

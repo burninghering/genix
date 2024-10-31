@@ -340,7 +340,7 @@ router.get("/vessel/:id", async (req, res) => {
   }
 })
 
-// /service/air 엔드포인트 (1~5 전체 ID 불러오기)
+// /service/air 엔드포인트 (1~10 전체 ID 불러오기)
 router.get("/air", async (req, res) => {
   let connection
   try {
@@ -351,7 +351,7 @@ router.get("/air", async (req, res) => {
         s.sen_name, a.sen_value
       FROM example_air_log_data_latest a
       LEFT JOIN example_air_sys_sensor_latest s ON a.sen_id = s.sen_id AND a.dev_id = s.dev_id
-      WHERE a.dev_id BETWEEN 1 AND 5
+      WHERE a.dev_id BETWEEN 1 AND 10
       ORDER BY a.dev_id, a.log_datetime DESC
     `)
 
@@ -408,7 +408,7 @@ router.get("/ocean", async (req, res) => {
       FROM example_ocean_log_data_latest o
       LEFT JOIN example_ocean_sys_sensor_latest s 
       ON o.sen_id = s.sen_id AND o.dev_id = s.dev_id
-      WHERE o.dev_id BETWEEN 1 AND 2
+      WHERE o.dev_id BETWEEN 1 AND 5
       ORDER BY o.dev_id, o.log_datetime DESC
     `)
 

@@ -13,7 +13,7 @@ const dbConfig = {
 const pool = mysql.createPool({
   ...dbConfig,
   waitForConnections: true,
-  connectionLimit: 10, // 동시에 사용할 수 있는 최대 연결 수
+  connectionLimit: 100, // 동시에 사용할 수 있는 최대 연결 수
   queueLimit: 0, // 대기 중인 연결 요청 제한 없음
 })
 
@@ -25,36 +25,29 @@ async function SaveDummyData(
   devId,
   senId,
   senName,
-  idVluType,
-  dftValue,
-  maxValue,
-  minValue,
-  unit
+  idVluType = null,
+  dftValue = null,
+  maxValue = null,
+  minValue = null,
+  unit = null
 ) {
   let connection
   try {
     connection = await pool.getConnection()
-
-    // 프로시저 호출을 통해 데이터 저장 또는 업데이트
-    const sql = `
-      CALL SaveOrUpdateAirSysSensor(?, ?, ?, ?, ?, ?, ?, ?)
-    `
-
-    // 프로시저에 필요한 매개변수 전달
+    const sql = `CALL SaveOrUpdateAirSysSensorData(?, ?, ?, ?, ?, ?, ?, ?)`
     await connection.execute(sql, [
-      devId,
-      senId,
-      senName,
+      devId || null,
+      senId || null,
+      senName || null,
       idVluType,
       dftValue,
       maxValue,
       minValue,
       unit,
     ])
-
-    // 로그 테이블에 새 데이터를 삽입 (프로시저 안에서 처리되므로 생략 가능)
+    console.log("SaveDummyData 호출 성공")
   } catch (error) {
-    console.error("Error saving or updating data:", error)
+    console.error("SaveDummyData 호출 오류:", error)
     throw error
   } finally {
     if (connection) connection.release()
@@ -85,11 +78,11 @@ async function SaveOceanSysSensor(
   devId,
   senId,
   senName,
-  idVluType,
-  dftValue,
-  maxValue,
-  minValue,
-  unit
+  idVluType = null,
+  dftValue = null,
+  maxValue = null,
+  minValue = null,
+  unit = null
 ) {
   let connection
   try {
@@ -101,16 +94,21 @@ async function SaveOceanSysSensor(
       devId,
       senId,
       senName,
-      idVluType || null,
-      dftValue || null,
-      maxValue || null,
-      minValue || null,
-      unit || null,
+      idVluType,
+      dftValue,
+      maxValue,
+      minValue,
+      unit,
     ])
 
-    console.log("Ocean sys sensor data saved or updated successfully")
+    console.log(
+      `Ocean sys sensor data for ${senName} saved or updated successfully`
+    )
   } catch (error) {
-    console.error("Error saving or updating ocean sys sensor data:", error)
+    console.error(
+      `Error saving or updating ${senName} data in ocean sys sensor:`,
+      error
+    )
     throw error
   } finally {
     if (connection) connection.release()
@@ -123,10 +121,15 @@ async function SaveOceanLogData(devId, senId, sensorValue) {
   try {
     connection = await pool.getConnection()
     const sql = `CALL SaveOrUpdateOceanLogData(?, ?, ?)`
-    await connection.execute(sql, [devId, senId, sensorValue])
-    console.log("Ocean log data saved successfully using stored procedure")
+    await connection.execute(sql, [devId, senId, sensorValue || null])
+    console.log(
+      `Ocean log data for sensor ID ${senId} saved successfully using stored procedure`
+    )
   } catch (error) {
-    console.error("Error saving ocean log data using stored procedure:", error)
+    console.error(
+      `Error saving ocean log data for sensor ID ${senId} using stored procedure:`,
+      error
+    )
     throw error
   } finally {
     if (connection) connection.release()
