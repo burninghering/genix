@@ -17,7 +17,7 @@ async function getConnection() {
   return pool.getConnection()
 }
 
-const wss = new WebSocket.Server({ port: 8082 })
+const wss = new WebSocket.Server({ port: 8083 })
 
 wss.on("connection", (ws) => {
   console.log("Client connected")
@@ -118,54 +118,21 @@ wss.on("connection", (ws) => {
         console.error("Error fetching ocean data", error)
         ws.send(JSON.stringify({ error: "Error fetching ocean data" }))
       }
+
+      //선박 데이터 처리
     } else if (request.data === "vessel") {
       try {
         let vesselData = await fetchVesselData()
         if (vesselData.length === 0) {
           ws.send(JSON.stringify({ error: "No vessel data found" }))
         } else {
-          // 50번과 51번 devId의 rcv_datetime 값 강제 수정 (첫 번째 전송 시)
-          vesselData.forEach((item) => {
-            if (item.id === 50 || item.id === 51 || item.id === 95) {
-              // console.log(
-              //   `Before fixing, devId ${item.id} has rcv_datetime:`,
-              //   item.rcv_datetime
-              // )
-
-              // log_datetime을 rcv_datetime에 대입 (밀리초 제거)
-              item.rcv_datetime = item.log_datetime
-
-              // console.log(
-              //   `After fixing, devId ${item.id} has rcv_datetime:`,
-              //   item.rcv_datetime
-              // )
-            }
-          })
-
-          // 이후 반복적으로 1초마다 데이터 전송(첫 번째 이후 전송)
           interval = setInterval(async () => {
             try {
               let vesselData = await fetchVesselData()
               if (vesselData.length === 0) {
                 ws.send(JSON.stringify({ error: "No vessel data found" }))
               } else {
-                // 50번과 51번 devId의 rcv_datetime 값 강제 수정 (반복 전송 시)
-                vesselData.forEach((item) => {
-                  if (item.id === 50 || item.id === 51 || item.id === 95) {
-                    // console.log(
-                    //   `Before fixing, devId ${item.id} has rcv_datetime:`,
-                    //   item.rcv_datetime
-                    // )
-
-                    // log_datetime을 rcv_datetime에 대입 (밀리초 제거)
-                    item.rcv_datetime = item.log_datetime
-
-                    // console.log(
-                    //   `After fixing, devId ${item.id} has rcv_datetime:`,
-                    //   item.rcv_datetime
-                    // )
-                  }
-                })
+                vesselData.forEach((item) => {})
 
                 // 100개의 데이터를 전송 (반복 전송)
                 splitAndSendData(ws, vesselData)
@@ -352,13 +319,12 @@ async function fetchOceanData() {
   }
 }
 
-// 선박 데이터를 가져오는 함수
 async function fetchVesselData() {
   const connection = await getConnection()
   try {
     // 선박 데이터를 가져오는 쿼리
     const [vesselData] = await connection.query(`
-      SELECT v.dev_id, s.sen_name, v.sen_value, v.log_datetime
+      SELECT v.dev_id, s.sen_name, v.sen_value, v.log_datetime, v.sen_id
       FROM example_vessel_log_data_latest v
       LEFT JOIN example_vessel_sys_sensor_latest s ON v.sen_id = s.sen_id AND v.dev_id = s.dev_id
       ORDER BY v.dev_id DESC
@@ -387,25 +353,13 @@ async function fetchVesselData() {
       vesselData.forEach((item) => {
         if (item.dev_id === devId) {
           result.log_datetime = item.log_datetime
-          const randomSeconds = Math.floor(Math.random() * 3) + 1
-          result.rcv_datetime = addSecondsToDate(
-            result.log_datetime,
-            randomSeconds
-          )
 
-          // 50번과 51번 devId의 rcv_datetime 값 확인
-          if (item.dev_id === 50 || item.dev_id === 51 || item.dev_id === 95) {
-            result.rcv_datetime = result.log_datetime // 강제로 log_datetime 값을 넣음
-          }
-
-          const senName = item.sen_name?.toLowerCase()
-          if (senName) {
-            const senValue = parseFloat(item.sen_value)
-            if (senName === "lati" || senName === "latitude") {
-              result.lati = senValue
-            } else {
-              result[senName] = senValue
-            }
+          // rcv_datetime의 경우 따로 처리
+          if (item.sen_name.toLowerCase() === "rcv_datetime") {
+            result.rcv_datetime = item.sen_value
+          } else {
+            // 나머지 데이터 처리
+            result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value)
           }
         }
       })
@@ -542,9 +496,3 @@ function addSecondsToDate(datetimeString, secondsToAdd) {
   date.setSeconds(date.getSeconds() + secondsToAdd)
   return formatDateToYYYYMMDDHHMMSS(date)
 }
-
-function startWebSocketServer() {
-  console.log("WebSocket server is running on port 8082")
-}
-
-module.exports = startWebSocketServer

@@ -15,7 +15,7 @@ wss.on("connection", (ws) => {
   ws.on("message", async (message) => {
     try {
       const data = JSON.parse(message)
-      console.log("Received data:", data)
+      // console.log("Received data:", data)
 
       // 데이터 타입에 따라 DB 저장 처리
       if (data.type === "air") {
@@ -189,7 +189,16 @@ async function handleBuoyData(data) {
 
 // 선박 데이터 처리 함수
 async function handleVesselData(data) {
+  // id가 null인지 확인
+  if (!data.id) {
+    console.error("Received vessel data with null id:", data)
+    throw new Error("Invalid vessel id: id cannot be null or undefined.")
+  }
+
+  // 데이터에서 필요한 값 추출
   const { id, rcv_datetime, lati, longi, speed, course, azimuth } = data
+
+  // 각 센서 이름 및 값을 정의
   const sensorNames = [
     "rcv_datetime",
     "lati",
@@ -200,14 +209,27 @@ async function handleVesselData(data) {
   ]
   const sensorValues = [rcv_datetime, lati, longi, speed, course, azimuth]
 
+  // 저장 전 null 체크를 하고, 모든 센서 값이 유효한지 확인
   const savePromises = sensorNames.map(async (sensorName, index) => {
     const sensorValue =
       sensorValues[index] === undefined ? null : sensorValues[index]
-    try {
-      await db_manager.SaveVesselSysSensor(id, index + 1, sensorName)
-      await db_manager.SaveVesselLogData(id, index + 1, sensorValue)
-    } catch (error) {
-      console.error(`Error saving vessel data for sensor ${sensorName}:`, error)
+    if (sensorValue !== null) {
+      try {
+        // console.log(
+        //   `Saving vessel data: id=${id}, sensorName=${sensorName}, sensorValue=${sensorValue}`
+        // )
+        await db_manager.SaveVesselSysSensor(id, index + 1, sensorName)
+        await db_manager.SaveVesselLogData(id, index + 1, sensorValue)
+      } catch (error) {
+        console.error(
+          `Error saving vessel data for sensor ${sensorName}:`,
+          error
+        )
+      }
+    } else {
+      console.warn(
+        `Skipping save for sensor ${sensorName} as sensorValue is null for vessel id=${id}`
+      )
     }
   })
 

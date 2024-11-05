@@ -22,7 +22,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\BE\\netro_genix\\functions\\db_to_service_ws.js"
+            "program": "${workspaceFolder}\\BE\\netro_genix\\function\\db_to_service_ws.js"
         }
     ]
 }

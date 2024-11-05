@@ -4,6 +4,7 @@ const { EventEmitter } = require("events")
 // DB 연결 정보
 const dbConfig = {
   host: "192.168.0.225",
+  // port: 7306,
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
@@ -54,10 +55,14 @@ async function SaveDummyData(
   }
 }
 
-// example_air_log_data 테이블에 데이터 저장 또는 업데이트
 async function SaveAirLogData(devId, senId, sensorValue) {
   let connection
   try {
+    if (isNaN(devId) || isNaN(senId)) {
+      console.error("Invalid devId or senId value:", devId, senId)
+      return
+    }
+
     connection = await pool.getConnection()
     console.log("DB 연결 성공")
 
@@ -101,9 +106,9 @@ async function SaveOceanSysSensor(
       unit,
     ])
 
-    console.log(
-      `Ocean sys sensor data for ${senName} saved or updated successfully`
-    )
+    // console.log(
+    //   `Ocean sys sensor data for ${senName} saved or updated successfully`
+    // )
   } catch (error) {
     console.error(
       `Error saving or updating ${senName} data in ocean sys sensor:`,
@@ -171,7 +176,7 @@ async function SaveVesselSysSensor(
       unit,
     ])
 
-    console.log("Data saved or updated successfully")
+    // console.log("Data saved or updated successfully")
   } catch (error) {
     console.error("Error saving or updating vessel sys sensor data:", error)
     throw error
@@ -192,7 +197,7 @@ async function SaveVesselLogData(
     connection = await pool.getConnection()
     const sql = `CALL SaveOrUpdateVesselLogData(?, ?, ?)`
     await connection.execute(sql, [devId, senId, sensorValue])
-    console.log("Data saved successfully using stored procedure")
+    // console.log("Data saved successfully using stored procedure")
   } catch (error) {
     if (error.code === "ER_LOCK_DEADLOCK" && retries > 0) {
       console.warn(`Deadlock detected. Retrying... Attempts left: ${retries}`)
