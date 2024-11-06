@@ -354,11 +354,11 @@ async function fetchVesselData() {
         if (item.dev_id === devId) {
           result.log_datetime = item.log_datetime
 
-          // rcv_datetime의 경우 따로 처리
+          // rcv_datetime의 경우 따로 처리함으로써 숫자값 씌워지지 않도록 처리
           if (item.sen_name.toLowerCase() === "rcv_datetime") {
             result.rcv_datetime = item.sen_value
           } else {
-            // 나머지 데이터 처리
+            // 나머지 데이터는 Float값으로 처리
             result[item.sen_name.toLowerCase()] = parseFloat(item.sen_value)
           }
         }
