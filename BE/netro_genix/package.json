@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
     "arraylist": "^0.1.0",
     "axios": "^1.7.7",
@@ -22,6 +21,7 @@
     "express": "^4.21.0",
     "express-ws": "^5.0.2",
     "http": "^0.0.1-security",
+    "init": "^0.1.2",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "mqtt": "^5.7.0",
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.26.0",
     "@babel/node": "^7.26.0",
     "nodemon": "^3.1.7",
     "swagger-jsdoc": "^6.2.8",

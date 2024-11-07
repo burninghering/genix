@@ -123,7 +123,6 @@ async function handleAirData(data) {
       console.log(
         `저장 중: DEV_ID=${DEV_ID}, sensorName=${sensorName}, sensorValue=${sensorValue}`
       )
-      await db_manager.SaveDummyData(DEV_ID, index + 1, sensorName)
       await db_manager.SaveAirLogData(DEV_ID, index + 1, sensorValue)
     } catch (error) {
       console.error(`Error saving air data for sensor ${sensorName}:`, error)
@@ -169,11 +168,6 @@ async function handleBuoyData(data) {
     const sensorValue =
       sensorValues[index] === undefined ? null : sensorValues[index]
     try {
-      await db_manager.SaveOceanSysSensor(
-        bouy_info_bouy_code,
-        index + 1,
-        sensorName
-      )
       await db_manager.SaveOceanLogData(
         bouy_info_bouy_code,
         index + 1,
@@ -215,10 +209,6 @@ async function handleVesselData(data) {
       sensorValues[index] === undefined ? null : sensorValues[index]
     if (sensorValue !== null) {
       try {
-        // console.log(
-        //   `Saving vessel data: id=${id}, sensorName=${sensorName}, sensorValue=${sensorValue}`
-        // )
-        await db_manager.SaveVesselSysSensor(id, index + 1, sensorName)
         await db_manager.SaveVesselLogData(id, index + 1, sensorValue)
       } catch (error) {
         console.error(
