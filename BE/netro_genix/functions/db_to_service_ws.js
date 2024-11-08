@@ -148,7 +148,7 @@ wss.on("connection", (ws) => {
                 })
               )
             }
-          }, 1000) // 1초마다 반복
+          }, 4000) // 1초마다 반복
         }
       } catch (error) {
         console.error("Error fetching vessel data:", error.message)

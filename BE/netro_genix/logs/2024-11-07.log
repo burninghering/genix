@@ -404,3 +404,1655 @@
 
 2024-11-07 11:11:55 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
 
+2024-11-07 11:12:04 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 11:12:04 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 11:12:10 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:12:10 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 11:12:27 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 11:12:27 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 11:13:28 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:13:28 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3831
+
+2024-11-07 11:14:02 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1203
+
+2024-11-07 11:14:02 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3831
+
+2024-11-07 11:14:34 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 11:14:34 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 11:14:37 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 11:14:37 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 11:15:18 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:15:18 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 11:15:49 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 11:15:49 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 11:15:54 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 11:15:54 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1219
+
+2024-11-07 11:16:20 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 11:16:20 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 11:19:07 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 11:19:07 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 11:19:47 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:19:47 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 11:19:52 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:19:52 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 11:45:03 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 11:45:03 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3827
+
+2024-11-07 11:45:23 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:45:23 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3775
+
+2024-11-07 11:45:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:45:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 11:46:23 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 11:46:23 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3799
+
+2024-11-07 11:46:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1206
+
+2024-11-07 11:46:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3792
+
+2024-11-07 11:47:23 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 11:47:23 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3812
+
+2024-11-07 11:47:48 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:47:48 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3822
+
+2024-11-07 11:47:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:47:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3822
+
+2024-11-07 11:47:58 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:47:58 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 11:48:19 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:48:19 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 11:48:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1207
+
+2024-11-07 11:48:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 11:49:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:49:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 11:49:49 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1209
+
+2024-11-07 11:49:51 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 11:50:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 11:50:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3805
+
+2024-11-07 11:50:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:50:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 11:51:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 11:51:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3792
+
+2024-11-07 11:51:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 11:51:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 11:52:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 11:52:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3799
+
+2024-11-07 11:52:52 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 11:52:52 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3812
+
+2024-11-07 11:53:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 11:53:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 11:53:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:53:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3838
+
+2024-11-07 11:54:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:54:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3830
+
+2024-11-07 11:54:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 11:54:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 11:55:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 11:55:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 11:55:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 11:55:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 11:56:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3826
+
+2024-11-07 11:56:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:56:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 11:56:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 11:57:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 11:57:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3827
+
+2024-11-07 11:57:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 11:57:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 11:58:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 11:58:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 11:58:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 11:58:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 11:59:11 am | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 11:59:11 am | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3805
+
+2024-11-07 11:59:48 am | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3822
+
+2024-11-07 11:59:48 am | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:00:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:00:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3808
+
+2024-11-07 12:00:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:00:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3822
+
+2024-11-07 12:01:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3827
+
+2024-11-07 12:01:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1219
+
+2024-11-07 12:01:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:01:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 12:02:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:02:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3805
+
+2024-11-07 12:02:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:02:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 12:03:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 12:03:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 12:03:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:03:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 12:04:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 12:04:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:05:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:05:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 12:06:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:06:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 12:07:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:07:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3788
+
+2024-11-07 12:08:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1207
+
+2024-11-07 12:08:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 12:09:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:09:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 12:10:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 12:10:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3781
+
+2024-11-07 12:11:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:11:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 12:12:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:12:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 12:13:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 12:13:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:14:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:14:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 12:15:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:15:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 12:16:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:16:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 12:17:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:17:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 12:18:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:18:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 12:19:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:19:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 12:20:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3782
+
+2024-11-07 12:20:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:21:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:21:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 12:22:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 12:22:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 12:23:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1208
+
+2024-11-07 12:23:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 12:24:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 12:24:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 12:25:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 12:25:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:26:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1208
+
+2024-11-07 12:26:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3812
+
+2024-11-07 12:27:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 12:27:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 12:28:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:28:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 12:29:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:29:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3822
+
+2024-11-07 12:30:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 12:30:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:31:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:31:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 12:32:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:32:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 12:32:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3814
+
+2024-11-07 12:32:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:33:04 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:33:04 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3805
+
+2024-11-07 12:33:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:33:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 12:33:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1209
+
+2024-11-07 12:33:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 12:34:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1209
+
+2024-11-07 12:34:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 12:34:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:34:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 12:35:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:35:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 12:35:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:35:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 12:36:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3799
+
+2024-11-07 12:36:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:36:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 12:36:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 12:37:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:37:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 12:37:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:37:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 12:38:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 12:38:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:38:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 12:38:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 12:39:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:39:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 12:39:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 12:39:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3812
+
+2024-11-07 12:40:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3795
+
+2024-11-07 12:40:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 12:40:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 12:40:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 12:41:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:41:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 12:41:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 12:41:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:42:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1209
+
+2024-11-07 12:42:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 12:42:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1219
+
+2024-11-07 12:42:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 12:43:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:43:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3829
+
+2024-11-07 12:43:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 12:43:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 12:44:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:44:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 12:44:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:44:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 12:45:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:45:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 12:45:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:45:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 12:46:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1209
+
+2024-11-07 12:46:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 12:46:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:46:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 12:47:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1208
+
+2024-11-07 12:47:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 12:47:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:47:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 12:48:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3823
+
+2024-11-07 12:48:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 12:48:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:48:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 12:49:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 12:49:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:49:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 12:49:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:50:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:50:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 12:50:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3823
+
+2024-11-07 12:50:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1219
+
+2024-11-07 12:51:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:51:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 12:51:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:51:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 12:52:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 12:52:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3812
+
+2024-11-07 12:52:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 12:52:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3794
+
+2024-11-07 12:53:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:53:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3830
+
+2024-11-07 12:53:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 12:53:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 12:54:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 12:54:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:54:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:54:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 12:55:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:55:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 12:55:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 12:55:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 12:56:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:56:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 12:57:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:57:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 12:57:31 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 12:57:31 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 12:58:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 12:58:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 12:58:31 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:58:31 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3788
+
+2024-11-07 12:58:59 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 12:58:59 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 12:59:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3812
+
+2024-11-07 12:59:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 12:59:35 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 12:59:35 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 13:00:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 13:00:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:00:31 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1208
+
+2024-11-07 13:00:31 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3830
+
+2024-11-07 13:01:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:01:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3823
+
+2024-11-07 13:02:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 13:02:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 13:03:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 13:03:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 13:03:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1203
+
+2024-11-07 13:03:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 13:04:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:04:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3814
+
+2024-11-07 13:04:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:04:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 13:05:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 13:05:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 13:05:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:05:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 13:06:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:06:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 13:06:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 13:06:18 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 13:07:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 13:07:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 13:08:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 13:08:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 13:09:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 13:09:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 13:10:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:10:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 13:11:07 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1219
+
+2024-11-07 13:11:07 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3831
+
+2024-11-07 13:11:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 13:11:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 13:11:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:11:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3827
+
+2024-11-07 13:12:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1219
+
+2024-11-07 13:12:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3814
+
+2024-11-07 13:12:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 13:12:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 13:13:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 13:13:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:13:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 13:13:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 13:14:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 13:14:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:14:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 13:14:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3823
+
+2024-11-07 13:15:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 13:15:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 13:15:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3832
+
+2024-11-07 13:15:23 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:15:35 pm | http | ::ffff:192.168.0.232 - - "GET /service/ship HTTP/1.1" 404 151
+
+2024-11-07 13:16:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:16:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3814
+
+2024-11-07 13:17:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 13:17:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 13:18:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 13:18:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-07 13:19:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:19:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 13:20:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:20:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 13:21:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 13:21:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3788
+
+2024-11-07 13:22:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1209
+
+2024-11-07 13:22:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 13:22:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1209
+
+2024-11-07 13:22:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 13:23:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:23:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 13:23:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1219
+
+2024-11-07 13:23:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3814
+
+2024-11-07 13:24:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 13:24:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:24:09 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3789
+
+2024-11-07 13:24:09 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:24:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 13:24:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 13:24:53 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 13:24:53 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1208
+
+2024-11-07 13:25:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 13:25:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3799
+
+2024-11-07 13:25:53 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 13:25:53 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 13:26:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1208
+
+2024-11-07 13:26:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 13:27:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" - -
+
+2024-11-07 13:27:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" - -
+
+2024-11-07 13:55:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 13:55:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 13:56:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 13:56:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 13:57:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 13:57:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3808
+
+2024-11-07 14:15:19 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 14:15:19 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 14:15:21 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 14:15:21 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 14:16:21 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 14:16:21 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3814
+
+2024-11-07 15:06:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:06:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:06:34 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:06:34 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:07:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:07:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:07:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:07:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:07:19 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:07:19 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:07:21 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:07:21 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:07:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:07:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:07:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:07:50 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:08:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:08:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:08:37 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:08:37 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:09:37 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 15:09:37 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3748
+
+2024-11-07 15:15:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:15:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:16:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:16:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:16:14 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:16:14 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:16:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:16:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:16:55 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:16:55 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:17:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:17:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:18:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:18:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:19:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:19:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:19:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:19:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:19:37 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:19:37 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:19:58 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:19:58 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:20:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:20:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:20:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:20:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:21:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:21:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 15:22:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 15:22:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 15:23:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 15:23:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 15:24:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 15:24:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:24:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 15:24:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:24:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 15:24:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:24:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 15:24:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:24:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1214
+
+2024-11-07 15:24:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3776
+
+2024-11-07 15:24:52 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 15:24:52 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3802
+
+2024-11-07 15:24:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1216
+
+2024-11-07 15:24:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 15:25:14 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1217
+
+2024-11-07 15:25:14 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 15:25:51 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 15:25:51 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1210
+
+2024-11-07 15:25:56 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3805
+
+2024-11-07 15:25:56 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 15:25:59 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3805
+
+2024-11-07 15:25:59 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 15:26:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 15:26:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3808
+
+2024-11-07 15:26:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-07 15:26:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 15:26:13 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 15:26:13 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-07 15:36:51 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1213
+
+2024-11-07 15:36:51 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3796
+
+2024-11-07 15:37:51 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:37:51 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:37:53 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:37:53 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:37:55 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:37:55 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:38:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:38:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:39:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:39:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:40:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:40:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:40:30 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:40:30 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:40:32 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:40:32 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:41:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:41:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3768
+
+2024-11-07 15:41:32 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:41:32 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3735
+
+2024-11-07 15:42:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:42:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3735
+
+2024-11-07 15:42:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:42:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3735
+
+2024-11-07 15:42:32 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:42:32 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3735
+
+2024-11-07 15:43:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:43:11 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3735
+
+2024-11-07 15:44:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:44:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3724
+
+2024-11-07 15:44:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:44:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3724
+
+2024-11-07 15:45:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:45:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 15:46:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:46:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 15:47:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:47:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 15:48:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:48:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 15:49:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 15:49:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:50:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:50:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3759
+
+2024-11-07 15:51:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:51:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3759
+
+2024-11-07 15:52:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:52:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:52:58 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:52:58 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:53:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:53:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:53:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:53:25 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3808
+
+2024-11-07 15:54:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 15:54:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:54:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 15:54:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:55:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 15:55:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:55:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:55:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 15:55:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3783
+
+2024-11-07 15:55:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:56:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:56:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:56:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:56:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:56:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:56:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:56:16 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:56:16 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:56:29 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:56:29 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:56:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:56:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:57:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:57:00 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:57:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:57:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:58:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:58:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 15:59:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 15:59:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:00:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:00:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:01:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:01:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:02:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:02:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:03:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:03:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:03:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:03:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:04:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:04:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:05:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:05:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:06:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:06:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:07:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:07:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:08:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:08:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:09:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:09:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 16:10:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:10:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 16:11:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:11:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 16:12:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:12:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 16:12:28 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:12:28 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 16:12:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:12:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 16:12:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:12:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 16:13:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:13:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 16:14:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:14:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 16:15:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:15:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3796
+
+2024-11-07 16:15:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:15:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3796
+
+2024-11-07 16:15:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3796
+
+2024-11-07 16:15:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:15:14 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:15:14 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3796
+
+2024-11-07 16:15:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:15:17 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3753
+
+2024-11-07 16:15:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:15:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3753
+
+2024-11-07 16:16:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" - -
+
+2024-11-07 16:16:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3790
+
+2024-11-07 16:16:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:16:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3740
+
+2024-11-07 16:17:30 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 16:17:30 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:24:47 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:24:50 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3795
+
+2024-11-07 16:24:50 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:25:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:25:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3795
+
+2024-11-07 16:25:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:25:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3798
+
+2024-11-07 16:25:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:25:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 16:25:50 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:25:50 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 16:26:19 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 16:26:20 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:26:22 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:26:22 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3831
+
+2024-11-07 16:26:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:26:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 16:26:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:26:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 16:26:43 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:26:43 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 16:26:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:26:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3794
+
+2024-11-07 16:26:53 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 16:26:53 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:27:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:27:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 16:28:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 16:28:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:28:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:28:57 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 16:30:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:30:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 16:30:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 16:30:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:30:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:30:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 16:30:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:30:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 16:31:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:31:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 16:31:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3835
+
+2024-11-07 16:31:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:32:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:32:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 16:32:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:32:08 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3812
+
+2024-11-07 16:33:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:33:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3785
+
+2024-11-07 16:34:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:34:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 16:35:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:35:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 16:36:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:36:00 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 16:39:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:39:40 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 16:40:16 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 16:40:17 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:40:19 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:40:19 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 16:40:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 16:40:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:40:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:40:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 16:40:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:40:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 16:41:19 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:41:19 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3810
+
+2024-11-07 16:41:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:41:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 16:42:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:42:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3822
+
+2024-11-07 16:42:22 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:42:22 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3831
+
+2024-11-07 16:42:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:42:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3827
+
+2024-11-07 16:42:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:42:31 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 16:42:41 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:42:41 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 16:42:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:42:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 16:43:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:43:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 16:44:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:44:10 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 16:44:13 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 16:44:13 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:44:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:44:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3805
+
+2024-11-07 16:44:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 16:44:46 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3808
+
+2024-11-07 16:45:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 16:45:19 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:19 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 16:45:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3795
+
+2024-11-07 16:45:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 16:45:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3796
+
+2024-11-07 16:45:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:45:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3792
+
+2024-11-07 16:46:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:46:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 16:46:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:46:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 16:46:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:46:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3819
+
+2024-11-07 16:46:53 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:46:53 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3825
+
+2024-11-07 16:46:56 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:46:56 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3827
+
+2024-11-07 16:47:21 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:47:21 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3821
+
+2024-11-07 16:47:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:47:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3839
+
+2024-11-07 16:47:58 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:47:58 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3839
+
+2024-11-07 16:48:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:48:04 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 16:48:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:48:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 16:48:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:48:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 16:49:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:49:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 16:50:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 16:50:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:50:29 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:50:29 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3797
+
+2024-11-07 16:50:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:50:36 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3785
+
+2024-11-07 16:50:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:50:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 16:50:42 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:50:42 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 16:51:02 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3814
+
+2024-11-07 16:51:02 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:51:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:51:08 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3801
+
+2024-11-07 16:51:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:51:12 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 16:51:19 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:51:19 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 16:51:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:51:26 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 16:52:18 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:52:18 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3834
+
+2024-11-07 16:52:34 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:52:34 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 16:52:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:52:38 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3813
+
+2024-11-07 16:52:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:52:44 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3793
+
+2024-11-07 16:52:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:52:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3791
+
+2024-11-07 16:53:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:53:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3818
+
+2024-11-07 16:54:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3804
+
+2024-11-07 16:54:07 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:55:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:55:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3824
+
+2024-11-07 16:56:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:56:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3820
+
+2024-11-07 16:56:29 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:56:29 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 16:59:03 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 16:59:03 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:59:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 16:59:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:00:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:00:05 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:11:18 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:11:18 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:12:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:12:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:12:06 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:12:06 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:12:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:12:20 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:20:45 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:20:45 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:20:47 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:20:47 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:21:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/air HTTP/1.1" 200 3828
+
+2024-11-07 17:21:48 pm | http | ::ffff:192.168.0.224 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:49:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3800
+
+2024-11-07 17:49:48 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:50:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:50:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3823
+
+2024-11-07 17:50:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:50:54 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3817
+
+2024-11-07 17:51:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:51:01 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3816
+
+2024-11-07 17:59:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 17:59:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3803
+
+2024-11-07 18:00:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:00:24 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3815
+
+2024-11-07 18:00:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3808
+
+2024-11-07 18:00:27 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:00:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:00:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3806
+
+2024-11-07 18:00:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:00:39 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3811
+
+2024-11-07 18:09:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:09:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3794
+
+2024-11-07 18:10:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:10:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3809
+
+2024-11-07 18:11:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:11:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3807
+
+2024-11-07 18:12:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:12:09 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3788
+
+2024-11-07 18:12:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-07 18:12:32 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3811
+
