@@ -187,18 +187,22 @@ async function handleBuoyData(data) {
   await Promise.all(savePromises)
 }
 
-// 선박 데이터 처리 함수
 async function handleVesselData(data) {
-  // id가 null인지 확인
   if (!data.id) {
     console.error("Received vessel data with null id:", data)
     throw new Error("Invalid vessel id: id cannot be null or undefined.")
   }
-
-  // 데이터에서 필요한 값 추출
-  const { id, rcv_datetime, lati, longi, speed, course, azimuth } = data
-
-  // 각 센서 이름 및 값을 정의
+  // console.log("data.log_datetime::::::::::" + data.log_datetime)
+  const {
+    id,
+    log_datetime,
+    rcv_datetime,
+    lati,
+    longi,
+    speed,
+    course,
+    azimuth,
+  } = data
   const sensorNames = [
     "rcv_datetime",
     "lati",
@@ -209,17 +213,20 @@ async function handleVesselData(data) {
   ]
   const sensorValues = [rcv_datetime, lati, longi, speed, course, azimuth]
 
-  // 저장 전 null 체크를 하고, 모든 센서 값이 유효한지 확인
+  // 각 센서 데이터 저장 작업
   const savePromises = sensorNames.map(async (sensorName, index) => {
     const sensorValue =
       sensorValues[index] === undefined ? null : sensorValues[index]
     if (sensorValue !== null) {
       try {
-        // console.log(
-        //   `Saving vessel data: id=${id}, sensorName=${sensorName}, sensorValue=${sensorValue}`
-        // )
-        await db_manager.SaveVesselSysSensor(id, index + 1, sensorName)
-        await db_manager.SaveVesselLogData(id, index + 1, sensorValue)
+        // await db_manager.SaveVesselSysSensor(id, index + 1, sensorName)
+        //console.log("log_datetime::::::::::::" + log_datetime)
+        await db_manager.SaveVesselLogData(
+          id,
+          index + 1,
+          sensorValue,
+          log_datetime
+        )
       } catch (error) {
         console.error(
           `Error saving vessel data for sensor ${sensorName}:`,
@@ -234,6 +241,14 @@ async function handleVesselData(data) {
   })
 
   await Promise.all(savePromises)
+
+  // 모든 센서 데이터 저장 후 최신 데이터 유지
+  try {
+    await db_manager.SaveVesselLogDataLatest()
+    //await db_manager.SelectInsepectTable()
+  } catch (error) {
+    console.error("Error updating latest vessel log data:", error)
+  }
 }
 
 // 시나리오 처리 함수

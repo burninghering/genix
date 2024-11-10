@@ -4,6 +4,7 @@ const { EventEmitter } = require("events")
 // DB 연결 정보
 const dbConfig = {
   host: "192.168.0.225",
+  // port: 7306,
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
@@ -13,7 +14,7 @@ const dbConfig = {
 const pool = mysql.createPool({
   ...dbConfig,
   waitForConnections: true,
-  connectionLimit: 100, // 동시에 사용할 수 있는 최대 연결 수
+  connectionLimit: 500, // 동시에 사용할 수 있는 최대 연결 수
   queueLimit: 0, // 대기 중인 연결 요청 제한 없음
 })
 
@@ -188,28 +189,85 @@ async function SaveVesselLogData(
   devId,
   senId,
   sensorValue,
+  logDateTime,
   retries = 5,
-  delay = 100
+  delay = 500
 ) {
   let connection
   try {
     connection = await pool.getConnection()
-    const sql = `CALL SaveOrUpdateVesselLogData(?, ?, ?)`
-    await connection.execute(sql, [devId, senId, sensorValue])
-    // console.log("Data saved successfully using stored procedure")
+    await connection.beginTransaction()
+    //console.log("logDateTime:::::::::::::::::::::::" + logDateTime)
+    const sql = `INSERT INTO example_vessel_log_data (log_datetime, dev_Id, sen_Id, sen_Value) VALUES (?, ?, ?, ?)
+                 ON DUPLICATE KEY UPDATE sen_Value = VALUES(sen_Value)`
+    await connection.execute(sql, [logDateTime, devId, senId, sensorValue])
+    await connection.commit()
+
+    // console.log("Data saved successfully.")
   } catch (error) {
+    console.log("error>>>>>>>>>" + error)
     if (error.code === "ER_LOCK_DEADLOCK" && retries > 0) {
       console.warn(`Deadlock detected. Retrying... Attempts left: ${retries}`)
-      await new Promise((resolve) => setTimeout(resolve, delay))
+      await new Promise((resolve) =>
+        setTimeout(resolve, Math.random() * 50 + delay)
+      )
       return SaveVesselLogData(
         devId,
         senId,
         sensorValue,
+        logDateTime,
         retries - 1,
         delay * 2
       )
+    } else {
+      await connection.rollback()
     }
-    console.error("Error saving vessel log data using stored procedure:", error)
+    console.error("Error saving vessel log data:", error)
+    throw error
+  } finally {
+    if (connection) connection.release()
+  }
+}
+
+async function SaveVesselLogDataLatest() {
+  let connection
+  try {
+    connection = await pool.getConnection()
+
+    //트랜잭션 시작
+    await connection.beginTransaction()
+
+    // 기존 데이터를 삭제하고 최신 600개의 데이터를 삽입
+    const deleteSql = `DELETE FROM example_vessel_log_data_latest`
+    await connection.execute(deleteSql)
+
+    const insertSql = `
+      insert into example_vessel_log_data_latest  
+      select b.log_datetime, b.DEV_ID, b.SEN_ID, b.SEN_VALUE, b.ALT_ID 
+      from 
+      (
+        select log_datetime as log_datetime_max 
+        from example_vessel_log_data evld
+        group by log_datetime 
+        order by log_datetime  desc
+        limit 1
+      )  as a
+      left join example_vessel_log_data b
+      on a.log_datetime_max = b.log_datetime 
+      order by log_datetime
+      limit 600
+      `
+
+    await connection.execute(insertSql)
+
+    // 트랜잭션 커밋
+    await connection.commit()
+  } catch (error) {
+    // 에러가 발생하면 롤백
+    if (connection) {
+      await connection.rollback()
+    }
+    console.error("Error saving latest vessel log data:", error)
     throw error
   } finally {
     if (connection) connection.release()
@@ -266,5 +324,52 @@ module.exports = {
   SaveOceanLogData,
   SaveVesselSysSensor,
   SaveVesselLogData,
+  SaveVesselLogDataLatest,
   SaveScenarioAirData,
+  SelectInsepectTable,
+}
+
+async function SelectInsepectTable() {
+  let connection
+  try {
+    connection = await pool.getConnection()
+
+    const selectSql = `
+       select tble.log_datetime  
+        from (
+          select b.log_datetime, b.DEV_ID, b.SEN_ID, b.SEN_VALUE, b.ALT_ID 
+                from 
+                (
+                  select log_datetime as log_datetime_max 
+                  from example_vessel_log_data evld
+                  order by log_datetime  desc
+                  limit 1
+                  
+                )  as a
+                left join example_vessel_log_data b
+                on a.log_datetime_max = b.log_datetime 
+                order by log_datetime
+        ) as tble
+        group by tble.log_datetime
+      `
+    const [rows, fields] = await connection.execute(selectSql)
+    // `aaa` 필드 값만 출력하기
+    rows.forEach((row) => {
+      console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+      console.log(
+        "디버깅 결과 :::",
+        row.log_datetime + "결과 :::" + rows.length
+      )
+      console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
+    })
+  } catch (error) {
+    // 에러가 발생하면 롤백
+    if (connection) {
+      await connection.rollback()
+    }
+    console.error("Error saving latest vessel log data:", error)
+    throw error
+  } finally {
+    if (connection) connection.release()
+  }
 }
