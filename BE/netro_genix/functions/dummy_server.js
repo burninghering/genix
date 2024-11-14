@@ -19,14 +19,14 @@ wss.on("connection", (ws) => {
 
       // 데이터 타입에 따라 DB 저장 처리
       if (data.type === "air") {
-        await handleAirData(data)
+        // await handleAirData(data)
       } else if (data.type === "buoy") {
-        await handleBuoyData(data)
+        // await handleBuoyData(data)
       } else if (data.type === "vessel") {
         await handleVesselData(data)
       } else if (data.type === "scenario_air") {
         const { scenario } = data
-        await handleScenarioAirData(data, scenario)
+        //  await handleScenarioAirData(data, scenario)
       } else {
         console.log("Unknown data type received:", data.type)
         ws.send(JSON.stringify({ message: "Unknown data type received." }))
@@ -227,6 +227,12 @@ async function handleVesselData(data) {
           sensorValue,
           log_datetime
         )
+        // await db_manager.SaveVesselLogDataLatest(
+        //   id,
+        //   index + 1,
+        //   sensorValue,
+        //   log_datetime
+        // )
       } catch (error) {
         console.error(
           `Error saving vessel data for sensor ${sensorName}:`,
@@ -244,7 +250,6 @@ async function handleVesselData(data) {
 
   // 모든 센서 데이터 저장 후 최신 데이터 유지
   try {
-    await db_manager.SaveVesselLogDataLatest()
     //await db_manager.SelectInsepectTable()
   } catch (error) {
     console.error("Error updating latest vessel log data:", error)

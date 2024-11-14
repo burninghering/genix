@@ -79,6 +79,12 @@ cron.schedule("* * * * * * *", () => {
   BroadcastMSG(io, "runState", Instance.runState)
 })
 
+cron.schedule("0 */10 * * * *", () => {
+  // 실행할 함수
+  console.log("10분마다 실행되는 작업입니다.")
+  db_manager.truncateLatest()
+})
+
 // 센서 및 디바이스 상태 이벤트 리스너 추가
 db_manager.netroEvent.addListener("sensorState", (result) => {
   BroadcastMSG(io, "sensorState", result)

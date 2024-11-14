@@ -3,7 +3,8 @@ const mysql = require("mysql2/promise")
 
 // MySQL 커넥션 풀 생성
 const pool = mysql.createPool({
-  host: "192.168.0.225",
+  host: "14.63.176.165",
+  port: 7306,
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
@@ -123,36 +124,56 @@ wss.on("connection", (ws) => {
     } else if (request.data === "vessel") {
       try {
         let vesselData = await fetchVesselData()
+
         if (vesselData.length === 0) {
-          ws.send(JSON.stringify({ error: "No vessel data found" }))
+          ws.send(
+            JSON.stringify({
+              error:
+                "fetchVesselData() 함수로 데이터를 처음 가져온 직후에 선박 데이터가 비어 있습니다.",
+            })
+          )
         } else {
           interval = setInterval(async () => {
             try {
               let vesselData = await fetchVesselData()
               if (vesselData.length === 0) {
-                ws.send(JSON.stringify({ error: "No vessel data found" }))
-              } else {
-                vesselData.forEach((item) => {})
+                ws.send(
+                  JSON.stringify({
+                    error:
+                      "setInterval 내에서 1초마다 데이터 확인 --> 선박 데이터가 비어 있습니다.",
+                  })
+                )
+              } else if (vesselData.length === 600) {
+                // 600개의 데이터가 있을 때만 전송
+                console.log("600개의 선박 데이터 전송 중")
 
-                // 100개의 데이터를 전송 (반복 전송)
-                splitAndSendData(ws, vesselData)
+                // 600개의 데이터를 전송
+                ws.send(
+                  JSON.stringify({
+                    message: "600개의 선박 데이터 전송 완료",
+                    data: vesselData,
+                  })
+                )
+              } else {
+                console.log(
+                  `600개의 데이터 수신 대기 중, 현재 개수: ${vesselData.length}`
+                )
               }
             } catch (error) {
-              console.error(
-                "Error during interval vessel data fetch:",
-                error.message
-              )
+              console.error("반복 중 선박 데이터 가져오기 오류:", error.message)
               ws.send(
                 JSON.stringify({
-                  error: "Error fetching vessel data during interval",
+                  error: "반복 중 선박 데이터를 가져오는 중 오류 발생",
                 })
               )
             }
-          }, 6000) // 1초마다 반복
+          }, 1000) // 1초마다 반복
         }
       } catch (error) {
-        console.error("Error fetching vessel data:", error.message)
-        ws.send(JSON.stringify({ error: "Error fetching vessel data" }))
+        console.error("선박 데이터 가져오기 오류:", error.message)
+        ws.send(
+          JSON.stringify({ error: "선박 데이터를 가져오는 중 오류 발생" })
+        )
       }
     }
 
@@ -324,13 +345,41 @@ async function fetchVesselData() {
   try {
     // 선박 데이터를 가져오는 쿼리
     const [vesselData] = await connection.query(`
-      SELECT v.dev_id, s.sen_name, v.sen_value, v.log_datetime, v.sen_id
-      FROM example_vessel_log_data_latest v
-      LEFT JOIN example_vessel_sys_sensor_latest s 
-      ON v.sen_id = s.sen_id 
-      AND v.dev_id = s.dev_id
-      ORDER BY v.dev_id DESC
-    `)
+   select
+	tbl.dev_id,
+	tbl.sen_name,
+	tbl.sen_value,
+	tbl.log_datetime,
+	tbl.sen_id
+from
+	(
+	SELECT
+		v.dev_id,
+		s.sen_name,
+		v.sen_value,
+		v.log_datetime,
+		v.sen_id
+	FROM
+		example_vessel_log_data_latest v
+	LEFT JOIN example_vessel_sys_sensor_latest s 
+      ON
+		v.sen_id = s.sen_id
+		AND v.dev_id = s.dev_id
+	order by
+		v.log_datetime desc ,
+		v.dev_id asc
+  ) as tbl
+where
+	tbl.log_datetime = (
+	select
+		max(log_datetime)
+	from
+		example_vessel_log_data_latest
+      )
+
+
+
+	`)
 
     if (!vesselData || vesselData.length === 0) {
       console.error("No vessel data returned")

@@ -4,7 +4,8 @@ const mysql = require("mysql2/promise")
 
 // DB 연결 설정 - 연결 풀 생성
 const pool = mysql.createPool({
-  host: "192.168.0.225",
+  host: "14.63.176.165",
+  port: 7306,
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
