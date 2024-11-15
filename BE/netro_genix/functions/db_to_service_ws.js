@@ -135,8 +135,6 @@ wss.on("connection", (ws) => {
               if (vesselData.length === 0) {
                 ws.send(JSON.stringify({ error: "No vessel data found" }))
               } else {
-                vesselData.forEach((item) => {})
-
                 // 100개의 데이터를 전송 (반복 전송)
                 splitAndSendData(ws, vesselData)
               }
