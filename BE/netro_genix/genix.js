@@ -113,6 +113,12 @@ app.listen(3000, () => {
 // app.listen(4000, () => {
 //     console.log(`Server is running on 4000`);
 // });
+const v8 = require("v8")
+console.log(
+  "Heap size limit>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>:",
+  v8.getHeapStatistics().heap_size_limit / 1024 / 1024,
+  "MB"
+)
 
 // netroEvent에서 이벤트 리스너 설정
 db_manager.netroEvent.addListener("sensorState", function (result) {

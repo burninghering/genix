@@ -124,56 +124,38 @@ wss.on("connection", (ws) => {
     } else if (request.data === "vessel") {
       try {
         let vesselData = await fetchVesselData()
+        console.log(">>>>>>>>>>>>>vessel >>>>>>>>>>>>>>>>")
 
         if (vesselData.length === 0) {
-          ws.send(
-            JSON.stringify({
-              error:
-                "fetchVesselData() 함수로 데이터를 처음 가져온 직후에 선박 데이터가 비어 있습니다.",
-            })
-          )
+          ws.send(JSON.stringify({ error: "No vessel data found" }))
         } else {
           interval = setInterval(async () => {
             try {
               let vesselData = await fetchVesselData()
               if (vesselData.length === 0) {
-                ws.send(
-                  JSON.stringify({
-                    error:
-                      "setInterval 내에서 1초마다 데이터 확인 --> 선박 데이터가 비어 있습니다.",
-                  })
-                )
-              } else if (vesselData.length === 600) {
-                // 600개의 데이터가 있을 때만 전송
-                console.log("600개의 선박 데이터 전송 중")
-
-                // 600개의 데이터를 전송
-                ws.send(
-                  JSON.stringify({
-                    message: "600개의 선박 데이터 전송 완료",
-                    data: vesselData,
-                  })
-                )
+                ws.send(JSON.stringify({ error: "No vessel data found" }))
               } else {
-                console.log(
-                  `600개의 데이터 수신 대기 중, 현재 개수: ${vesselData.length}`
-                )
+                vesselData.forEach((item) => {})
+
+                // 100개의 데이터를 전송 (반복 전송)
+                splitAndSendData(ws, vesselData)
               }
             } catch (error) {
-              console.error("반복 중 선박 데이터 가져오기 오류:", error.message)
+              console.error(
+                "Error during interval vessel data fetch:",
+                error.message
+              )
               ws.send(
                 JSON.stringify({
-                  error: "반복 중 선박 데이터를 가져오는 중 오류 발생",
+                  error: "Error fetching vessel data during interval",
                 })
               )
             }
           }, 1000) // 1초마다 반복
         }
       } catch (error) {
-        console.error("선박 데이터 가져오기 오류:", error.message)
-        ws.send(
-          JSON.stringify({ error: "선박 데이터를 가져오는 중 오류 발생" })
-        )
+        console.error("Error fetching vessel data:", error.message)
+        ws.send(JSON.stringify({ error: "Error fetching vessel data" }))
       }
     }
 
@@ -434,22 +416,23 @@ function splitAndSendData(ws, vesselData) {
     const chunkSize = 10 // 각 토픽당 전송할 데이터 수
     const lastChunkSize = 10 // 마지막 토픽에 전송할 데이터 수
     console.log("vesselData size ::::::::::::" + vesselData.length)
-    if (vesselData.length > 0) {
-      // 메시지를 청크로 나누어 전송
-      for (let i = 0; i < totalChunks - 1; i++) {
-        const chunk = vesselData.slice(i * chunkSize, (i + 1) * chunkSize)
-        if (chunk.length > 0) {
-          ws.send(JSON.stringify({ topic: i + 1, data: chunk }))
-        }
-      }
-      // 마지막 청크 전송
-      const lastChunk = vesselData.slice((totalChunks - 1) * chunkSize)
-      if (lastChunk.length > 0) {
-        ws.send(JSON.stringify({ topic: totalChunks, data: lastChunk }))
-      }
-    } else {
-      ws.send(JSON.stringify({ error: "No vessel data found" }))
-    }
+    ws.send(JSON.stringify({ vesselData }))
+    // if (vesselData.length > 0) {
+    //   // 메시지를 청크로 나누어 전송
+    //   for (let i = 0; i < totalChunks - 1; i++) {
+    //     const chunk = vesselData.slice(i * chunkSize, (i + 1) * chunkSize)
+    //     if (chunk.length > 0) {
+    //       ws.send(JSON.stringify({ topic: i + 1, data: chunk }))
+    //     }
+    //   }
+    //   // 마지막 청크 전송
+    //   const lastChunk = vesselData.slice((totalChunks - 1) * chunkSize)
+    //   if (lastChunk.length > 0) {
+    //     ws.send(JSON.stringify({ topic: totalChunks, data: lastChunk }))
+    //   }
+    // } else {
+    //   ws.send(JSON.stringify({ error: "No vessel data found" }))
+    // }
   } catch (error) {
     console.error("Error during interval vessel data fetch:", error.message)
     ws.send(
