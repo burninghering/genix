@@ -1,13 +1,10 @@
 const WebSocket = require("ws")
 const mysql = require("mysql2/promise")
+const dbConfig = require("../../dbConfig")
 
 // MySQL 커넥션 풀 생성
 const pool = mysql.createPool({
-  host: "14.63.176.165",
-  port: 7306,
-  user: "root",
-  password: "netro9888!",
-  database: "netro_data_platform",
+  ...dbConfig,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,

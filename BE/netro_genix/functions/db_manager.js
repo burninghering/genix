@@ -1,15 +1,6 @@
 const mysql = require("mysql2/promise")
 const { EventEmitter } = require("events")
-
-// DB 연결 정보
-const dbConfig = {
-  host: "14.63.176.165",
-  port: 7306,
-  //  port: 3306,
-  user: "root",
-  password: "netro9888!",
-  database: "netro_data_platform",
-}
+const dbConfig = require("../../dbConfig.js")
 
 // 커넥션 풀 생성
 const pool = mysql.createPool({

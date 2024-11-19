@@ -7,8 +7,9 @@ const router = express.Router()
 
 // MySQL 연결 설정
 const connection = mysql.createConnection({
-  host: "14.63.176.165",
-  port: 7306,
+  host: "192.168.0.225",
+  // port: 7306,
+  //  port: 3306,
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",

@@ -4,8 +4,9 @@ const mysql = require("mysql2/promise")
 
 // DB 연결 설정 - 연결 풀 생성
 const pool = mysql.createPool({
-  host: "14.63.176.165",
-  port: 7306,
+  host: "192.168.0.225",
+  // port: 7306,
+  //  port: 3306,
   user: "root",
   password: "netro9888!",
   database: "netro_data_platform",
@@ -121,6 +122,155 @@ router.get("/ocean", async (req, res) => {
     res.status(500).json({ error: "해양 데이터를 불러오는 중 오류 발생" })
   } finally {
     if (connection) connection.release() // 연결 풀로 반환
+  }
+})
+
+// router.get("/oldship", async (req, res) => {
+//   let connection
+//   try {
+//     connection = await getConnection()
+//     const [oldShipData] = await connection.query(`
+//       SELECT
+//         s.ID AS id,
+//         s.SHIP_ID AS ship_id,
+//         s.TYPE AS type,
+//         s.NAME AS name,
+//         s.POL AS pol,
+//         s.POL_ADDR AS pol_addr,
+//         s.HM AS hm,
+//         s.PE AS pe,
+//         s.PS AS ps,
+//         s.KW AS kw,
+//         s.ENGINE_CNT AS engine_cnt,
+//         s.PROPELLER AS propeller,
+//         s.PROPELLER_CNT AS propeller_cnt,
+//         s.LENGTH AS length,
+//         s.BREATH AS breath,
+//         s.DEPTH AS depth,
+//         s.GT AS gt,
+//         s.SIGN AS sign,
+//         s.REG_YMD AS reg_ymd,
+//         s.LAUNCHING_YMD AS launching_ymd,
+//         l.CNT AS cnt,
+//         l.STAY_TIME AS stay_time,
+//         l.TOTAL AS total,
+//         l.CO2 AS co2
+//       FROM tb_sys_ship_device s
+//       LEFT JOIN tb_log_oldship l
+//       ON s.SHIP_ID = l.SHIP_ID
+//       ORDER BY s.SHIP_ID
+//     `)
+
+//     // 데이터 병합 및 날짜 포맷 변경
+//     const oldShipDataFormatted = oldShipData.map((item) => ({
+//       id: item.id,
+//       ship_id: item.ship_id,
+//       type: item.type,
+//       name: item.name,
+//       pol: item.pol,
+//       pol_addr: item.pol_addr,
+//       hm: item.hm,
+//       pe: item.pe,
+//       ps: parseFloat(item.ps),
+//       kw: parseFloat(item.kw),
+//       engine_cnt: item.engine_cnt,
+//       propeller: item.propeller,
+//       propeller_cnt: item.propeller_cnt,
+//       length: parseFloat(item.length),
+//       breath: parseFloat(item.breath),
+//       depth: parseFloat(item.depth),
+//       gt: parseFloat(item.gt),
+//       sign: item.sign,
+//       reg_ymd: item.reg_ymd ? item.reg_ymd.toISOString().slice(0, 10) : null, // YYYY-MM-DD 형식으로 변환
+//       launching_ymd: item.launching_ymd
+//         ? item.launching_ymd.toISOString().slice(0, 10)
+//         : null, // YYYY-MM-DD 형식으로 변환
+//       cnt: item.cnt || 0,
+//       stay_time: item.stay_time || "00:00:00",
+//       total: parseFloat(item.total) || 0,
+//       co2: parseFloat(item.co2) || 0,
+//     }))
+
+//     res.json({ data: oldShipDataFormatted })
+//   } catch (err) {
+//     console.error(err)
+//     res.status(500).json({ error: "선박 데이터를 불러오는 중 오류 발생" })
+//   } finally {
+//     if (connection) connection.release() // 연결 풀로 반환
+//   }
+// })
+
+router.get("/oldship", async (req, res) => {
+  let connection
+  try {
+    connection = await getConnection()
+
+    // tb_sys_ship_device와 old_ship 매핑 및 데이터 가져오기
+    const [result] = await connection.query(`
+      SELECT 
+        d.id AS id,
+        d.ship_id AS ship_id,
+        d.type AS type,
+        d.name AS name,
+        d.pol AS pol,
+        d.pol_addr AS pol_addr,
+        d.hm AS hm,
+        d.pe AS pe,
+        d.ps AS ps,
+        d.kw AS kw,
+        d.engine_cnt AS engine_cnt,
+        d.propeller AS propeller,
+        d.propeller_cnt AS propeller_cnt,
+        d.length AS length,
+        d.breath AS breath,
+        d.depth AS depth,
+        d.gt AS gt,
+        d.sign AS sign,
+        DATE_FORMAT(d.reg_ymd, '%Y-%m-%d') AS reg_ymd, -- 등록일 포맷
+        DATE_FORMAT(d.launching_ymd, '%Y-%m-%d') AS launching_ymd, -- 진수일 포맷
+        IFNULL(o.cnt, 0) AS cnt,
+        IFNULL(o.stay_time, '00:00:00') AS stay_time,
+        IFNULL(o.total, 0) AS total,
+        IFNULL(o.CO2, 0) AS co2
+      FROM tb_sys_ship_device d
+      LEFT JOIN old_ship o ON d.id = o.id
+      ORDER BY d.id
+    `)
+
+    // JSON 형식으로 정리
+    const formattedData = result.map((item) => ({
+      id: item.id,
+      ship_id: item.ship_id,
+      type: item.type,
+      name: item.name,
+      pol: item.pol,
+      pol_addr: item.pol_addr,
+      hm: item.hm,
+      pe: item.pe,
+      ps: parseFloat(item.ps),
+      kw: parseFloat(item.kw),
+      engine_cnt: item.engine_cnt,
+      propeller: item.propeller,
+      propeller_cnt: item.propeller_cnt,
+      length: parseFloat(item.length),
+      breath: parseFloat(item.breath),
+      depth: parseFloat(item.depth),
+      gt: parseFloat(item.gt),
+      sign: item.sign,
+      reg_ymd: item.reg_ymd,
+      launching_ymd: item.launching_ymd,
+      cnt: item.cnt,
+      stay_time: item.stay_time,
+      total: parseFloat(item.total),
+      co2: parseFloat(item.co2),
+    }))
+
+    res.json({ data: formattedData })
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ error: "데이터를 불러오는 중 오류 발생" })
+  } finally {
+    if (connection) connection.release()
   }
 })
 
