@@ -1,30 +1,32 @@
+/* eslint-disable object-curly-newline */
 const express = require("express")
 const router = express.Router()
 const mysql = require("mysql2/promise")
+require('dotenv').config();
 
-// DB 연결 설정 - 연결 풀 생성
+
+// MySQL 연결 설정 (커넥션 풀 생성)
 const pool = mysql.createPool({
-  host: "192.168.0.225",
-  // port: 7306,
-  //  port: 3306,
-  user: "root",
-  password: "netro9888!",
-  database: "netro_data_platform",
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
   waitForConnections: true,
   connectionLimit: 10, // 동시 최대 연결 수 설정
-  queueLimit: 0, // 대기열 무제한
-})
+  queueLimit: 0 // 대기열 무제한
+});
 
 // DB 연결 함수
 async function getConnection() {
-  return await pool.getConnection()
+  return await pool.getConnection(); // 커넥션 풀에서 커넥션을 가져옴
 }
 
 router.get("/air", async (req, res) => {
   let connection
   try {
     connection = await getConnection()
-    const [airData] = await connection.query(`
+    const [ airData ] = await connection.query(`
       SELECT 
         DATE_FORMAT(a.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, a.dev_id,
         s.sen_name, a.sen_value
@@ -40,8 +42,7 @@ router.get("/air", async (req, res) => {
     airData.forEach((item) => {
       let existing = airDataWithId.find((data) => data.id === item.dev_id)
       if (!existing) {
-        existing = {
-          log_datetime: item.log_datetime,
+        existing = {log_datetime: item.log_datetime,
           id: item.dev_id,
           humi: null,
           winsp: null,
@@ -60,8 +61,7 @@ router.get("/air", async (req, res) => {
           hcho: null,
           temp: null,
           firm: null,
-          send: 1,
-        }
+          send: 1,}
         airDataWithId.push(existing)
       }
       if (item.sen_name) {
@@ -83,7 +83,7 @@ router.get("/ocean", async (req, res) => {
   let connection
   try {
     connection = await getConnection()
-    const [oceanData] = await connection.query(`
+    const [ oceanData ] = await connection.query(`
       SELECT 
         DATE_FORMAT(o.log_datetime, '%Y-%m-%d %H:%i:%s') AS log_datetime, o.dev_id,
         s.sen_name, o.sen_value
@@ -99,8 +99,7 @@ router.get("/ocean", async (req, res) => {
     oceanData.forEach((item) => {
       let existing = oceanDataWithId.find((data) => data.id === item.dev_id)
       if (!existing) {
-        existing = {
-          log_datetime: item.log_datetime,
+        existing = {log_datetime: item.log_datetime,
           id: item.dev_id,
           battery: null,
           temp: null,
@@ -109,8 +108,7 @@ router.get("/ocean", async (req, res) => {
           salinity: null,
           tds: null,
           ph: null,
-          orp: null,
-        }
+          orp: null,}
         oceanDataWithId.push(existing)
       }
       existing[item.sen_name.toLowerCase()] = parseFloat(item.sen_value)
@@ -206,7 +204,7 @@ router.get("/oldship", async (req, res) => {
     connection = await getConnection()
 
     // tb_sys_ship_device와 old_ship 매핑 및 데이터 가져오기
-    const [result] = await connection.query(`
+    const [ result ] = await connection.query(`
       SELECT 
         d.id AS id,
         d.ship_id AS ship_id,
@@ -238,8 +236,7 @@ router.get("/oldship", async (req, res) => {
     `)
 
     // JSON 형식으로 정리
-    const formattedData = result.map((item) => ({
-      id: item.id,
+    const formattedData = result.map((item) => ({id: item.id,
       ship_id: item.ship_id,
       type: item.type,
       name: item.name,
@@ -262,8 +259,7 @@ router.get("/oldship", async (req, res) => {
       cnt: item.cnt,
       stay_time: item.stay_time,
       total: parseFloat(item.total),
-      co2: parseFloat(item.co2),
-    }))
+      co2: parseFloat(item.co2),}))
 
     res.json({ data: formattedData })
   } catch (err) {

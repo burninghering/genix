@@ -1,6 +1,9 @@
+/* eslint-disable object-curly-newline */
+/* eslint-disable array-bracket-spacing */
+/* eslint-disable array-element-newline */
 const express = require("express")
 const { WebSocketServer } = require("ws")
-const db_manager = require("./db_manager") // db_manager 모듈 가져옴
+const db_connector = require("./db_connector") // db_connector 모듈 가져옴
 
 // Express 서버와 WebSocket 서버 설정
 const app = express()
@@ -19,14 +22,11 @@ wss.on("connection", (ws) => {
 
       // 데이터 타입에 따라 DB 저장 처리
       if (data.type === "air") {
-        // await handleAirData(data)
+        await handleAirData(data)
       } else if (data.type === "buoy") {
-        // await handleBuoyData(data)
+        await handleBuoyData(data)
       } else if (data.type === "vessel") {
-        await handleVesselData(data)
-      } else if (data.type === "scenario_air") {
-        const { scenario } = data
-        //  await handleScenarioAirData(data, scenario)
+        // await handleVesselData(data)
       } else {
         console.log("Unknown data type received:", data.type)
         ws.send(JSON.stringify({ message: "Unknown data type received." }))
@@ -73,29 +73,8 @@ async function handleAirData(data) {
     SEND = null,
   } = data
 
-  const sensorNames = [
-    "PM10",
-    "PM25",
-    "SO2",
-    "NO2",
-    "O3",
-    "CO",
-    "VOC",
-    "H2S",
-    "NH3",
-    "OU",
-    "HCHO",
-    "TEMP",
-    "HUMI",
-    "WINsp",
-    "WINdir",
-    "BATT",
-    "FIRM",
-    "SEND",
-  ]
-  const sensorValues = [
-    PM10,
-    PM25,
+  const sensorNames = ["PM10","PM25","SO2","NO2","O3","CO","VOC","H2S","NH3","OU","HCHO","TEMP","HUMI","WINsp","WINdir","BATT","FIRM","SEND",]
+  const sensorValues = [PM10,PM25,
     SO2,
     NO2,
     O3,
@@ -111,8 +90,7 @@ async function handleAirData(data) {
     WINdir,
     BATT,
     FIRM,
-    SEND,
-  ]
+    SEND,]
 
   console.log("handleAirData 호출됨", data)
 
@@ -123,8 +101,8 @@ async function handleAirData(data) {
       console.log(
         `저장 중: DEV_ID=${DEV_ID}, sensorName=${sensorName}, sensorValue=${sensorValue}`
       )
-      await db_manager.SaveDummyData(DEV_ID, index + 1, sensorName)
-      await db_manager.SaveAirLogData(DEV_ID, index + 1, sensorValue)
+      await db_connector.SaveDummyData(DEV_ID, index + 1, sensorName)
+      await db_connector.SaveAirLogData(DEV_ID, index + 1, sensorValue)
     } catch (error) {
       console.error(`Error saving air data for sensor ${sensorName}:`, error)
     }
@@ -136,8 +114,7 @@ async function handleAirData(data) {
 // 해양 데이터 처리 함수
 async function handleBuoyData(data) {
   const { bouy_info_bouy_code, bouy_state, bouy_sensor_value } = data
-  const sensorNames = [
-    "battery",
+  const sensorNames = ["battery",
     "temp",
     "DO",
     "EC",
@@ -148,10 +125,8 @@ async function handleBuoyData(data) {
     "Flow_Velocity",
     "Water_Depth",
     "GPS_longitude",
-    "GPS_latitude",
-  ]
-  const sensorValues = [
-    bouy_state.battery,
+    "GPS_latitude",]
+  const sensorValues = [bouy_state.battery,
     bouy_sensor_value.temp,
     bouy_sensor_value.DO,
     bouy_sensor_value.EC,
@@ -162,19 +137,18 @@ async function handleBuoyData(data) {
     bouy_sensor_value.Flow_Velocity,
     bouy_sensor_value.Water_Depth,
     bouy_sensor_value.GPS_longitude,
-    bouy_sensor_value.GPS_latitude,
-  ]
+    bouy_sensor_value.GPS_latitude,]
 
   const savePromises = sensorNames.map(async (sensorName, index) => {
     const sensorValue =
       sensorValues[index] === undefined ? null : sensorValues[index]
     try {
-      await db_manager.SaveOceanSysSensor(
+      await db_connector.SaveOceanSysSensor(
         bouy_info_bouy_code,
         index + 1,
         sensorName
       )
-      await db_manager.SaveOceanLogData(
+      await db_connector.SaveOceanLogData(
         bouy_info_bouy_code,
         index + 1,
         sensorValue
@@ -203,14 +177,12 @@ async function handleVesselData(data) {
     course,
     azimuth,
   } = data
-  const sensorNames = [
-    "rcv_datetime",
+  const sensorNames = ["rcv_datetime",
     "lati",
     "longi",
     "speed",
     "course",
-    "azimuth",
-  ]
+    "azimuth",]
   const sensorValues = [rcv_datetime, lati, longi, speed, course, azimuth]
 
   // 각 센서 데이터 저장 작업
@@ -219,15 +191,15 @@ async function handleVesselData(data) {
       sensorValues[index] === undefined ? null : sensorValues[index]
     if (sensorValue !== null) {
       try {
-        // await db_manager.SaveVesselSysSensor(id, index + 1, sensorName)
+        // await db_connector.SaveVesselSysSensor(id, index + 1, sensorName)
         //console.log("log_datetime::::::::::::" + log_datetime)
-        await db_manager.SaveVesselLogData(
+        await db_connector.SaveVesselLogData(
           id,
           index + 1,
           sensorValue,
           log_datetime
         )
-        // await db_manager.SaveVesselLogDataLatest(
+        // await db_connector.SaveVesselLogDataLatest(
         //   id,
         //   index + 1,
         //   sensorValue,
@@ -250,91 +222,10 @@ async function handleVesselData(data) {
 
   // 모든 센서 데이터 저장 후 최신 데이터 유지
   try {
-    //await db_manager.SelectInsepectTable()
+    //await db_connector.SelectInsepectTable()
   } catch (error) {
     console.error("Error updating latest vessel log data:", error)
   }
-}
-
-// 시나리오 처리 함수
-async function handleScenarioAirData(data, scenario) {
-  const {
-    DEV_ID,
-    PM10,
-    PM25,
-    SO2,
-    NO2,
-    O3,
-    CO,
-    VOC,
-    H2S,
-    NH3,
-    OU,
-    HCHO,
-    TEMP,
-    HUMI,
-    WINsp,
-    WINdir,
-    BATT,
-    FIRM,
-    SEND,
-  } = data
-  const sensorNames = [
-    "PM10",
-    "PM25",
-    "SO2",
-    "NO2",
-    "O3",
-    "CO",
-    "VOC",
-    "H2S",
-    "NH3",
-    "OU",
-    "HCHO",
-    "TEMP",
-    "HUMI",
-    "WINsp",
-    "WINdir",
-    "BATT",
-    "FIRM",
-    "SEND",
-  ]
-  const sensorValues = [
-    PM10,
-    PM25,
-    SO2,
-    NO2,
-    O3,
-    CO,
-    VOC,
-    H2S,
-    NH3,
-    OU,
-    HCHO,
-    TEMP,
-    HUMI,
-    WINsp,
-    WINdir,
-    BATT,
-    FIRM,
-    SEND,
-  ]
-
-  const savePromises = sensorNames.map(async (sensorName, index) => {
-    const sensorValue =
-      sensorValues[index] === undefined ? null : sensorValues[index]
-    try {
-      await db_manager.SaveDummyData(DEV_ID, index + 1, sensorName)
-      await db_manager.SaveScenarioAirData(DEV_ID, index + 1, scenario)
-    } catch (error) {
-      console.error(
-        `Error saving scenario air data for sensor ${sensorName}:`,
-        error
-      )
-    }
-  })
-
-  await Promise.all(savePromises)
 }
 
 // HTTP 서버 시작

@@ -25,10 +25,8 @@ exports.makeRefreshToken = () =>{
     const refreshToken = jwt.sign(
         {},  
         JWT_KEY, 
-        {
-            algorithm: "HS256",
-            expiresIn: "7d"
-        }
+        {algorithm: "HS256",
+            expiresIn: "7d"}
     );
    // console.log(refreshToken)
     return refreshToken;
@@ -72,16 +70,12 @@ exports.refreshVerify = async (token, userId) => {
 exports.verify = (token) => {
     try {
       const decoded = jwt.verify(token, JWT_KEY);
-      return {
-        ok: true,
+      return {ok: true,
         id: decoded.id,
-        expiresIn: decoded.expiresIn,
-      };
+        expiresIn: decoded.expiresIn,};
     } catch (error) {
-      return {
-        ok: false,
-        message: error.message,
-      };
+      return {ok: false,
+        message: error.message,};
     }
   };
 

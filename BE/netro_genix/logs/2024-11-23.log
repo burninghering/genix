@@ -1,0 +1,16 @@
+2024-11-23 00:04:27 am | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" - -
+
+2024-11-23 00:04:42 am | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 500 62
+
+2024-11-23 00:06:24 am | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" - -
+
+2024-11-23 00:07:17 am | http | ::1 - - "GET /service/air HTTP/1.1" 500 62
+
+2024-11-23 00:09:30 am | http | ::1 - - "GET /service/air HTTP/1.1" 200 2280
+
+2024-11-23 00:09:40 am | http | ::1 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 00:10:27 am | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 200 2280
+
+2024-11-23 00:10:34 am | http | ::ffff:192.168.0.232 - - "GET /service/ocean HTTP/1.1" 200 1218
+

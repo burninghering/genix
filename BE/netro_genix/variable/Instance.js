@@ -17,17 +17,11 @@ const pwPattern = /^(?=.*[a-zA-Z])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,15}$/;
 const spacePattern = /\s/;
 const duplicationPattern = /(.+?)\1{2,}/;
 const nicknamePattern = /^[ㄱ-ㅎ가-힣a-zA-Z0-9]{2,16}$/;
-const { publicKey, privateKey } = crypto.generateKeyPairSync('rsa', {
-    modulusLength: 2048,
-    publicKeyEncoding: {
-      type: 'spki',
-      format: 'pem',
-    },
-    privateKeyEncoding: {
-      type: 'pkcs8',
-      format: 'pem',
-    },
-  });
+const { publicKey, privateKey } = crypto.generateKeyPairSync('rsa', {modulusLength: 2048,
+    publicKeyEncoding: {type: 'spki',
+      format: 'pem',},
+    privateKeyEncoding: {type: 'pkcs8',
+      format: 'pem',},});
   
 //#region 연속된 문자 체크 함수
 async function consecutiveLetterCheck(data) {
@@ -156,17 +150,13 @@ async function PWCheck(PW) {
 
 
 const successResponse = (code, data) =>{
-    return({
-      code: code,
-      data: data,
-    })
+    return({code: code,
+      data: data,})
   }
   
   const failResponse = (code, message) =>{
-    return({
-      code: code,
-      message: message,
-    })
+    return({code: code,
+      message: message,})
   }
   
 

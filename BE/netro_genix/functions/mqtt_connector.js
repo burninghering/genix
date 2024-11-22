@@ -64,10 +64,8 @@ function MQTT_RUN(DEV_ENDPOINT, DEV_NAME) {
         const sensorids = msgArr[4].split(',');
         const values = msgArr[5].split(',');
 
-        client.topics[topic] = {
-            lastReceived: Date.now(),
-            devid,
-        };
+        client.topics[topic] = {lastReceived: Date.now(),
+            devid,};
 
         for (let i = 0; i < sensors.length; i++) {
             db_manager.InsertData(devid, sensorids[i], values[i]);

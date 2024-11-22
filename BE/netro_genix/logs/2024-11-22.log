@@ -1,0 +1,12 @@
+2024-11-22 09:29:18 am | http | ::ffff:192.168.0.232 - - "GET /service/oldship HTTP/1.1" 304 -
+
+2024-11-22 17:53:01 pm | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 200 3792
+
+2024-11-22 17:59:24 pm | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 500 62
+
+2024-11-22 18:11:57 pm | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 200 3792
+
+2024-11-22 21:38:17 pm | http | ::1 - - "GET /service/air HTTP/1.1" 200 3792
+
+2024-11-22 21:38:17 pm | http | ::1 - - "GET /favicon.ico HTTP/1.1" 404 150
+

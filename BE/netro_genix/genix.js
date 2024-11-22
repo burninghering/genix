@@ -5,8 +5,6 @@ import bodyParser from "body-parser"
 import r_login from "./routes/r_login.js"
 import r_device from "./routes/r_device.js"
 import r_user from "./routes/r_user.js"
-import r_api from "./routes/r_api.js"
-import r_scenario from "./routes/r_scenario.js"
 import r_service from "./routes/r_service.js"
 import http from "http"
 import https from "https"
@@ -14,12 +12,11 @@ import cron from "node-cron"
 import socketScript from "./functions/socket.js"
 import { BroadcastMSG, SendClientMSG } from "./functions/socketEmit.js"
 import db_manager from "./functions/db_manager.js"
+import db_connector from "./functions/db_connector.js"
 import { deviceEvent } from "./functions/device_dispenser.js"
 import fs from "fs"
 import { morganMiddleware } from "./utils/morganMiddleware.js"
 import { logger } from "./utils/winston.js"
-
-const startWebSocketServer = require("./functions/db_to_service_ws.js")
 
 // Express 앱 생성
 const app = express()
@@ -34,16 +31,13 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs))
 
 // CORS 설정
 app.use(
-  cors({
-    credentials: true,
-    origin: ["https://192.168.0.231"], // 클라이언트 주소
-    exposedHeaders: ["AccessToken", "RefreshToken", "UserID"],
-  })
+  cors({credentials: true,
+    origin: [ "https://192.168.0.231" ], // 클라이언트 주소
+    exposedHeaders: [ "AccessToken", "RefreshToken", "UserID" ],})
 )
 
 // HTTPS 서버 설정 (SSL 인증서)
-const option = {
-  key: fs.readFileSync("./KEY/temp/server.key"),
+const option = {key: fs.readFileSync("./KEY/temp/server.key"),
   cert: fs.readFileSync("./KEY/temp/server.crt"),
   ca: fs.readFileSync("./KEY/temp/server.csr"),
   secureOptions:
@@ -61,14 +55,11 @@ const httpServer = https.createServer(option, app)
 app.use("/login", r_login)
 app.use("/device", r_device)
 app.use("/user", r_user)
-app.use("/api", r_api)
 app.use("/service", r_service)
-app.use("/scenario", r_scenario)
+
 
 // Socket.IO 설정
-const io = socketio(httpServer, {
-  cors: { origin: "*" },
-})
+const io = socketio(httpServer, {cors: { origin: "*" },})
 
 // 소켓 이벤트 핸들러 설정
 socketScript.socketHandler(io)
@@ -82,7 +73,7 @@ cron.schedule("* * * * * * *", () => {
 cron.schedule("0 */10 * * * *", () => {
   // 실행할 함수
   console.log("10분마다 실행되는 작업입니다.")
-  db_manager.truncateLatest()
+  db_connector.truncateLatest()
 })
 
 // 센서 및 디바이스 상태 이벤트 리스너 추가
@@ -101,21 +92,14 @@ process.on("exit", (code) => {
   }
 })
 
-// WebSocket 서버 실행 (db_to_service_ws)
-startWebSocketServer()
-
 // 서버 설정: 특정 IP와 포트에서 서버를 실행
 app.listen(3000, () => {
   console.log(`Server is running on 3000`)
 })
 
-// // 서버 설정: 로컬에서 서버를 실행
-// app.listen(4000, () => {
-//     console.log(`Server is running on 4000`);
-// });
 const v8 = require("v8")
 console.log(
-  "Heap size limit>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>:",
+  "Heap size limit",
   v8.getHeapStatistics().heap_size_limit / 1024 / 1024,
   "MB"
 )
@@ -124,8 +108,3 @@ console.log(
 db_manager.netroEvent.addListener("sensorState", function (result) {
   // console.log('Sensor State:', result);
 })
-
-// 예시로 sensorState 이벤트를 발생시키는 부분
-// 실제로는 sensorState를 발생시킬 조건이나 로직을 작성해야 함
-const sensorResult = { status: "active", DEV_ID: 1 } // 예시 데이터
-db_manager.emitSensorState(sensorResult) // 이벤트 발생

@@ -19,9 +19,7 @@ function isValidURL(url){
 
 async function createOPCUAClient(DEV_EndpointURL, nodeIdToMonitor) {
   try {
-    const client = OPCUAClient.create({
-      endpointMustExist: false,
-    });
+    const client = OPCUAClient.create({endpointMustExist: false,});
 
     // client.on("backoff", (retry, delay) => {
     //   console.log("Retrying to connect to ", DEV_EndpointURL, " attempt ", retry);
@@ -35,14 +33,12 @@ async function createOPCUAClient(DEV_EndpointURL, nodeIdToMonitor) {
     const session = await client.createSession();
     console.log("Session created".yellow);
 
-    const subscription = await session.createSubscription2({
-      requestedPublishingInterval: 250,
+    const subscription = await session.createSubscription2({requestedPublishingInterval: 250,
       requestedMaxKeepAliveCount: 50,
       requestedLifetimeCount: 6000,
       maxNotificationsPerPublish: 1000,
       publishingEnabled: true,
-      priority: 10,
-    });
+      priority: 10,});
 
     subscription
       .on("keepalive", () => {
@@ -55,16 +51,12 @@ async function createOPCUAClient(DEV_EndpointURL, nodeIdToMonitor) {
         console.log("Subscription started");
       });
 
-    const itemToMonitor = {
-      nodeId: nodeIdToMonitor,
-      attributeId: AttributeIds.Value,
-    };
+    const itemToMonitor = {nodeId: nodeIdToMonitor,
+      attributeId: AttributeIds.Value,};
 
-    const parameters = {
-      samplingInterval: 100,
+    const parameters = {samplingInterval: 100,
       discardOldest: true,
-      queueSize: 10,
-    };
+      queueSize: 10,};
 
     const monitoredItem = await subscription.monitor(
       itemToMonitor,
@@ -107,12 +99,10 @@ async function createOPCUAClient(DEV_EndpointURL, nodeIdToMonitor) {
       }
     });
 
-    const opcuaClient = {
-      client,
+    const opcuaClient = {client,
       session,
       subscription,
-      DEV_EndpointURL,
-    };
+      DEV_EndpointURL,};
 
     opcuaClients.push(opcuaClient); // 클라이언트 배열에 추가
   } catch (err) {
