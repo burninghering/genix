@@ -17,6 +17,10 @@ let lastValidTimestamp = null; // 마지막으로 확인된 유효한 타임스�
 
 let allDataReceived = false;
 
+console.log("DB_USER:", process.env.DB_USER);
+console.log("DB_PASSWORD:", process.env.DB_PASSWORD);
+
+
 wssReceive.on("connection", (ws) => {
   ws.on("message", async (message) => {
     try {

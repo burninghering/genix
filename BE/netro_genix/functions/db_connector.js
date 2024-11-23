@@ -1,7 +1,7 @@
-/* eslint-disable object-curly-newline */
+require('dotenv').config({ path: __dirname + '/../.env' });
 const mysql = require("mysql2/promise")
 const { EventEmitter } = require("events")
-require('dotenv').config();
+
 
 // 커넥션 풀 생성
 const pool = mysql.createPool({
@@ -220,7 +220,7 @@ async function SaveVesselLogData(
     sensorValue,
     logDateTime,}
   paramDataList.push(logData)
-  if (paramDataList.length == 600) {
+  if (paramDataList.length == 1212) {
     console.log("저장중 .......SaveVesselLogData........... ")
 
     let connection
@@ -269,63 +269,6 @@ async function SaveVesselLogData(
   }
 }
 
-// async function SaveVesselLogDataLatest(
-//   devId,
-//   senId,
-//   sensorValue,
-//   logDateTime,
-//   retries = 5,
-//   delay = 500
-// )
-// {
-//   let connection
-
-//   connection = await pool.getConnection()
-
-//    // 1. 들어오는 값들을 객체에 셋팅
-//     const logData = {
-//       devId,
-//       senId,
-//       sensorValue,
-//       logDateTime
-//     };
-//     paramDataList.push(logData);
-//     if(paramDataList.length == 600)
-//     {
-//       console.log("저장중 .......SaveVesselLogDataLatest....... ");
-//       let connection
-//       try {
-//         connection = await pool.getConnection()
-//         await connection.beginTransaction()
-//         const chunks = chunkArray(paramDataList,100);
-
-//         for(const chunk of chunks)
-//         {
-//           const sql = `INSERT INTO example_vessel_log_data_latest (log_datetime, dev_Id, sen_Id, sen_Value)
-//           VALUES ${chunk.map(() => '(?, ?, ?, ?)').join(', ')}`
-
-//           // 청크 데이터를 납작하게 만들어서 execute에 전달
-//           const values = chunk.flatMap(item => [
-//             item.logDateTime,
-//             item.devId,
-//             item.senId,
-//             item.sensorValue
-//           ]);
-//           await connection.execute(sql, values)
-//         }
-//         await connection.commit()
-//         paramDataList= [];
-//         console.log("commit 완료 ")
-//     } catch (error) {
-//       console.error("Error during bulk data saving: ", error);
-//       if (connection) await connection.rollback();
-//       throw error;
-//     } finally {
-//       if (connection) connection.release();
-//   }
-// }
-// }
-
 // 시나리오 데이터 저장
 async function SaveScenarioAirData(devId, senId, sensorValue, scenario) {
   let connection
@@ -371,7 +314,8 @@ module.exports = {SaveDummyData,
   SaveVesselLogData,
   SaveScenarioAirData,
   SelectInsepectTable,
-  truncateLatest,}
+  truncateLatest,
+  saveVesselDataToDB}
 
 async function SelectInsepectTable() {
   let connection
@@ -439,5 +383,30 @@ async function truncateLatest() {
     throw error
   } finally {
     if (connection) connection.release()
+  }
+}
+
+async function saveVesselDataToDB(vesselDataList) {
+  let connection;
+  try {
+    connection = await pool.getConnection();
+    await connection.beginTransaction();
+
+    // example_vessel_log_data 테이블에 데이터 삽입 또는 업데이트
+    const sql = `INSERT INTO example_vessel_log_data (log_datetime, dev_Id, sen_Id, sen_Value) 
+      VALUES ${vesselDataList.map(() => "(?, ?, ?, ?)").join(", ")} 
+      ON DUPLICATE KEY UPDATE sen_Value = VALUES(sen_Value), log_datetime = VALUES(log_datetime)`;
+    const values = vesselDataList.flatMap((item) => [item.logDateTime, item.shipId, item.senId, item.data]);
+    console.log(values);
+    await connection.execute(sql, values);
+
+    await connection.commit();
+    console.log("선박 데이터가 성공적으로 저장되었습니다.");
+  } catch (error) {
+    console.error("데이터베이스에 선박 데이터를 저장하는 중 오류 발생:", error);
+    if (connection) await connection.rollback();
+    throw error;
+  } finally {
+    if (connection) connection.release();
   }
 }
