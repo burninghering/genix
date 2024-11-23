@@ -231,7 +231,7 @@ router.get("/oldship", async (req, res) => {
         IFNULL(o.total, 0) AS total,
         IFNULL(o.CO2, 0) AS co2
       FROM tb_sys_ship_device d
-      LEFT JOIN old_ship o ON d.id = o.id
+      LEFT JOIN old_ship o ON d.id = o.ship_id
       ORDER BY d.id
     `)
 
