@@ -151,7 +151,7 @@ router.get("/ocean", async (req, res) => {
 //         s.LAUNCHING_YMD AS launching_ymd,
 //         l.CNT AS cnt,
 //         l.STAY_TIME AS stay_time,
-//         l.TOTAL AS total,
+//         l.emi_per_sec AS emi_per_sec,
 //         l.CO2 AS co2
 //       FROM tb_sys_ship_device s
 //       LEFT JOIN tb_log_oldship l
@@ -185,7 +185,7 @@ router.get("/ocean", async (req, res) => {
 //         : null, // YYYY-MM-DD 형식으로 변환
 //       cnt: item.cnt || 0,
 //       stay_time: item.stay_time || "00:00:00",
-//       total: parseFloat(item.total) || 0,
+//       emi_per_sec: parseFloat(item.emi_per_sec) || 0,
 //       co2: parseFloat(item.co2) || 0,
 //     }))
 
@@ -228,14 +228,10 @@ router.get("/oldship", async (req, res) => {
         DATE_FORMAT(d.launching_ymd, '%Y-%m-%d') AS launching_ymd, -- 진수일 포맷
         IFNULL(o.cnt, 0) AS cnt,
         IFNULL(o.stay_time, '00:00:00') AS stay_time,
-        IFNULL(o.total, 0) AS total,
+        IFNULL(o.emi_per_sec, 0) AS emi_per_sec,
         IFNULL(o.CO2, 0) AS co2
       FROM tb_sys_ship_device d
-<<<<<<< HEAD
       LEFT JOIN tb_log_oldship o ON d.id = o.ship_id
-=======
-      LEFT JOIN old_ship o ON d.id = o.ship_id
->>>>>>> 5e89f0e93a1a595d1ff0e6944097e4844bce39d1
       ORDER BY d.id
     `)
 
@@ -262,7 +258,7 @@ router.get("/oldship", async (req, res) => {
       launching_ymd: item.launching_ymd,
       cnt: item.cnt,
       stay_time: item.stay_time,
-      total: parseFloat(item.total),
+      emi_per_sec: parseFloat(item.emi_per_sec),
       co2: parseFloat(item.co2),}))
 
     res.json({ data: formattedData })

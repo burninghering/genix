@@ -2004,3 +2004,163 @@
 
 2024-11-23 23:24:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3755
 
+2024-11-23 23:25:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3755
+
+2024-11-23 23:25:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-23 23:26:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3755
+
+2024-11-23 23:26:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1211
+
+2024-11-23 23:27:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/oldship HTTP/1.1" 500 55
+
+2024-11-23 23:27:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3721
+
+2024-11-23 23:27:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:28:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3790
+
+2024-11-23 23:28:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1212
+
+2024-11-23 23:29:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:29:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:30:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:30:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:31:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:31:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:32:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/oldship HTTP/1.1" 500 55
+
+2024-11-23 23:32:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:32:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:33:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:33:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:34:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:34:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:35:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:35:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:36:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:36:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:37:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/oldship HTTP/1.1" 500 55
+
+2024-11-23 23:37:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1215
+
+2024-11-23 23:37:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3787
+
+2024-11-23 23:38:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 500 62
+
+2024-11-23 23:38:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 500 62
+
+2024-11-23 23:39:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 500 62
+
+2024-11-23 23:39:33 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 500 62
+
+2024-11-23 23:40:10 pm | error | I'm gone
+2024-11-23 23:41:09 pm | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:41:11 pm | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:41:14 pm | http | ::ffff:192.168.0.232 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:41:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:41:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:42:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/oldship HTTP/1.1" 500 55
+
+2024-11-23 23:42:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:42:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:43:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:43:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:44:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:44:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:45:07 pm | http | ::ffff:192.168.0.232 - - "GET /service/oldship HTTP/1.1" 200 100359
+
+2024-11-23 23:45:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:45:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:46:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:46:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:47:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:47:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:47:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/oldship HTTP/1.1" 200 100359
+
+2024-11-23 23:48:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:48:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:49:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/ocean HTTP/1.1" 200 1218
+
+2024-11-23 23:49:23 pm | http | ::ffff:192.168.0.240 - - "GET /service/air HTTP/1.1" 200 3464
+
+2024-11-23 23:49:36 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:36 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:37 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:37 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:38 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:38 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:39 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:39 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:40 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:40 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:41 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:41 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:42 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:42 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:43 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:43 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:44 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:44 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:45 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:45 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:49:59 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:49:59 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:00 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:00 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:01 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:01 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:02 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:02 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:03 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:03 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:04 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:04 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:05 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:05 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:06 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:06 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:07 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:07 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:08 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:08 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:09 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:09 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:10 pm | error | db_manager : Error: connect ETIMEDOUT
+2024-11-23 23:50:10 pm | error | db_manager : GetDeviceState : Error: connect ETIMEDOUT
+2024-11-23 23:50:10 pm | error | I'm gone
