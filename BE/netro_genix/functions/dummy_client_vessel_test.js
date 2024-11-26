@@ -9,7 +9,7 @@ const server = require("http").createServer(app);
  
 
 const wssReceive = new WebSocketServer({ server });
-const wssSender = new WebSocketServer({ port: 8082 });
+const wssSender = new WebSocketServer({ port: 8085 });
 
 let vesselDataCache = new Map();
 
@@ -87,10 +87,10 @@ wssSender.on("connection", (ws) => {
       const currentTimestamp = Array.from(uniqueTimestamps)[0];
 
       if (currentTimestamp === lastValidTimestamp) {
-        // 데이터를 나누어 전송
-        splitAndSendData(ws, vesselDataCopy);
+        // 데이터를 전체 전송
+        sendAllData(ws, vesselDataCopy);
         console.log(
-          `✅ 50개의 데이터를 나누어 클라이언트로 전송했습니다. 타임스탬프: ${currentTimestamp}`
+          `✅ 50개의 데이터를 클라이언트로 전송했습니다. 타임스탬프: ${currentTimestamp}`
         );
       } else {
         console.warn("⚠️ 전송하지 않음: 새로운 유효한 타임스탬프가 확인되지 않았습니다.");
@@ -102,6 +102,41 @@ wssSender.on("connection", (ws) => {
 
   ws.on("close", () => clearInterval(interval));
 });
+
+// 전체 데이터를 전송하는 함수
+function sendAllData(ws, vesselData) {
+  try {
+    ws.send(
+      JSON.stringify({
+        vesselData: vesselData.map((data) => ({
+          id: data.id,
+          log_datetime: data.log_datetime,
+          rcv_datetime: data.rcv_datetime,
+          lati: data.lati.toString(),
+          longi: data.longi.toString(),
+          speed: data.speed,
+          course: data.course,
+          azimuth: data.azimuth.toString(),
+        })),
+      }),
+      (err) => {
+        if (err) {
+          console.error(`데이터 전송 중 오류 발생:`, err.message);
+        } else {
+          console.log(`✅ 데이터를 성공적으로 전송했습니다.`);
+        }
+      }
+    );
+  } catch (error) {
+    console.error("데이터 전송 중 오류 발생:", error.message);
+    ws.send(
+      JSON.stringify({ error: "데이터 전송 중 오류가 발생했습니다." })
+    );
+  }
+}
+
+
+
 
 // 데이터 청크를 분할하고 전송하는 함수
 function splitAndSendData(ws, vesselData) {
@@ -217,9 +252,10 @@ async function handleVesselData(data) {
   await Promise.all(savePromises);
 }
 
- 
+
+
 // HTTP 서버 시작
-const PORT = 6002;
+const PORT = 6005;
 server.listen(PORT, () => {
   console.log(`dummy_client_vessel 서버가 ${PORT} 포트에서 실행 중입니다`);
 });

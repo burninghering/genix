@@ -220,7 +220,7 @@ async function SaveVesselLogData(
     sensorValue,
     logDateTime,}
   paramDataList.push(logData)
-  if (paramDataList.length == 1212) {
+  if (paramDataList.length == 300) {
     console.log("저장중 .......SaveVesselLogData........... ")
 
     let connection

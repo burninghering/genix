@@ -130,7 +130,7 @@ router.get("/ocean", async (req, res) => {
 //     const [oldShipData] = await connection.query(`
 //       SELECT
 //         s.ID AS id,
-//         s.SHIP_ID AS ship_id,
+//         s.SHIP_ID AS id,
 //         s.TYPE AS type,
 //         s.NAME AS name,
 //         s.POL AS pol,
@@ -162,7 +162,7 @@ router.get("/ocean", async (req, res) => {
 //     // 데이터 병합 및 날짜 포맷 변경
 //     const oldShipDataFormatted = oldShipData.map((item) => ({
 //       id: item.id,
-//       ship_id: item.ship_id,
+//       id: item.id,
 //       type: item.type,
 //       name: item.name,
 //       pol: item.pol,
@@ -207,7 +207,7 @@ router.get("/oldship", async (req, res) => {
     const [ result ] = await connection.query(`
       SELECT 
         d.id AS id,
-        d.ship_id AS ship_id,
+        d.id AS id,
         d.type AS type,
         d.name AS name,
         d.pol AS pol,
@@ -231,13 +231,13 @@ router.get("/oldship", async (req, res) => {
         IFNULL(o.emi_per_sec, 0) AS emi_per_sec,
         IFNULL(o.CO2, 0) AS co2
       FROM tb_sys_ship_device d
-      LEFT JOIN tb_log_oldship o ON d.id = o.ship_id
+      LEFT JOIN tb_log_oldship o ON d.id = o.id
       ORDER BY d.id
     `)
 
     // JSON 형식으로 정리
     const formattedData = result.map((item) => ({id: item.id,
-      ship_id: item.ship_id,
+      id: item.id,
       type: item.type,
       name: item.name,
       pol: item.pol,

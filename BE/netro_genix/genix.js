@@ -1,22 +1,26 @@
-import express from "express"
-import cors from "cors"
-import socketio from "socket.io"
-import bodyParser from "body-parser"
-import r_login from "./routes/r_login.js"
-import r_device from "./routes/r_device.js"
-import r_user from "./routes/r_user.js"
-import r_service from "./routes/r_service.js"
-import http from "http"
-import https from "https"
-import cron from "node-cron"
-import socketScript from "./functions/socket.js"
-import { BroadcastMSG, SendClientMSG } from "./functions/socketEmit.js"
-import db_manager from "./functions/db_manager.js"
-import db_connector from "./functions/db_connector.js"
-import { deviceEvent } from "./functions/device_dispenser.js"
-import fs from "fs"
-import { morganMiddleware } from "./utils/morganMiddleware.js"
-import { logger } from "./utils/winston.js"
+const express = require("express");
+const cors = require("cors");
+const socketio = require("socket.io");
+const bodyParser = require("body-parser");
+const r_login = require("./routes/r_login");
+const r_device = require("./routes/r_device");
+const r_user = require("./routes/r_user");
+const r_service = require("./routes/r_service");
+const http = require("http");
+const https = require("https");
+const cron = require("node-cron");
+const socketScript = require("./functions/socket");
+const { BroadcastMSG, SendClientMSG } = require("./functions/socketEmit");
+const db_manager = require("./functions/db_manager");
+const db_connector = require("./functions/db_connector");
+const { deviceEvent } = require("./functions/device_dispenser");
+const fs = require("fs");
+const { morganMiddleware } = require("./utils/morganMiddleware");
+const { logger } = require("./utils/winston");
+const startWebSocketServer = require("./functions/db_to_service_ws.js")
+
+// WebSocket 서버 실행 (db_to_service_ws)
+startWebSocketServer()
 
 // Express 앱 생성
 const app = express()
